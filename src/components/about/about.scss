@@ -1,0 +1,36 @@
+.about{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vH;
+  width: 100%;
+  padding-left: 10px;
+    padding-right: 10px;
+
+  div{
+    flex:1;
+
+  }
+
+  .imageContainer{
+    max-width: 500px;
+    //abgerundete ecken
+
+    .image{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .text{
+    max-width: 500px;
+    background: bisque;
+    width: 50px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+  }
+}
