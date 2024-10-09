@@ -16,36 +16,53 @@ const App = () => {
     <section className="lg:h-screen" id="About"><About/></section>
     <section className="lg:h-screen" id="Education"><Parallax p={{
       title: "about",
-      xSailing_out_end: "250%",
-      xSailing_out_beginn:"350%",
-      ySailing_out_end: "5%",
-      ySailing_out_beginn: "0%",
+      xSailing_out_end: "70%",
+      xSailing_out_beginn: "80%",
+      ySailing_out_end: "15%",
+      ySailing_out_beginn: "5%",
       xSun_out_start: "35%",
       xSun_out_end: "20%",
+      sunset_start: 0.5,
+      sunset_end: 0.4,
     }}/></section>
     <section className="h-screen">Education</section>
     <section className="lg:h-screen" id="Education"><Parallax p={{
       title: "education",
-      xSailing_out_end: "200%",
-      xSailing_out_beginn:"250%",
-      ySailing_out_end: "7%",
-      ySailing_out_beginn: "5%",
-      xSun_out_start: "25%",
-      xSun_out_end: "15%",
+      xSailing_out_end: "50%",
+      xSailing_out_beginn: "70%",
+      ySailing_out_end: "30%",
+      ySailing_out_beginn: "10%",
+      xSun_out_start: "15%",
+      xSun_out_end: "10%",
+      sunset_start: 0.4,
+      sunset_end: 0.3,
     }}/></section>
     <section className="h-screen">Experience</section>
     <section className="lg:h-screen" id="Education"><Parallax p={{
       title: "education",
-      xSailing_out_end: "100%",
-      xSailing_out_beginn:"200%",
-      ySailing_out_end: "10%",
-      ySailing_out_beginn: "7%",
-      xSun_out_start: "20%",
+      xSailing_out_end: "30%",
+      xSailing_out_beginn: "50%",
+      ySailing_out_end: "30%",
+      ySailing_out_beginn: "45%",
+      xSun_out_start: "15%",
       xSun_out_end: "0%",
+      sunset_start: 0.3,
+      sunset_end: 0.2,
     }}/></section>
     <section className="h-screen">Project1</section>
     <section className="h-screen">Project2</section>
     <section className="h-screen">Project3</section>
+    <section className="lg:h-screen" id="Education"><Parallax p={{
+      title: "about",
+      xSailing_out_end: "20%",
+      xSailing_out_beginn: "25%",
+      ySailing_out_end: "35%",
+      ySailing_out_beginn: "50%",
+      xSun_out_start: "0%",
+      xSun_out_end: "-10%",
+      sunset_start: 0.2,
+      sunset_end: 0.1,
+    }}/></section>
     <section className="h-screen" id="Contact">Contact</section>
   </div>;
 };
