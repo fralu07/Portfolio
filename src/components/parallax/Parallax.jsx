@@ -1,5 +1,5 @@
 import "./Parallax.scss";
-import {motion, useScroll, useTransform} from "framer-motion";
+import {motion, useScroll, useSpring, useTransform} from "framer-motion";
 import {useRef} from "react";
 
 
@@ -20,14 +20,40 @@ const Parallax = (props) => {
     const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
     const xSun = useTransform(scrollYProgress, [0, 1], [xSun_out_start, xSun_out_end]);
 
+    const springY = useSpring({
+        from: 0,
+        to: 100,
+        loop: true,
+        duration: 2, // Dauer der Schwingung (langsamer/schneller)
+        repeatType: 'mirror' // Macht die Bewegung hin und her
+    });
 
 
 
     return (
         <div ref={ref} className="w-full h-screen overflow-hidden relative grid place-items-center">
-            <motion.h1 className="font-Bold text-black text-7xl md:text-9xl relative z-50" style={{y: yText}}>
+            <motion.h1 className="font-Bold text-black text-7xl md:text-9xl relative z-50" style={{ y: yText }}>
                 {props.p.title === "about" ? "About me" : "Education"}
             </motion.h1>
+            <motion.div
+                className="w-10/12 inset-x-0 top-96 -bottom-96 absolute z-30"
+                style={{
+                    y: springY,
+                    backgroundImage: `url(/b_nova_ship.png)`,
+                    backgroundPosition: "center",
+                    backgroundSize: "contain",
+                    backgroundRepeat: "no-repeat"
+                }}
+                animate={{
+                    y: [0, 10, 0, -10, 0] // Keyframes für die Schwingbewegung
+                }}
+                transition={{
+                    duration: 4, // Geschwindigkeit der Schwingbewegung
+                    repeat: Infinity, // Endloswiederholung
+                    ease: "easeInOut" // Glatter Übergang
+                }}
+            >
+            </motion.div>
             <motion.div className="absolute inset-0 z-0"
                         style={{
                             y: yBg,
@@ -54,7 +80,7 @@ const Parallax = (props) => {
                             backgroundSize: "cover",
                         }}>
             </motion.div>
-            <motion.div className="w-96 top-96 -bottom-96 start-0 absolute z-30"
+            <motion.div className="w-72 top-96 -bottom-96 start-0 absolute z-30"
                         style={{
                             x: xSailing,
                             y: ySailing,// backgroundImage: `url(${type === "about" ? "./planets.png" : "./sun.png"})`
@@ -62,9 +88,19 @@ const Parallax = (props) => {
                             backgroundPosition: "center",
                             backgroundSize: "contain",
                             backgroundRepeat: "no-repeat"
-                        }}>
+                        }}
+                        animate={{
+                            y: [0, 10, ySailing.get(), -10, ySailing.get()] // Keyframes für die Schwingbewegung
+                        }}
+                        transition={{
+                            duration: 4, // Geschwindigkeit der Schwingbewegung
+                            repeat: Infinity, // Endloswiederholung
+                            ease: "easeInOut" // Glatter Übergang
+                        }}
+            >
 
             </motion.div>
+
         </div>
     );
 };
