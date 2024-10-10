@@ -40,7 +40,7 @@ const Parallax = (props) => {
     return (
         <div ref={ref} className="w-full h-screen overflow-hidden relative grid place-items-center">
             <motion.div
-                className="absolute inset-0 bg-black z-40 pointer-events-none"
+                className="absolute inset-0 bg-black z-50 pointer-events-none"
                 style={{
                     opacity: brightness // Helligkeit wird basierend auf dem Scroll-Fortschritt angepasst
                 }}
@@ -116,15 +116,7 @@ const Parallax = (props) => {
                     height: "20vh", // Feste Höhe hinzugefügt
                     width: "100%",  // Breite relativ zum Container
                 }}
-                className="absolute inset-0 z-50 w-[50vw] md:w-[30vw] lg:w-[20vw] h-auto top-[70vh] md:top-[70vh] left-[10vw] scale-[0.5]" // Tailwind-Klassen für responsive Größen
-                // animate={{
-                //     y: [0, 10, ySailing.get(), -10, ySailing.get()] // Keyframes für die Schwingbewegung
-                // }}
-                // transition={{
-                //     duration: 4, // Geschwindigkeit der Schwingbewegung
-                //     repeat: Infinity, // Endloswiederholung
-                //     ease: "easeInOut" // Glatter Übergang
-                // }}
+                className="absolute inset-0 z-40 w-[50vw] md:w-[30vw] lg:w-[20vw] h-auto top-[70vh] md:top-[70vh] left-[10vw] scale-[0.5]" // Tailwind-Klassen für responsive Größen
             >
             </motion.div>
         </div>
