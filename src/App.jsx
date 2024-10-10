@@ -7,8 +7,8 @@ import Sidebar from "./components/sidebar/Sidebar.jsx";
 
 const App = () => {
   return <div>
-    <section className="lg:h-screen" id="Homepage">
-      <Sidebar/>
+    <section id="Homepage">
+      <Navbar />
       <Hero/>
     </section>
 

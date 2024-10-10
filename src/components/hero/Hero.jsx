@@ -41,15 +41,15 @@ const sliderVariants = {
 const Hero = () => {
     return (
         <div
-            className="flex flex-wrap  w-full overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
-            {/*<div className="flex flex-row">*/}
-                <div className="max-w-[1366px] h-full mx-auto">
+            className=" overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
+            <div className="relative h-full max-w-[1366px] mx-auto">
+                <div >
                     <motion.div className="h-screen flex flex-col justify-center gap-10" variants={textVariants}
                                 initial="initial" animate="animate">
                         <motion.h2 className="text-[30px] text-purple-800 tracking-[10px]"
                                    variants={textVariants}>FRANCESCO LUCIA
                         </motion.h2>
-                        <motion.h1 className="text-[60px] text-white tracking-[5px]" variants={textVariants}>Full Stack
+                        <motion.h1 className="text-[30px] text-white tracking-[5px]" variants={textVariants}>Full Stack
                             Engineer
                         </motion.h1>
                         <motion.div className="flex flex-row gap-5" variants={textVariants}>
@@ -71,8 +71,8 @@ const Hero = () => {
                 {/*<motion.div className="absolute text-[50vh] bottom-[-120px] whitespace-nowrap text-[#ffffff09] w-1/2 font-bold" variants={sliderVariants} initial="initial" animate="animate">*/}
                 {/*    Java Javascript Kotlin Spring React*/}
                 {/*</motion.div>*/}
-                <motion.img className="h-screen " src="/me.png" alt=""/>
-            {/*</div>*/}
+                <img className="h-full absolute top-0 right-0" src="/me.png" alt=""/>
+            </div>
         </div>
     );
 };
