@@ -23,20 +23,7 @@ const textVariants = {
         }
     }
 }
-const sliderVariants = {
-    initial: {
-        x: 0,
-        opacity: 0
-    },
-    animate: {
-        x: "-220%",
-        transition: {
-            duration: 20,
-            repeat: Infinity,
-            repeatType: "mirror",
-        }
-    }
-}
+
 
 const Hero = () => {
     return (
@@ -68,9 +55,6 @@ const Hero = () => {
                                     src="./scroll.png" alt=""/>
                     </motion.div>
                 </div>
-                {/*<motion.div className="absolute text-[50vh] bottom-[-120px] whitespace-nowrap text-[#ffffff09] w-1/2 font-bold" variants={sliderVariants} initial="initial" animate="animate">*/}
-                {/*    Java Javascript Kotlin Spring React*/}
-                {/*</motion.div>*/}
                 <img className="h-full absolute top-0 right-0" src="/me.png" alt=""/>
             </div>
         </div>

@@ -7,7 +7,7 @@ const Parallax = (props) => {
     const ref = useRef();
     const {scrollYProgress} = useScroll({
         target: ref,
-        offset: ["start start", "end start"]
+        offset: ["start end", "end start"]
     });
 
     const {
@@ -24,7 +24,7 @@ const Parallax = (props) => {
     const yText = useTransform(scrollYProgress, [0, 1], ["0%", "400%"]);
     const xSailing = useTransform(scrollYProgress, [1, 0], [xSailing_out_end, xSailing_out_beginn]);
     const ySailing = useTransform(scrollYProgress, [1, 0], [ySailing_out_end, ySailing_out_beginn]);
-    const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+    const yBg = useTransform(scrollYProgress, [ 0, 1], ["-30%", "0%"]);
     const xSun = useTransform(scrollYProgress, [0, 0.5], [xSun_out_start, xSun_out_end]);
     const brightness = useTransform(scrollYProgress, [0, 1], [sunset_start, sunset_end]);
 
@@ -48,7 +48,7 @@ const Parallax = (props) => {
             {/* Hauptüberschrift */}
             <motion.h1 className="font-Bold text-black text-5xl md:text-7xl lg:text-9xl relative z-50"
                        style={{y: yText}}>
-                {props.p.title === "about" ? "About me" : "Education"}
+                {props.p.title}
             </motion.h1>
 
             Hintergrundbild
