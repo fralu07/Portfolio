@@ -51,7 +51,7 @@ const App = () => {
       sunset_start: 0.3,
       sunset_end: 0.2,
     }}/></section>
-    <section className="h-[120vh]"><Experience /></section>
+    <section className="h-[140vh]"><Experience /></section>
     <section className="lg:h-screen" id="Education"><Parallax p={{
       title: "about",
       xSailing_out_end: "20%",
