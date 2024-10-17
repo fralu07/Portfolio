@@ -32,29 +32,31 @@ const sliding = {
 }
 
 function Edu_Card(props) {
-    return <>
-        <motion.div className="w-full h-96">
-            <img className="rounded-t-2xl w-full h-full object-cover" src={props.picture} alt=""/>
-        </motion.div>
-        <div className="w-full pt-8">
-            <div className="flex justify-center lg:justify-start p-2">
-                <motion.p className="max-w-xl text-gray-300">{props.text}</motion.p>
-
+    return (
+        <div className="flex flex-col">
+            <motion.div className="lg:w-full lg:content-start content-center lg:h-96 h-48">
+                <img className="lg:rounded-t-2xl lg:rounded-b-none rounded-xl object-cover h-full w-full lg:h-96 lg:w-full" src={props.picture} alt="" />
+            </motion.div>
+            <div className="w-full flex-1 overflow-y-auto lg:pt-2 lg:px-2">
+                <div className="flex justify-center md:justify-start py-2">
+                    <motion.p className="px-2 lg:px-0 text-base md:text-md lg:text-lg">{props.text}</motion.p>
+                </div>
             </div>
         </div>
-    </>;
+    );
 }
+
 
 const Education = () => {
     return (
-        <div className="max-w-[1366px] mx-auto flex items-center h-screen">
-            <div className="flex flex-row justify-between">
-                <motion.div className="flex flex-col border-2 border-gray-800 rounded-2xl lg:w-5/12"
+        <div className="max-w-[1366px] p-2 mx-auto flex lg:items-center h-screen justify-center overflow-y-auto">
+            <div className="flex flex-col lg:flex-row gap-2 lg:gap-32 lg:py-8">
+                <motion.div className="flex flex-col border-2 border-gray-800 rounded-2xl lg:w-6/12"
                             variants={sliding}
                             initial="initialCard1" whileInView="animateCard1">
                     <Edu_Card picture="/FHNW.jpg" text={EDUCATION_BSC_TEXT}/>
                 </motion.div>
-                <motion.div className="flex flex-col border-2 border-gray-800 rounded-2xl lg:w-5/12"
+                <motion.div className="flex flex-col border-2 border-gray-800 rounded-2xl lg:w-6/12"
                             variants={sliding}
                             initial="initialCard2" whileInView="animateCard2">
                     <Edu_Card picture="/tv.jpg" text={EDUCATION_RTV_TEXT}/>

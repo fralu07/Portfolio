@@ -25,5 +25,7 @@ a {
 
 section{
   height: 100vh;
+  overflow-x: hidden;
+
   //scroll-snap-align: center;
 }

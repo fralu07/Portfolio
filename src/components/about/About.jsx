@@ -43,9 +43,9 @@ const About = () => {
                         <img className="rounded-2xl" src="./segeln.jpeg" alt=""></img>
                     </div>
                 </motion.div>
-                <div className="w-full lg:w-1/2 pl-8">
+                <div className="w-full lg:w-1/2 pl-8 content-center">
                     <div className="flex justify-center lg:justify-start">
-                        <motion.p className="max-w-xl" variants={sliding}
+                        <motion.p className="" variants={sliding}
                            initial="initialText" whileInView="animateText"> {ABOUT_TEXT}</motion.p>
 
                     </div>

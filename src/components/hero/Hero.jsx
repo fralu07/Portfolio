@@ -30,14 +30,14 @@ const Hero = () => {
         <div
             className=" overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
             <div className="relative h-full max-w-[1366px] mx-auto">
-                <div >
+                <div className="md:w-1/2">
                     <motion.div className="h-screen flex flex-col justify-center gap-10" variants={textVariants}
                                 initial="initial" animate="animate">
-                        <motion.h2 className="text-[30px] text-purple-800 tracking-[10px]"
+                        <motion.h2 className="text-4xl text-purple-800 tracking-[10px]"
                                    variants={textVariants}>FRANCESCO LUCIA
                         </motion.h2>
-                        <motion.h1 className="text-[30px] text-white tracking-[5px]" variants={textVariants}>Full Stack
-                            Engineer
+                        <motion.h1 className="text-3xl text-white tracking-[5px]" variants={textVariants}>
+                            Als Fullstack Engineer die Front- und Backend-Entwicklung in Ihrem Unternehmen unterstützen
                         </motion.h1>
                         <motion.div className="flex flex-row gap-5" variants={textVariants}>
                             <motion.button
@@ -55,7 +55,7 @@ const Hero = () => {
                                     src="./scroll.png" alt=""/>
                     </motion.div>
                 </div>
-                <img className="h-full absolute top-0 right-0" src="/me.png" alt=""/>
+                <img className="h-[90vh] absolute bottom-0 right-0" src="/me.png" alt=""/>
             </div>
         </div>
     );
