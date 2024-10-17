@@ -70,7 +70,7 @@ const App = () => {
       sunset_start: 0.2,
       sunset_end: 0.1,
     }}/></section>
-    <section className="h-[140vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Projects/></section>
+    <section className="h-screen bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Projects/></section>
     <section className="lg:h-screen" id="Hobbies"><Parallax p={{
       title: "Hobbys",
       xSailing_out_end: "15%",
