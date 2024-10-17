@@ -33,8 +33,8 @@ const sliding = {
 
 function Edu_Card(props) {
     return (
-        <div className="flex flex-col">
-            <motion.div className="lg:w-full lg:content-start content-center lg:h-96 h-48">
+        <div className="flex flex-col lg:max-w-lg">
+            <motion.div className="lg:w-full lg:content-start content-center lg:h-96 h-72">
                 <img className="lg:rounded-t-2xl lg:rounded-b-none rounded-xl object-cover h-full w-full lg:h-96 lg:w-full" src={props.picture} alt="" />
             </motion.div>
             <div className="w-full flex-1 overflow-y-auto lg:pt-2 lg:px-2">
