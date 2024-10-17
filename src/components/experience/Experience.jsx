@@ -31,34 +31,19 @@ const sliding = {
     }
 }
 
-const draw = {
-    hidden: {pathLength: 0, opacity: 0},
-    visible: (i) => {
-        const delay = 1 + i * 0.5;
-        return {
-            pathLength: 1,
-            opacity: 1,
-            transition: {
-                pathLength: {delay, type: "spring", duration: 1.5, bounce: 0},
-                opacity: {delay, duration: 0.01}
-            }
-        };
-    }
-};
-
 function ExpCard(props) {
-    return <div className="flex flex-row flex-1">
+    return <div className="flex flex-col lg:flex-row flex-1 max-lg:max-w-xl w-full">
 
-        <div className="flex justify-center w-full lg:w-7/12 pr-8">
-            <div className="flex justify-center lg:justify-start">
-                <motion.p className="max-w-xl content-center text-start text-sky-500"
+        <div className="flex justify-center w-full lg:w-7/12 pr-4 lg:pr-8">
+            <div className="flex flex-col lg:flex-row justify-center lg:justify-start">
+                <motion.p className=" content-center text-start text-sky-500"
                           variants={sliding}
                           initial="initialText"
                           viewport={{once: true, amount: 0.4}}
                           whileInView="animateText"
                 > {props.year}
                 </motion.p>
-                <motion.p className="max-w-xl content-center text-start pl-10"
+                <motion.p className=" content-center text-start text-base lg:pl-10"
                           variants={sliding}
                           initial="initialText"
                           viewport={{once: true, amount: 0.4}}
@@ -67,18 +52,18 @@ function ExpCard(props) {
 
             </div>
         </div>
-        <motion.div className="w-full lg:w-5/12"
+        <motion.div className="flex justify-center  lg:w-5/12 pr-4 lg:pr-0 pb-4 lg:pb-0 content-center items-center"
                     variants={sliding}
                     initial="initialPicture"
                     whileInView="animatePicture"
                     viewport={{once: true, amount: 0.5}}>
-            <div className="flex item-center justify-center max-h-[30vh]">
-            <img className="rounded-2xl w-full h-full object-cover" src={props.image} alt=""></img>
-            </div>
+            <img className=" lg:rounded-2xl object-cover  lg:w-80 lg:h-72 xl:w-96 xl:h-82 content-center" src={props.image} alt=""></img>
         </motion.div>
     </div>;
 }
+
 const Experience = () => {
+
     const ref = useRef();
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -89,16 +74,16 @@ const Experience = () => {
     return (
         <div
             ref={ref}
-            className="max-w-[1366px] h-screen mx-auto flex flex-col overflow-hidden"
+            className="max-w-[1366px] h-screen mx-auto flex flex-col lg:overflow-hidden "
         >
-            <div className="flex flex-row gap-4 h-full">
+            <div className="flex flex-row gap-4 h-full ">
                 <div className="flex items-center">
                     <motion.div
-                        className="w-4 bg-sky-500 h-full origin-top-right"
-                        style={{ scaleY }}
+                        className="lg:w-4 bg-sky-500 h-full origin-top-right"
+                        style={{scaleY}}
                     ></motion.div>
                 </div>
-                <motion.div className="flex flex-col flex-1 gap-4">
+                <motion.div className="flex flex-col flex-1 gap-4 xl:gap-2 items-center">
                     <ExpCard
                         text={EXPERIENCE_NOW_TEXT}
                         year={"2020 - heute"}

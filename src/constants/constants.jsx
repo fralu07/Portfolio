@@ -43,7 +43,7 @@ export const EDUCATION_BSC_TEXT = (
 )
 
 export const EDUCATION_RTV_TEXT = (
-    <div className="text-1xl">
+    <div className="">
         <h2 className="text-3xl font-bold pb-4">Radio und TV-Techniker</h2>
         <p className="">Begonnen habe ich meine Ausbildung als <strong>Radio- und TV-Techniker</strong> in Rheinfelden
             DE.<br/>
@@ -54,23 +54,22 @@ export const EDUCATION_RTV_TEXT = (
 )
 
 export const EXPERIENCE_RTV_TEXT = (
-    <div className=" text-1xl">
-        <h2 className="text-3xl font-bold pb-4">Radio & TV-Techniker</h2>
-        <p className="">Der start in dem Berufsleben war 1998 als Radio- und TV-Techniker. Im Unternehmen Radio Oexle in
+    <div className=" ">
+        <h2 className="text-3xl font-bold md:pb-4">Radio & TV-Techniker</h2>
+        <p className="md:pb-0 pb-4">Der start in dem Berufsleben war 1998 als Radio- und TV-Techniker. Im Unternehmen Radio Oexle in
             Rheinfelden. Was gibt es mehr zu sagen. War eine schöne Zeit, Satellitenantennen auf den Dächern zu
             installieren. </p>
 
     </div>
 )
 export const EXPERIENCE_HRN_TEXT = (
-    <div className=" text-1xl">
-        <h2 className="text-3xl font-bold pb-4">Geschäftsführer HochrheinNET</h2>
-        <p className="">Auch hier als alleiniger geschäftsführender Gesellschafter habe ich die hochrheinNET GmbH im
+    <div className=" ">
+        <h2 className="text-3xl font-bold md:pb-4">Geschäftsführer HochrheinNET</h2>
+        <p className="md:pb-0 pb-4">Als alleiniger geschäftsführender Gesellschafter habe ich die hochrheinNET GmbH im
             Jahre 2006 gegründet.
             Die Idee war, Internet für jedermann zugänglich zu machen. Auch wenn meine Hausbank nicht an Internet
-            geglaubt hat 🤣, habe ich mich nicht von der Idee abkommen lassen.<br/>
-            Ausgezeichnet wurde ich 2014 mit dem Gründerpreis der Sparkasse Hochrhein und Volksbank
-            Rhein-Wehra.<br/><br/>
+            geglaubt hat 🤣, habe ich mich nicht von der Idee abbringen lassen. Ausgezeichnet wurde ich 2014 mit dem Gründerpreis der Sparkasse Hochrhein und Volksbank
+            Rhein-Wehra.<br/>
             Zum Zeitpunkt der Veräußerung, hatte die hochrheinNET über 2500 Kunden im ihrem Glasfasernetz.<br/>
             Meine Tätigkeiten umfassen neben dem führen des Unternehmens die Planung und Umsetzung der Backbone Netze,
             sowie Planung und Ausbau neuer Gemeinden.
@@ -79,8 +78,8 @@ export const EXPERIENCE_HRN_TEXT = (
 )
 export const EXPERIENCE_NOW_TEXT = (
     <div className=" text-1xl">
-        <h2 className="text-3xl font-bold pb-4">Geschäftsführer in3tech</h2>
-        <p className="">Als geschäftsführender Gesellschafter der in3Tech GmbH mit Sitz in Laufenburg (DE)
+        <h2 className="text-3xl font-bold md:pb-4">Geschäftsführer in3tech</h2>
+        <p className="md:pb-0 pb-4">Als geschäftsführender Gesellschafter der in3Tech GmbH mit Sitz in Laufenburg (DE)
             führe ich meine Vermögensverwaltende GmbH.<br/><br/>
             <strong><i>What?? Warum bisch uf Arbeitssuche?</i></strong><br/>
             Weil ich immer auf der Suche nach neuen Herausforderungen bin. Im Leben benötigt man Ziele. Das war nach der
