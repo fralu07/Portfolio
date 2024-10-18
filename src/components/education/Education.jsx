@@ -49,8 +49,8 @@ function Edu_Card(props) {
 
 const Education = () => {
     return (
-        <div className="max-w-[1366px] p-2 mx-auto flex lg:items-center h-screen justify-center overflow-y-auto">
-            <div className="flex flex-col lg:flex-row gap-2 lg:gap-32 lg:py-8">
+        <div className="max-w-[1366px] p-2 mx-auto flex lg:items-center min-h-screen justify-center overflow-y-auto">
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-2 lg:gap-32 py-4 lg:py-8">
                 <motion.div className="flex flex-col border-2 border-gray-800 rounded-2xl lg:w-6/12"
                             variants={sliding}
                             initial="initialCard1" whileInView="animateCard1">

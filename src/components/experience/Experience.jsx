@@ -57,7 +57,7 @@ function ExpCard(props) {
                     initial="initialPicture"
                     whileInView="animatePicture"
                     viewport={{once: true, amount: 0.5}}>
-            <img className=" lg:rounded-2xl object-cover  lg:w-80 lg:h-72 xl:w-96 xl:h-82 content-center" src={props.image} alt=""></img>
+            <img className=" lg:rounded-2xl rounded-md object-cover  lg:w-80 lg:h-72 xl:w-96 xl:h-82 content-center" src={props.image} alt=""></img>
         </motion.div>
     </div>;
 }
@@ -74,10 +74,10 @@ const Experience = () => {
     return (
         <div
             ref={ref}
-            className="max-w-[1366px] h-screen mx-auto flex flex-col lg:overflow-hidden "
+            className="max-w-[1366px] h-screen mx-auto flex flex-col "
         >
-            <div className="flex flex-row gap-4 h-full ">
-                <div className="flex items-center">
+            <div className="flex flex-row gap-4 h-full py-8 lg:py-0 ">
+                <div className="flex items-center pt-8">
                     <motion.div
                         className="lg:w-4 bg-sky-500 h-full origin-top-right"
                         style={{scaleY}}

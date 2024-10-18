@@ -1,5 +1,5 @@
-import React from 'react';
-import {motion} from "framer-motion";
+import React, {useEffect, useState} from 'react';
+import {motion, useReducedMotion} from "framer-motion";
 import {
     ABOUT_TEXT,
     EDUCATION_BSC_TEXT,
@@ -11,19 +11,19 @@ import {
 
 const sliding = {
     initialPicture: {
-        x: -500,
+        x: -50,
         opacity: 0
     },
     initialPicture2: {
-        x: 500,
+        x: 50,
         opacity: 0
     },
     initialText: {
-        x: 500,
+        x: 50,
         opacity: 0
     },
     initialText2: {
-        x: -500,
+        x: -50,
         opacity: 0
     },
     animatePicture: {
@@ -44,21 +44,42 @@ const sliding = {
     }
 }
 
+
+
+
 function ProjectSection({imageSrc, imageAlt, text, textMotionVariants, imageMotionVariants, reverse, initText, initPic}) {
+    // Verwende mediaQuery, um zu überprüfen, ob die Auflösung unter "md" liegt
+    const isMdOrLarger = window.matchMedia("(min-width: 768px)").matches;
+
+// Alternativ kannst du auch die bevorzugten Einstellungen des Nutzers für reduzierte Bewegung abfragen
+    const shouldReduceMotion = useReducedMotion();
+
     return (
-        <div className={`flex flex-col lg:flex-row justify-center gap-4 ${reverse ? 'lg:flex-row-reverse' : ''} px-2`}>
-            <motion.div className="max-w-xl lg:w-1/2" variants={imageMotionVariants} initial={initPic}
-                        whileInView="animatePicture">
-                <div className="flex item-center justify-center">
-                    <img className="rounded-2xl" src={imageSrc} alt={imageAlt}></img>
+        <div className={`flex flex-col lg:flex-row flex-1 justify-center gap-4 lg:pl-2 px-4 lg:px-0`}>
+            {!shouldReduceMotion && isMdOrLarger ? (
+                <motion.div className="max-w-xl lg:w-1/2" variants={imageMotionVariants} initial="initialPicture"
+                            whileInView="animatePicture">
+                    <div className="flex item-center justify-center">
+                        <img className="rounded-2xl" src={imageSrc} alt={imageAlt}></img>
+                    </div>
+                </motion.div>
+            ) : (
+                <div className="max-w-xl lg:w-1/2">
+                    <div className="flex item-center justify-center">
+                        <img className="rounded-2xl" src={imageSrc} alt={imageAlt}></img>
+                    </div>
                 </div>
-            </motion.div>
-            <div className="w-full lg:w-1/2 pl-2">
+            )}
+            <div className="w-full lg:w-1/2 lg:pl-8">
                 <div className="flex justify-center content-center lg:justify-start">
-                    <motion.p className="max-w-xl" variants={textMotionVariants} initial={initText}
-                              whileInView="animateText">
-                        {text}
-                    </motion.p>
+                    {!shouldReduceMotion && isMdOrLarger ? (
+                        <motion.p className="max-w-xl" variants={textMotionVariants} initial="initialText"
+                                  whileInView="animateText">
+                            {text}
+                        </motion.p>
+                    ) : (
+                        <p className="max-w-xl">{text}</p>
+                    )}
                 </div>
             </div>
         </div>
@@ -67,9 +88,10 @@ function ProjectSection({imageSrc, imageAlt, text, textMotionVariants, imageMoti
 
 
 const Projects = () => {
+
     return (
-        <div className="max-w-[1366px] mx-auto flex items-center justify-center h-screen">
-            <div className="flex flex-col gap-20">
+        <div className="max-w-[1366px] mx-auto flex items-center justify-center min-h-screen">
+            <div className="flex flex-col gap-4 lg:gap-20 py-8 overflow-y-scroll">
                 <ProjectSection
                     imageSrc="./medinspect.jpg"
                     imageAlt="Medinspect"
@@ -91,8 +113,8 @@ const Projects = () => {
                 />
             </div>
         </div>
-)
-    ;
+    )
+        ;
 };
 
 export default Projects;
