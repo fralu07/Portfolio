@@ -26,17 +26,16 @@ export const EDUCATION_BSC_TEXT = (
         <h2 className="text-3xl font-bold pb-4">BSc in Informatik</h2>
         <p className="">an der Fachhochschule Nordwestschweiz in Brugg.
             Aktuell befinde ich mich im letzten Semester. Das Studium werde ich diesen Monat erfolgreich
-            abschliessen. <br/><br/>
+            abschliessen. <br/>
             <strong>Schwerpunkte</strong> im Studium waren vielfältig.
             Beginnend mit der Webentwicklung, wurden umfassende Kenntnisse in React und tiefgehende Kenntnisse in Spring
             Boot vermittelt.
             In der Mobile-App-Entwicklung wurden Applikationen sowohl für Android in Kotlin als auch für iOS in Swift
-            programmiert. <br/><br/>
+            programmiert. <br/>
             Mehrere objektorientierte Programmiersprachen wie Java und JavaScript wurden gründlich gelehrt.
-            Auch funktionale Programmiersprachen ❤️ kamen nicht zu kurz. Hier wurden insbesondere Kotlin im
-            Backendbereich
-            sowie Haskell und Scala behandelt.
-            In den letzten zwei Semester kam ich mit DEVOPS und CLOUD in Berührung. Das entfachte 🔥 die Lust auf mehr
+            Auch funktionale Programmiersprachen wie Kotlin im
+            Backendbereich sowie Haskell und Scala behandelt.
+            In den letzten zwei Semester kam ich mit DEVOPS und CLOUD in Berührung. Das entfachte die Lust auf mehr
             DEVOPS.
         </p>
     </div>

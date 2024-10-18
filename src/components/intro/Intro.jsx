@@ -48,7 +48,7 @@ const Intro = () => {
     }, []);
 
     return (
-        <div className="max-w-[1366px] mx-auto flex justify-center items-center min-h-screen overflow-y-auto py-8 px-4 lg:px-0 max-lg:max-w-xl w-full">
+        <div className="max-w-[1366px] mx-auto flex justify-center items-center min-h-screen overflow-hidden overflow-y-auto py-8 px-4 lg:px-0 max-lg:max-w-xl w-full">
             <div className="flex flex-col justify-center items-center">
 
                 <div className="w-full pb-8 lg:w-1/2">
