@@ -57,7 +57,7 @@ function ExpCard(props) {
                     initial="initialPicture"
                     whileInView="animatePicture"
                     viewport={{once: true, amount: 0.5}}>
-            <img className=" lg:rounded-2xl rounded-md object-cover  lg:w-80 lg:h-72 xl:w-96 xl:h-82 content-center" src={props.image} alt=""></img>
+            <img className=" lg:rounded-2xl rounded-md object-cover lg:w-80 lg:h-72 xl:w-96 xl:h-82 content-center" src={props.image} alt=""></img>
         </motion.div>
     </div>;
 }

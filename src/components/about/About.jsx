@@ -53,7 +53,7 @@ const About = () => {
 
     return (
         <div className="max-w-[1366px] mx-auto flex items-center w-full min-h-screen justify-center">
-            <div className="flex flex-col lg:flex-row lg:px-6 max-lg:max-w-xl justify-center items-center gap-4">
+            <div className="flex flex-col lg:flex-row px-4 lg:px-6 max-lg:max-w-xl justify-center items-center gap-4">
 
                 {!shouldReduceMotion && isMdOrLarger ? (
                     <motion.div
@@ -62,19 +62,19 @@ const About = () => {
                         initial="initialPicture"
                         whileInView="animatePicture"
                     >
-                        <div className="flex item-center justify-center px-4 lg:px-0">
+                        <div className="flex item-center justify-center">
                             <img className="lg:rounded-2xl rounded-xl" src="./segeln.jpeg" alt=""></img>
                         </div>
                     </motion.div>
                 ) : (
-                    <div className="w-full lg:w-1/2 px-4">
+                    <div className="w-full lg:w-1/2">
                         <div className="flex item-center justify-center">
                             <img className="lg:rounded-2xl rounded-md" src="./segeln.jpeg" alt=""></img>
                         </div>
                     </div>
                 )}
 
-                <div className="w-full lg:w-1/2 px-4 content-center">
+                <div className="w-full lg:w-1/2 content-center">
                     <div className="flex justify-center lg:justify-start">
                         {!shouldReduceMotion && isMdOrLarger ? (
                             <motion.p
