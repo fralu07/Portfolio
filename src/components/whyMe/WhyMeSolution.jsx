@@ -1,5 +1,5 @@
 import React from 'react';
-import {ABOUT_TEXT, WhatMatters} from "../../constants/constants.jsx";
+import {WhatMatters} from "../../constants/constants.jsx";
 import {motion} from "framer-motion";
 
 

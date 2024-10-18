@@ -1,4 +1,3 @@
-import "./Parallax.scss";
 import {motion, useScroll, useSpring, useTransform} from "framer-motion";
 import {useRef} from "react";
 import explosionSvg from "../whyMe/explosion.svg";

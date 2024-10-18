@@ -1,12 +1,6 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {motion, useReducedMotion} from "framer-motion";
-import {
-    ABOUT_TEXT,
-    EDUCATION_BSC_TEXT,
-    EDUCATION_RTV_TEXT,
-    PROJECTS_MEDINSPECT_TEXT,
-    PROJECTS_WOMO_TEXT
-} from "../../constants/constants.jsx";
+import {PROJECTS_MEDINSPECT_TEXT, PROJECTS_WOMO_TEXT} from "../../constants/constants.jsx";
 
 
 const sliding = {

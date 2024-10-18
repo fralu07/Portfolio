@@ -1,12 +1,6 @@
 import React from 'react';
 import {motion} from "framer-motion";
-import {
-    EXPERIENCE_HRN_TEXT,
-    EXPERIENCE_NOW_TEXT, EXPERIENCE_RTV_TEXT,
-    HOBBIES_CODING_TEXT,
-    HOBBIES_CROSSFIT_TEXT,
-    HOBBIES_SAILING_TEXT
-} from "../../constants/constants.jsx";
+import {HOBBIES_CODING_TEXT, HOBBIES_CROSSFIT_TEXT, HOBBIES_SAILING_TEXT} from "../../constants/constants.jsx";
 
 //
 // const sliding = {

@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-    ABOUT_TEXT,
-    EDUCATION_BSC_TEXT,
-    EDUCATION_RTV_TEXT,
-    EXPERIENCE_HRN_TEXT,
-    EXPERIENCE_NOW_TEXT, EXPERIENCE_RTV_TEXT
-} from "../../constants/constants.jsx";
+import {EDUCATION_BSC_TEXT, EDUCATION_RTV_TEXT} from "../../constants/constants.jsx";
 import {motion} from "framer-motion";
 
 

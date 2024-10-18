@@ -1,5 +1,5 @@
-import {motion, useScroll, useSpring, useTransform} from "framer-motion";
-import React, {useEffect, useRef} from "react";
+import {motion, useScroll, useTransform} from "framer-motion";
+import React, {useRef} from "react";
 import explosionSvg from './explosion.svg';
 import {WHY_ME_TEXT} from "../../constants/constants.jsx";
 

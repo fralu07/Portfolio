@@ -1,7 +1,6 @@
 import {motion, useReducedMotion} from "framer-motion";
 import "./about.scss";
 import {ABOUT_TEXT} from "../../constants/constants.jsx";
-import {FaLinkedin} from "react-icons/fa";
 import {useEffect, useState} from "react";
 
 const sliding = {

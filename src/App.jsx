@@ -3,7 +3,6 @@ import Navbar from "./components/navbar/Navbar.jsx";
 import Hero from "./components/hero/Hero.jsx";
 import Parallax from "./components/parallax/Parallax.jsx";
 import About from "./components/about/About.jsx";
-import Sidebar from "./components/sidebar/Sidebar.jsx";
 import Education from "./components/education/Education.jsx";
 import Experience from "./components/experience/Experience.jsx";
 import Projects from "./components/projects/Projects.jsx";
@@ -13,7 +12,6 @@ import WhyMe from "./components/whyMe/WhyMe.jsx";
 import ParallaxOnlyTitle from "./components/parallax/ParallaxOnlyTitle.jsx";
 import WhyMeSolution from "./components/whyMe/WhyMeSolution.jsx";
 import Intro from "./components/intro/Intro.jsx";
-import ParallaxEnd from "./components/parallax/ParallaxEnd.jsx";
 
 const App = () => {
   return <div>

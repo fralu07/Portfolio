@@ -1,6 +1,6 @@
 import React, {useRef} from 'react';
-import {useScroll, useSpring, motion, useTransform, inView} from "framer-motion";
-import {ABOUT_TEXT, EXPERIENCE_HRN_TEXT, EXPERIENCE_NOW_TEXT, EXPERIENCE_RTV_TEXT} from "../../constants/constants.jsx";
+import {motion, useScroll, useSpring} from "framer-motion";
+import {EXPERIENCE_HRN_TEXT, EXPERIENCE_NOW_TEXT, EXPERIENCE_RTV_TEXT} from "../../constants/constants.jsx";
 
 const sliding = {
     initialPicture: {

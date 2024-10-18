@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { motion, useReducedMotion } from "framer-motion";
-import { ABOUT_TEXT, INTRO_TEXT } from "../../constants/constants.jsx";
+import React, {useEffect, useState} from 'react';
+import {motion, useReducedMotion} from "framer-motion";
+import {INTRO_TEXT} from "../../constants/constants.jsx";
 
 const sliding = {
     initialPicture: {

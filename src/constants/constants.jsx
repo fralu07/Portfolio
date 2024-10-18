@@ -1,4 +1,3 @@
-import {FaLinkedin,} from "react-icons/fa";
 import React from "react";
 
 export const ABOUT_TEXT = (
