@@ -49,11 +49,13 @@ const WhyMe = () => {
                      backgroundSize: "cover",
                      backgroundRepeat: "no-repeat",
                      backgroundPosition: "center",
+                     height: "100%",
+                     width: "100vw"
                  }}
             >
                 <div className="flex flex-col w-full block sm:hidden items-center">
                     <div className="flex justify-center px-4  py-2">
-                        <motion.p className="max-w-xl text-black text-sm" variants={sliding}
+                        <motion.p className="max-w-xl text-black text-base" variants={sliding}
                                   initial="initialText"
                                   whileInView="animateText">
                             {WHY_ME_TEXT}

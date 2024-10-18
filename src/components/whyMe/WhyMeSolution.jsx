@@ -25,7 +25,7 @@ const WhyMeSolution = () => {
         <div className="max-w-[1366px] mx-auto flex items-center h-screen overflow-hidden">
                 <div className="w-full p-4">
                     <div className="flex justify-center ">
-                        <motion.p className="max-w-xl text-center" variants={sliding}
+                        <motion.p className="max-w-xl text-center text-xl" variants={sliding}
                                   initial="initialText" whileInView="animateText"> {WhatMatters}</motion.p>
 
                     </div>
