@@ -9,12 +9,12 @@ const SkillCard = ({ title, subTitle, experienceYears, level, progress, textBoxH
                     initial={initial} whileInView={animate}
                     viewport={{once: true}}
         >
-            <div className={`md:w-80 h-${textBoxHeight} content-center`}>
+            <div className={`md:w-80 h-${textBoxHeight} content-center text-base md:text-xl`}>
                 <div className="font-bold">{subTitle}</div>
-                <div>Berufserfahrung: <span className="font-bold">{experienceYears} Jahre</span></div>
-                <div>Level: <span className="font-bold">{level}</span></div>
+                <div>Berufserfahrung: <br/><span className="font-bold">{experienceYears} Jahre</span></div>
+                <div>Level: <span className="font-bold"><br/>{level}</span></div>
             </div>
-            <div>
+            <div className="">
                 <RadialProgress size={50} radius={35} progress={progress} text={title} color={circleColors}/>
             </div>
         </motion.div>
@@ -45,8 +45,8 @@ const Skills = () => {
     };
 
     return (
-        <div className="font-helvetica pl-6 max-w-own">
-            <div className="flex xl:flex-row max-xl:flex-wrap justify-center gap-9 ">
+        <div className="flex flex-col font-helvetica px-6 max-w-own overflow-hidden gap-9">
+            <div className="flex xl:flex-row flex-col justify-center gap-9 ">
                 <SkillCard
                     title="Java"
                     subTitle="Java"
@@ -71,12 +71,12 @@ const Skills = () => {
                     variants={sliding}
                     initial="initialCard1"
                     animate="animateCard"
-                    paddingTop="md:pt-48"
+                    paddingTop="xl:pt-48"
                     reverse={true}
                 />
             </div>
 
-            <div className="flex xl:flex-row max-xl:flex-wrap justify-center gap-9 ">
+            <div className="flex xl:flex-row flex-col justify-center gap-9 ">
                 <SkillCard
                     title="Mobile"
                     subTitle="Kotlin / Swift"
@@ -102,12 +102,12 @@ const Skills = () => {
                     variants={sliding}
                     initial="initialCard"
                     animate="animateCard"
-                    paddingTop="md:pt-48"
+                    paddingTop="xl:pt-48"
                     reverse={true}
                 />
             </div>
 
-            <div className="flex xl:flex-row max-xl:flex-wrap justify-center gap-9 ">
+            <div className="flex xl:flex-row flex-col justify-center gap-9 ">
                 <SkillCard
                     title="DevOps"
                     subTitle="Docker / Kubernetes / CI-CD"
@@ -133,7 +133,7 @@ const Skills = () => {
                     variants={sliding}
                     initial="initialCard"
                     animate="animateCard"
-                    paddingTop="md:pt-48"
+                    paddingTop="xl:pt-48"
                     reverse={true}
                 />
             </div>

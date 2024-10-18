@@ -94,7 +94,7 @@ const App = () => {
       sunset_start: 0.2,
       sunset_end: 0.1,
     }}/></section>
-    <section className="h-[100vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Skills/></section>
+    <section className="h-[210vh] md:h-[160vh] xl:[140vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Skills/></section>
     <section className="lg:h-[50] bg-gradient-to-b from-[#111132] to-[#0c0c1d]" id="Why me"><ParallaxOnlyTitle p={{
       title: "Warum mich?",
     }}/></section>

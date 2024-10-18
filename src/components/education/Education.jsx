@@ -66,7 +66,7 @@ const Education = () => {
     return (
         <div className="max-w-[1366px] p-2 mx-auto flex lg:items-center min-h-screen justify-center overflow-y-auto">
             <div className="flex flex-row gap-4 h-full py-8 lg:py-0 ">
-                <motion.div className="flex flex-col h-full gap-4 py-8 lg:py-0">
+                <motion.div className="flex flex-col h-full gap-4 lg:gap-40 py-8 lg:py-0">
                     <Edu_Card
                         text={EDUCATION_BSC_TEXT}
                         image="./FHNW.jpg"
