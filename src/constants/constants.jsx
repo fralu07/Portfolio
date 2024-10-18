@@ -168,9 +168,9 @@ export const WHY_ME_TEXT = (
             kann. <br/>
             Die Animation, bei der ein Segelboot mit dem B-Nova-Containerschiff zusammenstößt und ein Containerschiff
             mit Segeln entsteht, spiegelt meine Rolle gut wider:
-            Flexibilität und persönlicher Antrieb treffen auf die Stärke und Struktur des Unternehmens. <br/>
+            Flexibilität und persönlicher Antrieb treffen auf die Stärke und Struktur des Unternehmens. <br/><br/>
             Dieser Zusammenstoß steht für mehr als nur eine Verschmelzung von Eigenschaften – es ist wie eine Super<span
-            className="font-bold">NOVA</span>, bei der neue Energie entsteht und Raum für neue Möglichkeiten geschaffen
+            className="font-bold underline">NOVA</span>, bei der neue Energie entsteht und Raum für neue Möglichkeiten geschaffen
             wird.<br/>
             Genauso sehe ich meine Rolle im Unternehmen: Ich mag nicht alles wissen, aber ich bin strebsam,
             diszipliniert und bereit, gemeinsam mit B-Nova die Zukunft mitzugestalten. <br/><br/>
@@ -181,13 +181,14 @@ export const WHY_ME_TEXT = (
 export const WhatMatters = (
     <div className="text-1xl">
         <p className="">
-            <h1 className="text-xl pb-4">Was mir am ❤️ liegt <br/> Ein gesundes Arbeitsumfeld beruht auf gemeinsamen
-                Werten. Diese
-                sind mir wichtig und ich möchte sie jeden Tag leben 😊</h1>
+            <h1 className="text-3xl pb-4">Was mir am ❤️ liegt <br/></h1>
+            Ein gesundes Arbeitsumfeld beruht auf gemeinsamen
+            Werten. Diese
+            sind mir wichtig und ich möchte sie jeden Tag leben.<br/>
             «Gemeinsam statt gegeneinander.» Das ist mein Motto, das ich gerne in mein Arbeitsumfeld einbringen
             möchte.
             Offenheit, ein Ohr für Ideen und umfassende Weiterbildungsmöglichkeiten sind für mich entscheidend.
-            Mit voller Leidenschaft und Engagement möchte ich zu einem positiven Arbeitsklima beitragen. 😎<br/>
+            Mit voller Leidenschaft und Engagement möchte ich zu einem positiven Arbeitsklima beitragen.<br/>
             Ein Freund würde mich in einem Satz so beschreiben: <br/> "Sehr zielstrebig und engagiert, und mit seinem
             Optimismus reißt er alle mit."<br/><br/>
             Ich freue mich darauf, dies in Ihrem Unternehmen zu verwirklichen.
@@ -198,7 +199,7 @@ export const WhatMatters = (
 export const INTRO_TEXT = (
     <div className="text-1xl">
         <p className="">
-            <h1 className="text-3xl pb-4  text-purple-800">Segler trifft auf Kapitän</h1>
+            <h1 className="text-3xl pb-4">Segler trifft auf Kapitän</h1>
             Wie dieses Bild erahnen lässt, habe ich eine große Leidenschaft für das Segeln.<br/>
             Insofern passt euere Grafik auf Ihrer Webseite um so mehr, um ein bisschen Storytelling zu machen.
             Dabei sehe ich mich als Segler inmitten eines großen Containerschiffs –

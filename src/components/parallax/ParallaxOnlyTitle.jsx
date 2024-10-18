@@ -42,7 +42,7 @@ const ParallaxOnlyTitle = (props) => {
 
             {/* Hauptüberschrift */}
             <motion.h1 className="text-white font-Bold text-black text-5xl md:text-7xl lg:text-9xl relative h-500"
-                       style={{y: yText}}>
+                       >
                 {props.p.title}
             </motion.h1>
         </div>

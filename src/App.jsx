@@ -22,8 +22,8 @@ const App = () => {
       <Hero/>
     </section>
 
-    <section className="h-screen bg-gradient-to-b from-[#111132] to-[#0c0c1d]"><Intro/></section>
-    <section className="lg:h-screen" id="About"><Parallax p={{
+    <section className="h-screen overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]"><Intro/></section>
+    <section className="lg:h-screenoverflow-x-hidden " id="About"><Parallax p={{
       title: "Über mich",
       xSailing_out_end: "70%",
       xSailing_out_beginn: "80%",
@@ -34,10 +34,10 @@ const App = () => {
       sunset_start: 0.5,
       sunset_end: 0.4,
     }}/></section>
-    <section className="lg:h-screen bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><About/></section>
-    <section className="lg:h-screen" id="Education"><Parallax p={{
+    <section className="lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><About/></section>
+    <section className="lg:h-screenoverflow-x-hidden " id="Education"><Parallax p={{
       title: "Ausbildung",
-      xSailing_out_end: "50%",
+      xSailing_out_end: "60%",
       xSailing_out_beginn: "70%",
       ySailing_out_end: "30%",
       ySailing_out_beginn: "10%",
@@ -46,11 +46,11 @@ const App = () => {
       sunset_start: 0.4,
       sunset_end: 0.3,
     }}/></section>
-    <section className="h-screen bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Education/></section>
-    <section className="lg:h-screen large" id="Experience"><Parallax p={{
+    <section className="h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Education/></section>
+    <section className="lg:h-screen largeoverflow-x-hidden " id="Experience"><Parallax p={{
       title: "Berufserfahrung",
-      xSailing_out_end: "30%",
-      xSailing_out_beginn: "50%",
+      xSailing_out_end: "50%",
+      xSailing_out_beginn: "60%",
       ySailing_out_end: "30%",
       ySailing_out_beginn: "45%",
       xSun_out_start: "15%",
@@ -58,11 +58,11 @@ const App = () => {
       sunset_start: 0.3,
       sunset_end: 0.2,
     }}/></section>
-    <section className="h-[1440] bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Experience/></section>
-    <section className="lg:h-screen" id="Projects"><Parallax p={{
+    <section className="h-[1440] overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Experience/></section>
+    <section className="lg:h-screenoverflow-x-hidden " id="Projects"><Parallax p={{
       title: "Projekte",
-      xSailing_out_end: "20%",
-      xSailing_out_beginn: "25%",
+      xSailing_out_end: "40%",
+      xSailing_out_beginn: "50%",
       ySailing_out_end: "35%",
       ySailing_out_beginn: "50%",
       xSun_out_start: "0%",
@@ -70,11 +70,11 @@ const App = () => {
       sunset_start: 0.2,
       sunset_end: 0.1,
     }}/></section>
-    <section className="h-screen bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Projects/></section>
-    <section className="lg:h-screen" id="Hobbies"><Parallax p={{
+    <section className="h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Projects/></section>
+    <section className="lg:h-screenoverflow-x-hidden " id="Hobbies"><Parallax p={{
       title: "Hobbys",
-      xSailing_out_end: "15%",
-      xSailing_out_beginn: "25%",
+      xSailing_out_end: "30%",
+      xSailing_out_beginn: "40%",
       ySailing_out_end: "45%",
       ySailing_out_beginn: "65%",
       xSun_out_start: "-10%",
@@ -82,11 +82,11 @@ const App = () => {
       sunset_start: 0.2,
       sunset_end: 0.1,
     }}/></section>
-    <section className="h-screen bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Hobbies/></section>
-    <section className="lg:h-screen" id="Skills"><Parallax p={{
+    <section className="h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Hobbies/></section>
+    <section className="lg:h-screenoverflow-x-hidden " id="Skills"><Parallax p={{
       title: "Skills",
-      xSailing_out_end: "10%",
-      xSailing_out_beginn: "15%",
+      xSailing_out_end: "20%",
+      xSailing_out_beginn: "30%",
       ySailing_out_end: "55%",
       ySailing_out_beginn: "75%",
       xSun_out_start: "-20%",
@@ -94,13 +94,13 @@ const App = () => {
       sunset_start: 0.2,
       sunset_end: 0.1,
     }}/></section>
-    <section className="h-[210vh] md:h-[180vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Skills/></section>
-    <section className="lg:h-[50] bg-gradient-to-b from-[#111132] to-[#0c0c1d]" id="Why me"><ParallaxOnlyTitle p={{
+    <section className="h-[210vh] md:h-[180vh] overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Skills/></section>
+    <section className="lg:h-[50] overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]" id="Why me"><ParallaxOnlyTitle p={{
       title: "Warum mich?",
     }}/></section>
 
-    <section className="h-[200vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]" id="Why me"><WhyMe/></section>
-    <section className="h-[100vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><WhyMeSolution/></section>
+    <section className="h-[100] sm:h-[300vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]" id="Why me"><WhyMe/></section>
+    <section className="h-[100vh] overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><WhyMeSolution/></section>
 
   </div>;
 };
