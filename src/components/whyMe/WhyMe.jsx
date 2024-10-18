@@ -1,21 +1,21 @@
 import {motion, useScroll, useSpring, useTransform} from "framer-motion";
 import React, {useEffect, useRef} from "react";
 import explosionSvg from './explosion.svg';
-import { WHY_ME_TEXT } from "../../constants/constants.jsx";
+import {WHY_ME_TEXT} from "../../constants/constants.jsx";
 
 const WhyMe = () => {
 
     const containerRef = useRef(null);
     const boatRef = useRef(null);
-    const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start end", "end start"] });
+    const {scrollYProgress} = useScroll({target: containerRef, offset: ["start end", "end start"]});
 
-    const xSailing = useTransform(scrollYProgress, [1, 0], ["-80%", "80%"]);
+    const xSailing = useTransform(scrollYProgress, [0.35, 0], ["-10%", "80%"]);
     const ySailing = useTransform(scrollYProgress, [1, 0], ["50%", "100%"]);
 
     const opacityExplosion = useTransform(scrollYProgress, [0.3, 0.4, 0.45], [0, 1, 0]);
     const opacityShip = useTransform(scrollYProgress, [0.3, 0.4], [1, 0]);
-    const opacitySuperShip = useTransform(scrollYProgress, [0.4, 0.45, 0.8],  [0, 1, 0]);
-    const opacityscrollButton = useTransform(scrollYProgress, [0, 0.8],  [1, 0]);
+    const opacitySuperShip = useTransform(scrollYProgress, [0.4, 0.45, 0.8], [0, 1, 0]);
+    const opacityscrollButton = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
 
     const sliding = {
@@ -74,20 +74,11 @@ const WhyMe = () => {
                 <div
                     className="sticky top-[20%] sm:block hidden flex flex-col items-center justify-center gap-20 bg-transparent z-20 ">
                     {/* Text */}
-                    <div className="flex flex-row items-center w-full">
-                        {/* Bild in der Mitte des 1/3 Bereichs */}
-                        <div className="w-1/3 flex justify-center">
-                            <motion.img
-                                className="w-0 md:w-[50px] filter invert"
-                                variants={sliding}
-                                animate="scrollButton"
-                                src="./scroll.png"
-                                alt=""
-                            />
-                        </div>
+                    <div className=" w-full">
+
 
                         {/* Text in der Mitte des restlichen Bildschirms */}
-                        <div className="w-2/3 flex justify-start">
+                        <div className="flex justify-start sm:justify-center">
                             <motion.p className="max-w-xl text-black md:font-bold text-base text-center"
                                       variants={sliding}
                                       initial="initialText"
@@ -108,7 +99,8 @@ const WhyMe = () => {
                                     animate={{opacity: 1, scale: 1}}
                                     transition={{duration: 0.5}}
                                     style={{
-                                        y: 100,
+                                        y: 120,
+                                        x: -50,
                                         opacity: opacityExplosion
                                     }}
                                 >
@@ -141,13 +133,13 @@ const WhyMe = () => {
                                     x: xSailing,
                                     y: ySailing,
                                     backgroundImage: `url(/sailingboat_final.png)`,
-                                    backgroundPosition: "left",
-                                    backgroundSize: "contain",
+                                    backgroundPosition: "center",
+                                    backgroundSize: "auto 100%",
                                     backgroundRepeat: "no-repeat",
-                                    opacity: opacityShip
+                                    opacity: opacityShip,
                                 }}
 
-                                className="absolute w-[50vw] md:w-[30vw] lg:w-[20vw] h-48 scale-[0.5] z-20"
+                                className="absolute w-[50vw] md:w-[30vw] lg:w-[20vw] h-48 z-20"
                             />
                             {/*SuperNova-Schiff*/}
                             <motion.div
