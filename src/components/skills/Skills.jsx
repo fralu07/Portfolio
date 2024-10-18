@@ -1,24 +1,57 @@
 import RadialProgress from "../RadialProgress/radialProgress.jsx";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 
 // Funktion zur Erstellung eines wiederverwendbaren Skill-Elements
-const SkillCard = ({ title, subTitle, experienceYears, level, progress, textBoxHeight, circleColors, variants, initial, animate, paddingTop, reverse }) => {
+const SkillCard = ({
+                       title,
+                       subTitle,
+                       experienceYears,
+                       level,
+                       progress,
+                       textBoxHeight,
+                       circleColors,
+                       variants,
+                       initial,
+                       animate,
+                       paddingTop,
+                       reverse
+                   }) => {
     return (
-        <motion.div className={`flex flex-row text-xl ${paddingTop}  ${reverse ? 'flex-row-reverse' : ''}`}
-                    variants={variants}
-                    initial={initial} whileInView={animate}
-                    viewport={{once: true}}
-        >
-            <div className={`md:w-80 h-${textBoxHeight} content-center text-base md:text-xl`}>
-                <div className="font-bold">{subTitle}</div>
-                <div>Berufserfahrung: <br/><span className="font-bold">{experienceYears} Jahre</span></div>
-                <div>Level: <span className="font-bold"><br/>{level}</span></div>
-            </div>
-            <div className="">
-                <RadialProgress size={50} radius={35} progress={progress} text={title} color={circleColors}/>
-            </div>
-        </motion.div>
-    );
+        <div>
+            {!reverse ? (
+                <motion.div className={`flex flex-row text-xl ${paddingTop} `}
+                            variants={variants}
+                            initial={initial} whileInView={animate}
+                            viewport={{once: true}}
+                >
+                    <div className={`md:w-80 h-${textBoxHeight} content-center md:content-start  md:pt-20 text-base md:text-xl ${reverse ? '' : 'text-end'}`}>
+                        <div className="font-bold">{subTitle}</div>
+                        <div>Berufserfahrung: <br/><span className="font-bold">{experienceYears} Jahre</span></div>
+                        <div>Level: <span className="font-bold"><br/>{level}</span></div>
+                    </div>
+                    <div className="">
+                        <RadialProgress size={50} radius={35} progress={progress} text={title} color={circleColors}/>
+                    </div>
+                </motion.div>
+            ) : (
+                <motion.div className={`flex flex-row text-xl ${paddingTop} `}
+                            variants={variants}
+                            initial={initial} whileInView={animate}
+                            viewport={{once: true}}
+                >
+                    <div className="">
+                        <RadialProgress size={50} radius={35} progress={progress} text={title} color={circleColors}/>
+                    </div>
+                    <div className={`md:w-80 h-${textBoxHeight} content-center md:content-start md:pt-20 text-base md:text-xl ${reverse ? '' : 'text-end'}`}>
+                        <div className="font-bold">{subTitle}</div>
+                        <div>Berufserfahrung: <br/><span className="font-bold">{experienceYears} Jahre</span></div>
+                        <div>Level: <span className="font-bold"><br/>{level}</span></div>
+                    </div>
+
+                </motion.div>)}
+        </div>
+    )
+        ;
 };
 
 const Skills = () => {
@@ -45,7 +78,7 @@ const Skills = () => {
     };
 
     return (
-        <div className="flex flex-col font-helvetica px-6 max-w-own overflow-hidden gap-9">
+        <div className="flex flex-col font-helvetica px-6 max-w-own overflow-hidden items-center gap-9 md:gap-0">
             <div className="flex xl:flex-row flex-col justify-center gap-9 ">
                 <SkillCard
                     title="Java"
@@ -59,7 +92,7 @@ const Skills = () => {
                     initial="initialCard"
                     animate="animateCard"
                     paddingTop=""
-                    reverse={false}                />
+                    reverse={false}/>
                 <SkillCard
                     title="Javascript"
                     subTitle="Javascript"
@@ -71,7 +104,7 @@ const Skills = () => {
                     variants={sliding}
                     initial="initialCard1"
                     animate="animateCard"
-                    paddingTop="xl:pt-48"
+                    paddingTop="xl:pt-[300px]"
                     reverse={true}
                 />
             </div>
@@ -102,7 +135,7 @@ const Skills = () => {
                     variants={sliding}
                     initial="initialCard"
                     animate="animateCard"
-                    paddingTop="xl:pt-48"
+                    paddingTop="xl:pt-[300px]"
                     reverse={true}
                 />
             </div>
@@ -133,7 +166,7 @@ const Skills = () => {
                     variants={sliding}
                     initial="initialCard"
                     animate="animateCard"
-                    paddingTop="xl:pt-48"
+                    paddingTop="xl:pt-[300px]"
                     reverse={true}
                 />
             </div>
