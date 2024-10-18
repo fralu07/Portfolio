@@ -44,8 +44,8 @@ const App = () => {
       sunset_start: 0.4,
       sunset_end: 0.3,
     }}/></section>
-    <section className="h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Education/></section>
-    <section className="lg:h-screen largeoverflow-x-hidden " id="Experience"><Parallax p={{
+    <section className="lg:h-screen md:h-[140vh] overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Education/></section>
+    <section className="lg:h-screenoverflow-x-hidden " id="Experience"><Parallax p={{
       title: "Berufserfahrung",
       xSailing_out_end: "50%",
       xSailing_out_beginn: "60%",
@@ -56,7 +56,7 @@ const App = () => {
       sunset_start: 0.3,
       sunset_end: 0.2,
     }}/></section>
-    <section className="h-[1440] overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Experience/></section>
+    <section className="md:h-[190vh] h-[250vh] lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Experience/></section>
     <section className="lg:h-screenoverflow-x-hidden " id="Projects"><Parallax p={{
       title: "Projekte",
       xSailing_out_end: "40%",
@@ -68,7 +68,7 @@ const App = () => {
       sunset_start: 0.2,
       sunset_end: 0.1,
     }}/></section>
-    <section className="h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Projects/></section>
+    <section className="md:h-[120vh] h-[200vh] lg:h-screen  overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Projects/></section>
     <section className="lg:h-screenoverflow-x-hidden " id="Hobbies"><Parallax p={{
       title: "Hobbys",
       xSailing_out_end: "30%",
@@ -80,7 +80,7 @@ const App = () => {
       sunset_start: 0.2,
       sunset_end: 0.1,
     }}/></section>
-    <section className="h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Hobbies/></section>
+    <section className="md:h-[160vh] h-[330vh] lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Hobbies/></section>
     <section className="lg:h-screenoverflow-x-hidden " id="Skills"><Parallax p={{
       title: "Skills",
       xSailing_out_end: "20%",

@@ -85,7 +85,7 @@ const Projects = () => {
 
     return (
         <div className="max-w-[1366px] mx-auto flex items-center justify-center min-h-screen overflow-hidden">
-            <div className="flex flex-col gap-4 lg:gap-20 py-8 ">
+            <div className="flex flex-col gap-12 lg:gap-20 py-8 ">
                 <ProjectSection
                     imageSrc="./medinspect.jpg"
                     imageAlt="Medinspect"
