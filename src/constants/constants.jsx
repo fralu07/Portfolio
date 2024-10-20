@@ -159,6 +159,36 @@ export const HOBBIES_CODING_TEXT = (
     </div>
 )
 
+
+export const HOBBIES_CROSSFIT_TEXT_MOBILE = (
+    <div className=" text-1xl">
+        <h2 className="text-3xl font-bold pb-4">CrossFit</h2>
+        <p className="">CrossFit begeistert mich, weil es mich sowohl körperlich als auch mental fordert.
+        </p>
+    </div>
+)
+
+export const HOBBIES_SAILING_TEXT_MOBILE = (
+    <div className=" text-1xl">
+        <h2 className="text-3xl font-bold pb-4">Segeln</h2>
+        <p className="">
+            Segeln fasziniert mich, weil es mir ein Gefühl von Freiheit auf dem 🌊 gibt.
+
+        </p>
+    </div>
+)
+
+export const HOBBIES_CODING_TEXT_MOBILE = (
+    <div className="text-1xl">
+        <h2 className="text-3xl font-bold pb-4">Codingbegeisterung</h2>
+        <p className="">
+            Coding begeistert mich seit meiner Zeit als CEO bei der Hochrhein, da ich schon immer den Wunsch hatte, es
+            zu erlernen.
+        </p>
+    </div>
+)
+
+
 export const WHY_ME_TEXT = (
     <div className=" text-1xl">
         <p className="">

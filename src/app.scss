@@ -25,7 +25,32 @@ a {
 }
 
 section{
-  height: 100vh;
+  height: auto; /* Höhe auf auto setzen für mobile */
+
 
   //scroll-snap-align: center;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
+/* Für mobile Geräte */
+@media (max-width: 768px) {
+
+  section {
+    height: auto; /* Höhe auf auto setzen für mobile */
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
 }

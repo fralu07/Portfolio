@@ -1,6 +1,11 @@
 import React from 'react';
 import {motion} from "framer-motion";
-import {HOBBIES_CODING_TEXT, HOBBIES_CROSSFIT_TEXT, HOBBIES_SAILING_TEXT} from "../../constants/constants.jsx";
+import {
+    HOBBIES_CODING_TEXT, HOBBIES_CODING_TEXT_MOBILE,
+    HOBBIES_CROSSFIT_TEXT,
+    HOBBIES_CROSSFIT_TEXT_MOBILE,
+    HOBBIES_SAILING_TEXT, HOBBIES_SAILING_TEXT_MOBILE
+} from "../../constants/constants.jsx";
 
 
 
@@ -50,27 +55,42 @@ function ExpCard(props) {
                     viewport={{once: true, amount: 0.5}}>
             <img className=" lg:rounded-2xl rounded-md object-cover w-full h-96 lg:w-80 lg:h-72 xl:w-96 xl:h-82 content-center" src={props.image} alt=""></img>
         </motion.div>
+
     </div>;
 }
 
 const Hobbies = () => {
     return (
-        <div className="max-w-[1366px] h-screen mx-auto flex flex-col items-center justify-center">
+        <div className="max-w-[1366px] mx-auto flex flex-col items-center content-center justify-center py-4">
             <div className="flex flex-row gap-4 h-full ">
-                <motion.div className="flex flex-col flex-1 gap-4 xl:gap-2 items-center p-4 lg:p-0">
+                <motion.div className=" desktop flex flex-col flex-1 gap-4 xl:gap-2 items-center p-4 lg:p-0">
                     <ExpCard
                         text={HOBBIES_CROSSFIT_TEXT}
-                        year={"2020 - heute"}
                         image="./crossFit.jpeg"
                     />
                     <ExpCard
                         text={HOBBIES_SAILING_TEXT}
-                        year={"2006 - 2019"}
                         image="./segeln_boot.png"
                     />
                     <ExpCard
                         text={HOBBIES_CODING_TEXT}
-                        year={"1998 - 2006"}
+                        image="/coding.png"
+                    />
+                </motion.div>
+                <motion.div className=" mobile flex flex-col flex-1 gap-4 xl:gap-2 items-center p-4 lg:p-0">
+                    <ExpCard
+                        className="mobile"
+                        text={HOBBIES_CROSSFIT_TEXT_MOBILE}
+                        image="./crossFit.jpeg"
+                    />
+                    <ExpCard
+                        className="mobile"
+                        text={HOBBIES_SAILING_TEXT_MOBILE}
+                        image="./segeln_boot.png"
+                    />
+                    <ExpCard
+                        className="mobile"
+                        text={HOBBIES_CODING_TEXT_MOBILE}
                         image="/coding.png"
                     />
                 </motion.div>
