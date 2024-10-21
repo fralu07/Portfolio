@@ -20,7 +20,8 @@ const App = () => {
       <Hero/>
     </section>
 
-    <section className="lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]" id="Intro"><Intro/></section>
+    <section className="lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]" id="Intro"><Intro/>
+    </section>
     <section className="lg:h-screenoverflow-x-hidden " id="Über mich"><Parallax p={{
       title: "Über mich",
       xSailing_out_end: "70%",
@@ -74,6 +75,19 @@ const App = () => {
     <section
         className="overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
       <Projects/></section>
+    <section className="lg:h-screenoverflow-x-hidden " id="Skills"><Parallax p={{
+      title: "Skills",
+      xSailing_out_end: "20%",
+      xSailing_out_beginn: "30%",
+      ySailing_out_end: "55%",
+      ySailing_out_beginn: "75%",
+      xSun_out_start: "-20%",
+      xSun_out_end: "-30%",
+      sunset_start: 0.2,
+      sunset_end: 0.1,
+    }}/></section>
+    <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Skills/>
+    </section>
     <section className="lg:h-screenoverflow-x-hidden " id="Hobbys"><Parallax p={{
       title: "Hobbys",
       xSailing_out_end: "30%",
@@ -88,25 +102,12 @@ const App = () => {
     <section
         className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
       <Hobbies/></section>
-    <section className="lg:h-screenoverflow-x-hidden " id="Skills"><Parallax p={{
-      title: "Skills",
-      xSailing_out_end: "20%",
-      xSailing_out_beginn: "30%",
-      ySailing_out_end: "55%",
-      ySailing_out_beginn: "75%",
-      xSun_out_start: "-20%",
-      xSun_out_end: "-30%",
-      sunset_start: 0.2,
-      sunset_end: 0.1,
-    }}/></section>
-    <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Skills/>
-    </section>
     <section className="lg:h-[50] overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]" id="Warum mich">
       <ParallaxOnlyTitle p={{
         title: "Warum mich?",
       }}/></section>
 
-    <section className="h-[100] sm:h-[300vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]" ><WhyMe/>
+    <section className="h-[100] sm:h-[300vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><WhyMe/>
     </section>
     <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><WhyMeSolution/>
     </section>

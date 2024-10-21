@@ -37,8 +37,8 @@ const Links = ({ setOpen }) => {
         "Ausbildung",
         "Berufserfahrung",
         "Projekte",
-        "Hobbys",
         "Skills",
+        "Hobbys",
         "Warum mich"
     ]
     return (
