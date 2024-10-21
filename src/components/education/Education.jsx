@@ -5,12 +5,12 @@ import {motion} from "framer-motion";
 
 const sliding = {
     initialPicture: {
-        y: 0,
-        opacity: 1
+        y: 200,
+        opacity: 0
     },
     initialText: {
-        y: 0,
-        opacity: 1
+        y: 200,
+        opacity: 0
     },
     animatePicture: {
         y: 0,
@@ -34,24 +34,31 @@ const sliding = {
 
 function Edu_Card(props) {
     return <div className="flex flex-col lg:flex-row flex-1 max-lg:max-w-xl w-full">
-
         <div className="flex justify-center w-full lg:w-7/12 pr-4 lg:pr-8">
             <div className="flex flex-col lg:flex-row w-full justify-center lg:justify-start">
-                <motion.p className=" content-center text-start text-base lg:pl-10"
+                <motion.p className="desktop content-center text-start text-base lg:pl-10"
                           variants={sliding}
                           initial="initialText"
                           viewport={{once: true, amount: 0.4}}
                           whileInView="animateText"
                 > {props.text}</motion.p>
+                <p className="mobile content-center text-start text-base">
+                    {props.text}
+                </p>
             </div>
         </div>
-        <motion.div className="flex justify-center  lg:w-5/12 pr-4 lg:pr-0 pb-4 lg:pb-0 content-center items-center"
+        <motion.div className="desktop flex lg:w-5/12 pr-4 lg:pr-0 pb-4 lg:pb-0 justify-center content-center items-center"
                     variants={sliding}
                     initial="initialPicture"
                     whileInView="animatePicture"
                     viewport={{once: true, amount: 0.5}}>
-            <img className=" lg:rounded-2xl rounded-md object-cover lg:w-80 lg:h-72 xl:w-96 xl:h-82 content-center" src={props.image} alt=""></img>
+            <img className=" lg:rounded-2xl rounded-md object-cover lg:w-80 lg:h-72 xl:w-96 xl:h-82 content-center"
+                 src={props.image} alt=""></img>
         </motion.div>
+        <div className="mobile flex lg:w-5/12 pr-4 lg:pr-0 pb-4 lg:pb-0 justify-center content-center items-center">
+            <img className=" lg:rounded-2xl rounded-md object-cover lg:w-80 lg:h-72 xl:w-96 xl:h-82 content-center"
+                 src={props.image} alt=""></img>
+        </div>
     </div>;
 }
 
@@ -59,8 +66,8 @@ function Edu_Card(props) {
 const Education = () => {
     return (
         <div className="max-w-[1366px] p-2 mx-auto flex lg:items-center min-h-screen justify-center overflow-y-auto">
-            <div className="flex flex-row gap-4 h-full py-8 lg:py-0 ">
-                <motion.div className="flex flex-col h-full gap-8 lg:gap-40 py-8 lg:py-0">
+            <div className="flex flex-row gap-4 h-full py-2 lg:py-0 ">
+                <motion.div className="flex flex-col h-full gap-8 lg:gap-40 p2-8 lg:py-0">
                     <Edu_Card
                         text={EDUCATION_BSC_TEXT}
                         image="./FHNW.jpg"

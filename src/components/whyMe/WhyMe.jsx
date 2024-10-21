@@ -15,7 +15,6 @@ const WhyMe = () => {
     const opacityExplosion = useTransform(scrollYProgress, [0.3, 0.4, 0.45], [0, 1, 0]);
     const opacityShip = useTransform(scrollYProgress, [0.3, 0.4], [1, 0]);
     const opacitySuperShip = useTransform(scrollYProgress, [0.4, 0.45, 0.8], [0, 1, 0]);
-    const opacityscrollButton = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
 
     const sliding = {
@@ -41,9 +40,9 @@ const WhyMe = () => {
     };
 
     return (
-        <div className="h-full " ref={containerRef}>
+        <div className="h-full" ref={containerRef}>
             {/* Scrollable Content */}
-            <div className="h-[100vh] sm:h-[300vh] w-full relative bg-fixed"
+            <div className="w-full relative bg-fixed"
                  style={{
                      backgroundImage: `url(/see.jpg)`,
                      backgroundSize: "cover",
@@ -53,13 +52,11 @@ const WhyMe = () => {
                      width: "100vw"
                  }}
             >
-                <div className="flex flex-col w-full block sm:hidden items-center">
+                <div className="mobile flex flex-col w-full items-center">
                     <div className="flex justify-center px-4  py-2">
-                        <motion.p className="max-w-xl text-black text-base" variants={sliding}
-                                  initial="initialText"
-                                  whileInView="animateText">
+                        <p className="max-w-xl text-black text-base">
                             {WHY_ME_TEXT}
-                        </motion.p>
+                        </p>
                     </div>
                     <div
                         className="w-48 h-96 z-20"
@@ -74,11 +71,9 @@ const WhyMe = () => {
                 </div>
                 {/* Sticky Section */}
                 <div
-                    className="sticky top-[20%] sm:block hidden flex flex-col items-center justify-center gap-20 bg-transparent z-20 ">
+                    className="desktop sticky top-[20%] flex flex-col items-center justify-center gap-20 bg-transparent z-20 ">
                     {/* Text */}
                     <div className=" w-full">
-
-
                         {/* Text in der Mitte des restlichen Bildschirms */}
                         <div className="flex justify-start sm:justify-center">
                             <motion.p className="max-w-xl text-black md:font-bold text-base text-center"
@@ -92,7 +87,6 @@ const WhyMe = () => {
                     {/* Animation */}
                     <div className="flex flex-col items-center justify-centerw-1/3 gap-8">
                         {/*SuperNova-Schiff*/}
-
                         <div className="relative flex w-full justify-center">
                             {/* Explosion SVG */}
                             <div className="absolute flex z-30">

@@ -9,9 +9,10 @@ export const ABOUT_TEXT = (
             Meine Nationalität ist Italien. <br/><br/>
 
             Im September habe ich mein Informatikstudium erfolgreich abgeschlossen. <br/>
-            Ich nehme alles, was ich anpacke, ernst und bringe es immer zu Ende, auch wenn es in der Softwareentwicklung
+            Ich nehme alles, was ich anpacke ernst und bringe es immer zu Ende, auch wenn es in der Softwareentwicklung
             manchmal hartnäckig sein kann. <br/><br/>
-
+        </p>
+        <p className="desktop">
             Warum mich? <br/>
             Ich bin sehr ehrgeizig, ein echter Teamplayer und bringe einen großen Erfahrungsschatz aus meinen früheren
             Unternehmungen mit.
@@ -23,7 +24,7 @@ export const ABOUT_TEXT = (
 export const EDUCATION_BSC_TEXT = (
     <div className="">
         <h2 className="text-3xl font-bold pb-4">BSc in Informatik</h2>
-        <p className="">an der Fachhochschule Nordwestschweiz in Brugg.
+        <p className="desktop">an der Fachhochschule Nordwestschweiz in Brugg.
             Aktuell befinde ich mich im letzten Semester. Das Studium werde ich diesen Monat erfolgreich
             abschliessen. <br/>
             <strong>Schwerpunkte</strong> im Studium waren vielfältig.
@@ -36,6 +37,13 @@ export const EDUCATION_BSC_TEXT = (
             Backendbereich sowie Haskell und Scala behandelt.
             In den letzten zwei Semester kam ich mit DEVOPS und CLOUD in Berührung. Das entfachte die Lust auf mehr
             DEVOPS.
+        </p>
+        <p className="mobile">an der Fachhochschule Nordwestschweiz in Brugg.
+            Aktuell befinde ich mich im letzten Semester. Das Studium werde ich diesen Monat erfolgreich
+            abschliessen.<br/>
+            <strong>Schwerpunkte</strong> im Studium waren vielfältig.
+            Beginnend mit der Webentwicklung, wurden umfassende Kenntnisse in React und tiefgehende Kenntnisse in Spring
+            Boot vermittelt.
         </p>
     </div>
 )
@@ -54,7 +62,8 @@ export const EDUCATION_RTV_TEXT = (
 export const EXPERIENCE_RTV_TEXT = (
     <div className=" ">
         <h2 className="text-3xl font-bold md:pb-4">Radio & TV-Techniker</h2>
-        <p className="md:pb-0 pb-4">Der start in dem Berufsleben war 1998 als Radio- und TV-Techniker. Im Unternehmen Radio Oexle in
+        <p className="md:pb-0 pb-4">Der start in dem Berufsleben war 1998 als Radio- und TV-Techniker. Im Unternehmen
+            Radio Oexle in
             Rheinfelden. Was gibt es mehr zu sagen. War eine schöne Zeit, Satellitenantennen auf den Dächern zu
             installieren. </p>
 
@@ -227,13 +236,26 @@ export const WhatMatters = (
 
 export const INTRO_TEXT = (
     <div className="text-1xl">
-        <p className="">
+        <p className="desktop">
             <h1 className="text-3xl pb-4">Segler trifft auf Kapitän</h1>
             Wie dieses Bild erahnen lässt, habe ich eine große Leidenschaft für das Segeln.<br/>
             Insofern passt euere Grafik auf Ihrer Webseite um so mehr, um ein bisschen Storytelling zu machen.
             Dabei sehe ich mich als Segler inmitten eines großen Containerschiffs –
             eine perfekte Metapher für meine Rolle in Ihrem Unternehmen.
-            Als Segler bringe ich einige Eigenschaften mit, die sich mit denen eines Kapitäns und seiner Crew ergänzen. <br/><br/>
+            Als Segler bringe ich einige Eigenschaften mit, die sich mit denen eines Kapitäns und seiner Crew
+            ergänzen. <br/><br/>
+
+            Warum ich davon überzeugt bin, dass ich in Ihrem Unternehmen genau richtig bin, erfahren Sie im Verlauf
+            dieser Bewerbung.
+        </p>
+        <p className="mobile">
+            <h1 className="text-3xl pb-4">Segler trifft auf Kapitän</h1>
+            Ich habe eine große Leidenschaft für das Segeln.<br/>
+            Insofern passt euerer Containerschiff auf Ihrer Webseite um so mehr, um ein bisschen Storytelling zu machen.
+            Dabei sehe ich mich als Segler inmitten eines großen Containerschiffs –
+            eine perfekte Metapher für meine Rolle in Ihrem Unternehmen.
+            Als Segler bringe ich einige Eigenschaften mit, die sich mit denen eines Kapitäns und seiner Crew
+            ergänzen. <br/><br/>
 
             Warum ich davon überzeugt bin, dass ich in Ihrem Unternehmen genau richtig bin, erfahren Sie im Verlauf
             dieser Bewerbung.

@@ -53,34 +53,27 @@ const Intro = () => {
 
                 <div className="w-full pb-8 lg:w-1/2">
                     <div className="flex justify-center text-center">
-                        {!shouldReduceMotion && isMdOrLarger ? (
-                            <motion.p className="max-w-xl"
-                                      variants={sliding}
-                                      initial="initialText"
-                                      whileInView="animateText">
-                                {INTRO_TEXT}
-                            </motion.p>
-                        ) : (
-                            <p className="max-w-xl">{INTRO_TEXT}</p>
-                        )}
+                        <motion.p className="desktop max-w-xl"
+                                  variants={sliding}
+                                  initial="initialText"
+                                  whileInView="animateText">
+                            {INTRO_TEXT}
+                        </motion.p>
+                        <p className="mobile w-full">
+                            {INTRO_TEXT}
+                        </p>
                     </div>
+
                 </div>
-                {!shouldReduceMotion && isMdOrLarger ? (
-                    <motion.div className="w-full lg:w-1/2"
-                                variants={sliding}
-                                initial="initialPicture"
-                                whileInView="animatePicture">
-                        <div className="flex item-center justify-center">
+                <motion.div className="desktop w-full lg:w-1/2"
+                            variants={sliding}
+                            initial="initialPicture"
+                            whileInView="animatePicture">
+                <div className="flex item-center justify-center">
                             <img className="rounded-2xl" src="./intro_ship.webp" alt="" />
                         </div>
                     </motion.div>
-                ) : (
-                    <div className="w-full lg:w-1/2">
-                        <div className="flex item-center justify-center">
-                            <img className="rounded-2xl" src="./intro_ship.webp" alt="" />
-                        </div>
-                    </div>
-                )}
+
             </div>
         </div>
     );

@@ -44,7 +44,7 @@ const App = () => {
       sunset_start: 0.4,
       sunset_end: 0.3,
     }}/></section>
-    <section className="lg:h-screen md:h-[140vh] overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
+    <section className="lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
       <Education/></section>
     <section className="lg:h-screenoverflow-x-hidden " id="Experience"><Parallax p={{
       title: "Berufserfahrung",
