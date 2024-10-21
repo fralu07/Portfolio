@@ -14,8 +14,8 @@ const textVariants = {
         },
     },
     scrollButton: {
-        opacity: 0,
-        y: -5,
+        opacity: 0.5,
+        y: 5,
         transition: {
             duration: 2,
             repeat: Infinity,
@@ -45,9 +45,10 @@ const Hero = () => {
                             variants={textVariants}
                         >
                             <span className="text-sm md:text-xl">Bewerbung als </span>
-                            <br />
+                            <br/>
                             Fullstack Engineer
                         </motion.h2>
+                        <div className="flex flex-col gap-10 items-center">
                         <motion.div className="flex flex-row gap-5 pt-8" variants={textVariants}>
                             <motion.button
                                 className="px-5 py-4 border border-white rounded-lg bg-transparent text-white cursor-pointer font-light"
@@ -69,13 +70,16 @@ const Hero = () => {
                                 Contact Me
                             </motion.button>
                         </motion.div>
-                        <motion.img
-                            className="w-0 lg:w-[50px]"
-                            variants={textVariants}
-                            animate="scrollButton"
-                            src="./scroll.png"
-                            alt=""
-                        />
+                        <a href={`#Intro`} key="Intro">
+                            <motion.img
+                                className="desktop w-[70px]"
+                                variants={textVariants}
+                                animate="scrollButton"
+                                src="./scroll.png"
+                                alt=""
+                            />
+                            </a>
+                        </div>
                     </motion.div>
                 </div>
                 {/* Bildsektion */}

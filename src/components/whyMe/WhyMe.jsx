@@ -66,7 +66,7 @@ const WhyMe = () => {
 
                 {/* Sticky Section */}
                 <div
-                    className="desktop sticky top-[20%] flex flex-col items-center justify-center gap-20 bg-transparent z-20 ">
+                    className="desktop sticky top-[10%] flex flex-col items-center justify-center gap-20 bg-transparent z-20 ">
                     {/* Text */}
                     <div className=" w-full">
                         {/* Text in der Mitte des restlichen Bildschirms */}

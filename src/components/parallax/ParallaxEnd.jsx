@@ -153,8 +153,6 @@ const ParallaxEnd = (props) => {
                     // Opacity-Steuerung der Explosion
                 }}
             >
-                <p className="">Eine Super-<span className="font-bold">NOVA</span></p>
-                <p>Schmelze</p>
             </motion.div>
             <motion.div
                 initial={{opacity: 0, scale: 0}}

@@ -14,13 +14,13 @@ import WhyMeSolution from "./components/whyMe/WhyMeSolution.jsx";
 import Intro from "./components/intro/Intro.jsx";
 
 const App = () => {
-  return <div>
+  return <div className="">
     <section id="Startseite">
       <Navbar/>
       <Hero/>
     </section>
 
-    <section className="lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]"><Intro/></section>
+    <section className="lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]" id="Intro"><Intro/></section>
     <section className="lg:h-screenoverflow-x-hidden " id="Über mich"><Parallax p={{
       title: "Über mich",
       xSailing_out_end: "70%",

@@ -102,7 +102,7 @@ export const PROJECTS_MEDINSPECT_TEXT = (
         </p>
         <a href="https://gotomo.ch/en/portfolio/medinspect-ehealth-app/" target="_blank" rel="noopener noreferrer">
             <button
-                className="shadow-lg bg-sky-500 hover:bg-sky-300 text-white font-bold py-2 px-4 rounded mt-4">gomoto
+                className="shadow-lg bg-sky-500 hover:bg-sky-300 text-white font-bold py-2 px-4 rounded mt-4">gotomo
                 -
                 Auftraggeber
             </button>
@@ -176,7 +176,7 @@ export const WHY_ME_TEXT = (
             mit Segeln entsteht, spiegelt meine Rolle gut wider:
             Flexibilität und persönlicher Antrieb treffen auf die Stärke und Struktur des Unternehmens. <br/><br/>
             Dieser Zusammenstoß steht für mehr als nur eine Verschmelzung von Eigenschaften – es ist wie eine Super<span
-            className="font-bold underline">NOVA</span>, bei der neue Energie entsteht und Raum für neue Möglichkeiten geschaffen
+            className="font-bold">(B)NOVA</span>, bei der neue Energie entsteht und Raum für neue Möglichkeiten geschaffen
             wird.<br/>
             Genauso sehe ich meine Rolle im Unternehmen: Ich mag nicht alles wissen, aber ich bin strebsam,
             diszipliniert und bereit, gemeinsam mit B-Nova die Zukunft mitzugestalten und als Teil der Crew das Containerschiff sicher auf Erfolgskurs zu steuern. <br/><br/>
