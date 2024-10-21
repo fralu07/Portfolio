@@ -42,7 +42,19 @@ const WhyMe = () => {
     return (
         <div className="h-full" ref={containerRef}>
             {/* Scrollable Content */}
-            <div className="w-full relative bg-fixed"
+            <div className="mobile flex flex-col w-full justify-center items-center">
+                <div className="flex justify-center px-4  py-2">
+                    <p className="max-w-xl text-white text-lg">
+                        {WHY_ME_TEXT}
+                    </p>
+                </div>
+                <div
+                    className="flex w-full justify-center"
+                >
+                    <img src="/superNovaShip.png" alt="Explosion" className="h-full p-12"/>
+                </div>
+            </div>
+            <div className="desktop w-full relative bg-fixed"
                  style={{
                      backgroundImage: `url(/see.jpg)`,
                      backgroundSize: "cover",
@@ -52,23 +64,7 @@ const WhyMe = () => {
                      width: "100vw"
                  }}
             >
-                <div className="mobile flex flex-col w-full items-center">
-                    <div className="flex justify-center px-4  py-2">
-                        <p className="max-w-xl text-black text-base">
-                            {WHY_ME_TEXT}
-                        </p>
-                    </div>
-                    <div
-                        className="w-48 h-96 z-20"
-                        style={{
-                            backgroundImage: `url(/superNovaShip.png)`,
-                            backgroundPosition: "top",
-                            backgroundSize: "contain",
-                            backgroundRepeat: "no-repeat"
-                        }}
 
-                    />
-                </div>
                 {/* Sticky Section */}
                 <div
                     className="desktop sticky top-[20%] flex flex-col items-center justify-center gap-20 bg-transparent z-20 ">

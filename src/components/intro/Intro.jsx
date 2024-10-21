@@ -4,11 +4,11 @@ import {INTRO_TEXT} from "../../constants/constants.jsx";
 
 const sliding = {
     initialPicture: {
-        x: -500,
+        x: 500,
         opacity: 0,
     },
     initialText: {
-        x: 500,
+        x: -500,
         opacity: 0,
     },
     animatePicture: {
@@ -30,36 +30,19 @@ const sliding = {
 };
 
 const Intro = () => {
-    const shouldReduceMotion = useReducedMotion();
-    const [isMdOrLarger, setIsMdOrLarger] = useState(true);
-
-    // Verwende useEffect, um die Bildschirmgröße zu überwachen
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMdOrLarger(window.innerWidth >= 768);
-        };
-
-        handleResize(); // Initiale Überprüfung der Bildschirmgröße
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
-
     return (
-        <div className="max-w-[1366px] mx-auto flex justify-center items-center min-h-screen overflow-hidden overflow-y-auto py-8 px-4 lg:px-0 max-lg:max-w-xl w-full">
-            <div className="flex flex-col justify-center items-center">
+        <div className="max-w-[1366px] mx-auto flex items-center w-full min-h-screen justify-center">
+            <div className="flex flex-col lg:flex-row px-4 lg:px-6 max-lg:max-w-xl justify-center items-center gap-4 ">
 
                 <div className="w-full pb-8 lg:w-1/2">
-                    <div className="flex justify-center text-center">
+                    <div className="flex justify-center text-center text-lg">
                         <motion.p className="desktop max-w-xl"
                                   variants={sliding}
                                   initial="initialText"
                                   whileInView="animateText">
                             {INTRO_TEXT}
                         </motion.p>
-                        <p className="mobile w-full">
+                        <p className="mobile max-w-xl">
                             {INTRO_TEXT}
                         </p>
                     </div>
@@ -69,10 +52,10 @@ const Intro = () => {
                             variants={sliding}
                             initial="initialPicture"
                             whileInView="animatePicture">
-                <div className="flex item-center justify-center">
-                            <img className="rounded-2xl" src="./intro_ship.webp" alt="" />
-                        </div>
-                    </motion.div>
+                    <div className="flex item-center justify-center">
+                        <img className="rounded-2xl" src="./intro_ship.webp" alt=""/>
+                    </div>
+                </motion.div>
 
             </div>
         </div>

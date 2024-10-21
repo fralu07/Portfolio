@@ -20,7 +20,7 @@ const App = () => {
       <Hero/>
     </section>
 
-    <section className="h-screen overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]"><Intro/></section>
+    <section className="lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]"><Intro/></section>
     <section className="lg:h-screenoverflow-x-hidden " id="About"><Parallax p={{
       title: "Über mich",
       xSailing_out_end: "70%",
@@ -44,7 +44,7 @@ const App = () => {
       sunset_start: 0.4,
       sunset_end: 0.3,
     }}/></section>
-    <section className="lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
+    <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
       <Education/></section>
     <section className="lg:h-screenoverflow-x-hidden " id="Experience"><Parallax p={{
       title: "Berufserfahrung",
@@ -58,7 +58,7 @@ const App = () => {
       sunset_end: 0.2,
     }}/></section>
     <section
-        className="md:h-[190vh] h-[250vh] lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
+        className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
       <Experience/></section>
     <section className="lg:h-screenoverflow-x-hidden " id="Projects"><Parallax p={{
       title: "Projekte",
@@ -72,7 +72,7 @@ const App = () => {
       sunset_end: 0.1,
     }}/></section>
     <section
-        className="md:h-[120vh] h-[200vh] lg:h-screen  overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
+        className="overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
       <Projects/></section>
     <section className="lg:h-screenoverflow-x-hidden " id="Hobbies"><Parallax p={{
       title: "Hobbys",
@@ -86,12 +86,8 @@ const App = () => {
       sunset_end: 0.1,
     }}/></section>
     <section
-        className="desktop overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
+        className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
       <Hobbies/></section>
-    <section
-        className="mobile overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
-      <Hobbies/></section>
-
     <section className="lg:h-screenoverflow-x-hidden " id="Skills"><Parallax p={{
       title: "Skills",
       xSailing_out_end: "20%",
@@ -103,7 +99,7 @@ const App = () => {
       sunset_start: 0.2,
       sunset_end: 0.1,
     }}/></section>
-    <section className="h-[210vh] md:h-[180vh] overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Skills/>
+    <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Skills/>
     </section>
     <section className="lg:h-[50] overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]" id="Why me">
       <ParallaxOnlyTitle p={{
@@ -112,7 +108,7 @@ const App = () => {
 
     <section className="h-[100] sm:h-[300vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]" id="Why me"><WhyMe/>
     </section>
-    <section className="h-[100vh] overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><WhyMeSolution/>
+    <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><WhyMeSolution/>
     </section>
 
   </div>;

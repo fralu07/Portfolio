@@ -33,22 +33,6 @@ const sliding = {
 }
 
 const About = () => {
-    const shouldReduceMotion = useReducedMotion();
-    const [isMdOrLarger, setIsLgOrLarger] = useState(true);
-
-    // Verwende useEffect, um die Bildschirmgröße zu überwachen
-    useEffect(() => {
-        const handleResize = () => {
-            setIsLgOrLarger(window.innerWidth >= 1024);
-        };
-
-        handleResize(); // Initiale Überprüfung der Bildschirmgröße
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
 
     return (
         <div className="max-w-[1366px] mx-auto flex items-center w-full min-h-screen justify-center">
@@ -71,7 +55,7 @@ const About = () => {
                     </div>
 
                 <div className="w-full lg:w-1/2 content-center">
-                    <div className="flex justify-center lg:justify-start">
+                    <div className="flex justify-center text-lg lg:justify-start">
                             <motion.p
                                 className="desktop"
                                 variants={sliding}
@@ -83,6 +67,7 @@ const About = () => {
                             <p className="mobile">{ABOUT_TEXT}</p>
 
                     </div>
+
                 </div>
             </div>
 

@@ -22,9 +22,9 @@ const sliding = {
 
 const WhyMeSolution = () => {
     return (
-        <div className="max-w-[1366px] mx-auto flex items-center h-screen overflow-hidden">
-                <div className="w-full p-4">
-                    <div className="flex justify-center ">
+        <div className="max-w-[1366px] min-h-screen mx-auto flex items-center overflow-hidden">
+                <div className="w-full p-4 h-full">
+                    <div className="flex justify-center  ">
                         <motion.p className="max-w-xl text-center text-xl" variants={sliding}
                                   initial="initialText" whileInView="animateText"> {WhatMatters}</motion.p>
 
