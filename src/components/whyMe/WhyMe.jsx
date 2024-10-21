@@ -44,7 +44,7 @@ const WhyMe = () => {
             {/* Scrollable Content */}
             <div className="mobile flex flex-col w-full justify-center items-center">
                 <div className="flex justify-center px-4  py-2">
-                    <p className="max-w-xl text-white text-lg">
+                    <p className="max-w-xl text-white ">
                         {WHY_ME_TEXT}
                     </p>
                 </div>
@@ -60,8 +60,7 @@ const WhyMe = () => {
                      backgroundSize: "cover",
                      backgroundRepeat: "no-repeat",
                      backgroundPosition: "center",
-                     height: "100%",
-                     width: "100vw"
+                     height: "100%"
                  }}
             >
 
@@ -81,7 +80,7 @@ const WhyMe = () => {
                         </div>
                     </div>
                     {/* Animation */}
-                    <div className="flex flex-col items-center justify-centerw-1/3 gap-8">
+                    <div className="flex flex-col items-center justify-center gap-8">
                         {/*SuperNova-Schiff*/}
                         <div className="relative flex w-full justify-center">
                             {/* Explosion SVG */}

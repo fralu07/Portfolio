@@ -52,12 +52,19 @@ const Hero = () => {
                             <motion.button
                                 className="px-5 py-4 border border-white rounded-lg bg-transparent text-white cursor-pointer font-light"
                                 variants={textVariants}
+                                onClick={() => {
+                                    const link = document.createElement("a");
+                                    window.open("/CV_FrancescoLucia.pdf", "_blank");
+                                }}
                             >
                                 Download CV
                             </motion.button>
                             <motion.button
                                 className="px-5 py-4 border border-white rounded-lg bg-transparent text-white cursor-pointer font-light"
                                 variants={textVariants}
+                                onClick={() => {
+                                    window.location.href = "mailto:info@francescolucia.de?subject=Deine Bewerbung bei B-NOVA&body=Hallo Francesco, ...";
+                                }}
                             >
                                 Contact Me
                             </motion.button>

@@ -56,8 +56,8 @@ function ProjectSection({imageSrc, imageAlt, text, textMotionVariants, imageMoti
                         <img className="rounded-2xl" src={imageSrc} alt={imageAlt}></img>
                     </div>
                 </motion.div>
-            <div className="w-full lg:w-1/2 lg:pl-8">
-                <div className="flex justify-center content-center text-lg lg:justify-start">
+            <div className="flex items-center w-full lg:w-1/2 lg:pl-8">
+                <div className="flex justify-center content-center lg:justify-start">
                         <motion.p className="max-w-xl" variants={textMotionVariants} initial="initialText"
                                   whileInView="animateText">
                             {text}
@@ -73,7 +73,7 @@ const Projects = () => {
 
     return (
         <div className="max-w-[1366px] mx-auto flex items-center justify-center overflow-hidden">
-            <div className="flex flex-col gap-12 py-8 ">
+            <div className="flex flex-col gap-4 py-8 ">
                 <ProjectSection
                     imageSrc="./medinspect.jpg"
                     imageAlt="Medinspect"

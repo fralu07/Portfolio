@@ -1,6 +1,6 @@
 import {motion} from "framer-motion";
 
-const Links = () => {
+const Links = ({ setOpen }) => {
 
     const variants = {
         open: {
@@ -25,19 +25,27 @@ const Links = () => {
             opacity: 0,
         }
     }
+    const handleClick = () => {
+        // Sidebar schließen
+        setOpen(false);
+    };
+
+
     const items = [
-        "Homepage",
-        "About",
-        "Education",
-        "Experience",
-        "Projects",
-        "Contact",
+        "Startseite",
+        "Über mich",
+        "Ausbildung",
+        "Berufserfahrung",
+        "Projekte",
+        "Hobbys",
+        "Skills",
+        "Warum mich"
     ]
     return (
         <motion.div className="links" variants={variants}>
             {
                 items.map((item) => (
-                    <motion.a href={`#${item}`} key={item} variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}}>
+                    <motion.a href={`#${item}`} key={item} variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}} onClick={handleClick}>
                         {item}
                     </motion.a>
                 ))

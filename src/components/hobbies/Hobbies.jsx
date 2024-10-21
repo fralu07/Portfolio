@@ -40,7 +40,7 @@ const sliding = {
 function ExpCard(props) {
     return <div className="flex flex-col lg:flex-row flex-1 max-lg:max-w-xl w-full">
         <div className="flex justify-center w-full lg:w-7/12 lg:pr-8">
-                <motion.p className=" content-center text-start text-lg lg:pl-10"
+                <motion.p className=" content-center text-start  lg:pl-10"
                           variants={sliding}
                           initial="initialText"
                           viewport={{once: true, amount: 0.4}}

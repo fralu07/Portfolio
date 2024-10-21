@@ -55,7 +55,7 @@ const About = () => {
                     </div>
 
                 <div className="w-full lg:w-1/2 content-center">
-                    <div className="flex justify-center text-lg lg:justify-start">
+                    <div className="flex justify-center  lg:justify-start">
                             <motion.p
                                 className="desktop"
                                 variants={sliding}

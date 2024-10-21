@@ -43,7 +43,7 @@ function ExpCard(props) {
                           whileInView="animateText"
                 > {props.year}
                 </motion.p>
-                <motion.p className=" content-center text-star text-lg lg:pl-10"
+                <motion.p className=" content-center text-star  lg:pl-10"
                           variants={sliding}
                           initial="initialText"
                           viewport={{once: true, amount: 0.4}}

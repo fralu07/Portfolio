@@ -27,11 +27,11 @@ export const EDUCATION_BSC_TEXT = (
         <p className="desktop">An der Fachhochschule Nordwestschweiz in Brugg habe ich den BSc in Informatik im
             September 2024 erworben.<br/>
             <strong>Schwerpunkte</strong> im Studium waren vielfältig.
-            Beginnend mit der Webentwicklung, wurden umfassende Kenntnisse in React und tiefgehende Kenntnisse in Spring
-            In der Mobile-App-Entwicklung wurden Applikationen sowohl für Android in Kotlin als auch für iOS in Swift
+            Beginnend mit der Webentwicklung, wurden umfassende Kenntnisse in React und tiefgehende Kenntnisse in Spring Boot vermittelt.
+            In der Mobile-App-Entwicklung wurden Applikationen sowohl für Android in Kotlin als auch für iOS in Swift programmiert.
             Mehrere objektorientierte Programmiersprachen wie Java und JavaScript wurden gründlich gelehrt.
             Auch funktionale Programmiersprachen wie Kotlin im
-            Backendbereich sowie Haskell und Scala behandelt.
+            Backendbereich sowie Haskell und Scala wurden behandelt.
             In den letzten zwei Semester kam ich mit DEVOPS und CLOUD in Berührung. Das entfachte die Lust auf mehr
             DEVOPS.
         </p>
@@ -59,7 +59,7 @@ export const EDUCATION_RTV_TEXT = (
 export const EXPERIENCE_RTV_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold md:pb-4">Radio & TV-Techniker</h2>
-        <p className="md:pb-0 pb-4">Der start in dem Berufsleben war 1998 als Radio- und TV-Techniker. Im Unternehmen
+        <p className="md:pb-0 pb-4">Der start in dem Berufsleben war 1998 als Radio- und TV-Techniker bei
             Radio Oexle in
             Rheinfelden. Was gibt es mehr zu sagen. War eine schöne Zeit, Satellitenantennen auf den Dächern zu
             installieren. </p>
@@ -75,20 +75,20 @@ export const EXPERIENCE_HRN_TEXT = (
             geglaubt hat 🤣, habe ich mich nicht von der Idee abbringen lassen. Ausgezeichnet wurde ich 2014 mit dem Gründerpreis der Sparkasse Hochrhein und Volksbank
             Rhein-Wehra.<br/>
             Zum Zeitpunkt der Veräußerung, hatte die hochrheinNET über 2500 Kunden im ihrem Glasfasernetz.<br/>
-            Meine Tätigkeiten umfassen neben dem führen des Unternehmens die Planung und Umsetzung der Backbone Netze,
-            sowie Planung und Ausbau neuer Gemeinden.
+            Meine Tätigkeiten umfassten neben dem führen des Unternehmens die Planung und Umsetzung der Backbone Netze,
+            sowie die Planung und Ausbau neuer Gemeinden.
         </p>
     </div>
 )
 export const EXPERIENCE_NOW_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold md:pb-4">Geschäftsführer in3tech</h2>
-        <p className="md:pb-0 pb-4">Als geschäftsführender Gesellschafter der in3Tech GmbH mit Sitz in Laufenburg (DE)
-            führe ich meine Vermögensverwaltende GmbH.<br/><br/>
-            <strong><i>What?? Warum bisch uf Arbeitssuche?</i></strong><br/>
-            Weil ich immer auf der Suche nach neuen Herausforderungen bin. Im Leben benötigt man Ziele. Das war nach der
-            Veräußerung der hochrheinNET GmbH das selbe.
-            Ich bin nicht dafür geboren worden, um mit 4️⃣0️⃣ in den Ruhestand zu gehen 😅
+        <p className="md:pb-0 pb-4">Als geschäftsführender Gesellschafter der in3Tech GmbH in Laufenburg führe ich
+            nebenberuflich eine eigene vermögensverwaltende GmbH.<br/><br/>
+            Warum suche ich nach einer neuen beruflichen Herausforderung? <br/>
+            Für mich ist es entscheidend, kontinuierlich zu wachsen und neue Ziele zu erreichen.
+            Ich bin der Überzeugung, dass es Ziele braucht,
+            um sich persönlich und beruflich weiterzuentwickeln – und genau das treibt mich an.
         </p>
     </div>
 )
@@ -97,8 +97,8 @@ export const PROJECTS_MEDINSPECT_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">MEDINSPECT</h2>
         <p className="">Eine App für chronisch kranke Personen.<br/><br/>
-            Das Projekt wurde in einem zwei Semestrigen Projekt realisiert. Der Tech Stach war Flutter und Dart. Eine
-            SQLite Datenbank wurde verwendet.Design wurde die App mittels Figma
+            Das Projekt wurde in einem zwei semestrigen Projekt realisiert. Der Tech Stach war Flutter und Dart. Eine
+            SQLite Datenbank kam zum Einsatz. Das Design der App wurde mit unterstützung von Figma erstellt.
         </p>
         <a href="https://gotomo.ch/en/portfolio/medinspect-ehealth-app/" target="_blank" rel="noopener noreferrer">
             <button
@@ -131,9 +131,9 @@ export const HOBBIES_CROSSFIT_TEXT = (
     <div className=" ">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">CrossFit</h2>
         <p className="">CrossFit begeistert mich, weil es mich sowohl körperlich als auch mental fordert.
-            Die Mischung aus Kraft, Ausdauer und Technik hält das Training abwechslungsreich und spannend 🏋️‍♀️.
-            Jedes Workout ist eine neue Herausforderung 🥵, die mich an meine Grenzen bringt und darüber hinaus.
-            Dabei schätze ich besonders das Gemeinschaftsgefühl 👊 und die Motivation, die in der CrossFit-Community
+            Die Mischung aus Kraft, Ausdauer und Technik hält das Training abwechslungsreich und spannend.
+            Jedes Workout ist eine neue Herausforderung, die mich an meine Grenzen bringt und darüber hinaus.
+            Dabei schätze ich besonders das Gemeinschaftsgefühl und die Motivation, die in der CrossFit-Community
             herrscht.
         </p>
     </div>
@@ -143,9 +143,9 @@ export const HOBBIES_SAILING_TEXT = (
     <div className=" ">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">Segeln</h2>
         <p className="">
-            Segeln fasziniert mich, weil es mir ein Gefühl von Freiheit auf dem 🌊 gibt.
+            Segeln fasziniert mich, weil es mir ein Gefühl von Freiheit auf dem Wasser gibt.
             Die Verbindung von Wind, Wasser und Technik erfordert sowohl Geschick als auch strategisches Denken.
-            Jeder Törn ist ein neues Abenteuer, bei dem ich die Natur 🐠 hautnah erlebe und abschalten kann.
+            Jeder Törn ist ein neues Abenteuer, bei dem ich die Natur hautnah erlebe und mental abschalten kann.
             Besonders genieße ich das Zusammenspiel von Teamwork und Ruhe, das das Segeln so einzigartig macht.
         </p>
     </div>
@@ -155,7 +155,7 @@ export const HOBBIES_CODING_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">Codingbegeisterung</h2>
         <p className="">
-            Coding begeistert mich seit meiner Zeit als CEO bei der Hochrhein, da ich schon immer den Wunsch hatte, es
+            Coding begeistert mich seit meiner Zeit als Geschäftsführer bei der Hochrhein, da ich schon immer den Wunsch hatte, es
             zu erlernen.
             Mit dem Studium habe ich mir diesen Traum erfüllt und tauche nun tief in die Welt des Programmierens ein.
             Coding gehört mittlerweile zu meinen täglichen Hobbies und ist ein fester Bestandteil meines Alltags
@@ -179,7 +179,7 @@ export const WHY_ME_TEXT = (
             className="font-bold underline">NOVA</span>, bei der neue Energie entsteht und Raum für neue Möglichkeiten geschaffen
             wird.<br/>
             Genauso sehe ich meine Rolle im Unternehmen: Ich mag nicht alles wissen, aber ich bin strebsam,
-            diszipliniert und bereit, gemeinsam mit B-Nova die Zukunft mitzugestalten. <br/><br/>
+            diszipliniert und bereit, gemeinsam mit B-Nova die Zukunft mitzugestalten und als Teil der Crew das Containerschiff sicher auf Erfolgskurs zu steuern. <br/><br/>
         </p>
     </div>
 )

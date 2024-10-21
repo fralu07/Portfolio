@@ -15,13 +15,13 @@ import Intro from "./components/intro/Intro.jsx";
 
 const App = () => {
   return <div>
-    <section id="Homepage">
+    <section id="Startseite">
       <Navbar/>
       <Hero/>
     </section>
 
     <section className="lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]"><Intro/></section>
-    <section className="lg:h-screenoverflow-x-hidden " id="About"><Parallax p={{
+    <section className="lg:h-screenoverflow-x-hidden " id="Über mich"><Parallax p={{
       title: "Über mich",
       xSailing_out_end: "70%",
       xSailing_out_beginn: "80%",
@@ -33,7 +33,7 @@ const App = () => {
       sunset_end: 0.4,
     }}/></section>
     <section className="lg:h-screen overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><About/></section>
-    <section className="lg:h-screenoverflow-x-hidden " id="Education"><Parallax p={{
+    <section className="lg:h-screenoverflow-x-hidden " id="Ausbildung"><Parallax p={{
       title: "Ausbildung",
       xSailing_out_end: "60%",
       xSailing_out_beginn: "70%",
@@ -46,7 +46,7 @@ const App = () => {
     }}/></section>
     <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
       <Education/></section>
-    <section className="lg:h-screenoverflow-x-hidden " id="Experience"><Parallax p={{
+    <section className="lg:h-screenoverflow-x-hidden " id="Berufserfahrung"><Parallax p={{
       title: "Berufserfahrung",
       xSailing_out_end: "50%",
       xSailing_out_beginn: "60%",
@@ -60,7 +60,7 @@ const App = () => {
     <section
         className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
       <Experience/></section>
-    <section className="lg:h-screenoverflow-x-hidden " id="Projects"><Parallax p={{
+    <section className="lg:h-screenoverflow-x-hidden " id="Projekte"><Parallax p={{
       title: "Projekte",
       xSailing_out_end: "40%",
       xSailing_out_beginn: "50%",
@@ -74,7 +74,7 @@ const App = () => {
     <section
         className="overflow-x-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
       <Projects/></section>
-    <section className="lg:h-screenoverflow-x-hidden " id="Hobbies"><Parallax p={{
+    <section className="lg:h-screenoverflow-x-hidden " id="Hobbys"><Parallax p={{
       title: "Hobbys",
       xSailing_out_end: "30%",
       xSailing_out_beginn: "40%",
@@ -101,12 +101,12 @@ const App = () => {
     }}/></section>
     <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Skills/>
     </section>
-    <section className="lg:h-[50] overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]" id="Why me">
+    <section className="lg:h-[50] overflow-x-hidden bg-gradient-to-b from-[#111132] to-[#0c0c1d]" id="Warum mich">
       <ParallaxOnlyTitle p={{
         title: "Warum mich?",
       }}/></section>
 
-    <section className="h-[100] sm:h-[300vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]" id="Why me"><WhyMe/>
+    <section className="h-[100] sm:h-[300vh] bg-gradient-to-b from-[#0c0c1d] to-[#111132]" ><WhyMe/>
     </section>
     <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><WhyMeSolution/>
     </section>

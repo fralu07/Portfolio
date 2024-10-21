@@ -35,7 +35,7 @@ const Intro = () => {
             <div className="flex flex-col lg:flex-row px-4 lg:px-6 max-lg:max-w-xl justify-center items-center gap-4 ">
 
                 <div className="w-full pb-8 lg:w-1/2">
-                    <div className="flex justify-center text-center text-lg">
+                    <div className="flex justify-center text-center ">
                         <motion.p className="desktop max-w-xl"
                                   variants={sliding}
                                   initial="initialText"

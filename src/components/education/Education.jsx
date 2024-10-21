@@ -36,13 +36,13 @@ function Edu_Card(props) {
     return <div className="flex flex-col lg:flex-row flex-1 max-lg:max-w-xl w-full">
         <div className="flex justify-center w-full lg:w-7/12 pr-4 lg:pr-8">
             <div className="flex flex-col lg:flex-row w-full justify-center lg:justify-start">
-                <motion.p className="desktop content-center text-start text-lg lg:pl-10"
+                <motion.p className="desktop content-center text-start text-base lg:pl-10"
                           variants={sliding}
                           initial="initialText"
                           viewport={{once: true, amount: 0.4}}
                           whileInView="animateText"
                 > {props.text}</motion.p>
-                <p className="mobile content-center text-start text-lg">
+                <p className="mobile content-center text-start ">
                     {props.text}
                 </p>
             </div>

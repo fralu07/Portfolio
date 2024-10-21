@@ -24,9 +24,9 @@ const SkillCard = ({
                             initial={initial} whileInView={animate}
                             viewport={{once: true}}
                 >
-                    <div className={`md:w-80 h-${textBoxHeight} content-center md:content-start  md:pt-20 text-lg md:text-xl ${reverse ? '' : 'text-end'}`}>
+                    <div className={`md:w-80 h-${textBoxHeight} content-center md:content-start  md:pt-20  md:text-xl ${reverse ? '' : 'text-end'}`}>
                         <div className="font-bold">{subTitle}</div>
-                        <div>Berufserfahrung: <br/><span className="font-bold">{experienceYears} Jahre</span></div>
+                        <div>Berufserfahrung: <br/><span className="font-bold">{experienceYears}</span></div>
                         <div>Level: <span className="font-bold"><br/>{level}</span></div>
                     </div>
                     <div className="">
@@ -42,9 +42,9 @@ const SkillCard = ({
                     <div className="">
                         <RadialProgress size={50} radius={35} progress={progress} text={title} color={circleColors}/>
                     </div>
-                    <div className={`md:w-80 h-${textBoxHeight} content-center md:content-start md:pt-20 text-lg md:text-xl ${reverse ? '' : 'text-end'}`}>
+                    <div className={`md:w-80 h-${textBoxHeight} content-center md:content-start md:pt-20  md:text-xl ${reverse ? '' : 'text-end'}`}>
                         <div className="font-bold">{subTitle}</div>
-                        <div>Berufserfahrung: <br/><span className="font-bold">{experienceYears} Jahre</span></div>
+                        <div>Berufserfahrung: <br/><span className="font-bold">{experienceYears}</span></div>
                         <div>Level: <span className="font-bold"><br/>{level}</span></div>
                     </div>
 
@@ -83,7 +83,7 @@ const Skills = () => {
                 <SkillCard
                     title="Java"
                     subTitle="Java"
-                    experienceYears={3}
+                    experienceYears="3 Jahre"
                     level="Erweiterte Kenntnisse"
                     progress={60}
                     textBoxHeight={textBoxHeight}
@@ -99,7 +99,7 @@ const Skills = () => {
                     className=""
                     title="Javascript"
                     subTitle="Javascript"
-                    experienceYears={3}
+                    experienceYears="3 Jahre"
                     level="Erweiterte Kenntnisse"
                     progress={50}
                     textBoxHeight={textBoxHeight}
@@ -115,7 +115,7 @@ const Skills = () => {
                 <SkillCard
                     title="Mobile"
                     subTitle="Kotlin / Swift"
-                    experienceYears={1}
+                    experienceYears="1 Jahr"
                     level="Grundlegende Kenntnisse"
                     progress={35}
                     textBoxHeight={textBoxHeight}
@@ -131,7 +131,7 @@ const Skills = () => {
                 <SkillCard
                     title="Framework"
                     subTitle="Spring Boot / React"
-                    experienceYears={3}
+                    experienceYears="3 Jahre"
                     level="Erweiterte Kenntnisse"
                     progress={60}
                     textBoxHeight={textBoxHeight}
@@ -147,7 +147,7 @@ const Skills = () => {
                 <SkillCard
                     title="DevOps"
                     subTitle="Docker / Kubernetes / CI-CD"
-                    experienceYears={2}
+                    experienceYears="1 Jahr"
                     level="Grundlegende Kenntnisse"
                     progress={30}
                     textBoxHeight={textBoxHeight}
@@ -164,7 +164,7 @@ const Skills = () => {
                 <SkillCard
                     title="Python"
                     subTitle="Python"
-                    experienceYears={2}
+                    experienceYears="2 Jahre"
                     level="Grundlegende Kenntnisse"
                     progress={35}
                     textBoxHeight={textBoxHeight}
