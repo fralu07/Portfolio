@@ -36,7 +36,7 @@ const About = () => {
 
     return (
         <div className="max-w-[1366px] mx-auto flex items-center w-full min-h-screen justify-center">
-            <div className="flex flex-col lg:flex-row px-4 lg:px-6 max-lg:max-w-xl justify-center items-center gap-4 ">
+            <div className="flex flex-col lg:flex-row px-4 lg:px-6 max-lg:max-w-xl justify-center items-center gap-8 ">
 
                     <motion.div
                         className="desktop w-full lg:w-1/2"

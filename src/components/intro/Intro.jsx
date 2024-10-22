@@ -36,13 +36,13 @@ const Intro = () => {
 
                 <div className="w-full pb-8 lg:w-1/2">
                     <div className="flex justify-center text-center ">
-                        <motion.p className="desktop max-w-xl"
+                        <motion.p className="desktop max-w-xl text-end"
                                   variants={sliding}
                                   initial="initialText"
                                   whileInView="animateText">
                             {INTRO_TEXT}
                         </motion.p>
-                        <p className="mobile max-w-xl">
+                        <p className="mobile max-w-xl text-start">
                             {INTRO_TEXT}
                         </p>
                     </div>
