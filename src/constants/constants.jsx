@@ -88,7 +88,7 @@ export const EXPERIENCE_NOW_TEXT = (
             Warum suche ich nach einer neuen beruflichen Herausforderung? <br/>
             Für mich ist es entscheidend, kontinuierlich zu wachsen und neue Ziele zu erreichen.
             Ich bin der Überzeugung, dass es Ziele braucht,
-            um sich persönlich und beruflich weiterzuentwickeln – und genau das treibt mich an.
+            um sich persönlich und beruflich weiterzuentwickeln und genau das treibt mich an.
         </p>
     </div>
 )

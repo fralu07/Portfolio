@@ -35,7 +35,7 @@ const Hero = () => {
                         animate="animate"
                     >
                         <motion.h1
-                            className="md:text-5xl text-lg text-purple-800 font-bold lg:font-normal tracking-[10px]"
+                            className="md:text-5xl text-lg text-sky-500 font-bold lg:font-normal tracking-[10px]"
                             variants={textVariants}
                         >
                             FRANCESCO LUCIA
