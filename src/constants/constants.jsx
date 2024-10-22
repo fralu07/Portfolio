@@ -13,7 +13,6 @@ export const ABOUT_TEXT = (
             manchmal hartnäckig sein kann. <br/>
         </p>
         <p className="desktop">
-            Warum mich? <br/>
             Ich bin sehr ehrgeizig, ein echter Teamplayer und bringe einen großen Erfahrungsschatz aus meinen früheren
             Unternehmungen mit.
         </p>
