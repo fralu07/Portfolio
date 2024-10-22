@@ -77,19 +77,6 @@ const App = () => {
       <Projects/></section>
     <section className="lg:h-screenoverflow-x-hidden " id="Skills"><Parallax p={{
       title: "Skills",
-      xSailing_out_end: "20%",
-      xSailing_out_beginn: "30%",
-      ySailing_out_end: "55%",
-      ySailing_out_beginn: "75%",
-      xSun_out_start: "-20%",
-      xSun_out_end: "-30%",
-      sunset_start: 0.2,
-      sunset_end: 0.1,
-    }}/></section>
-    <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Skills/>
-    </section>
-    <section className="lg:h-screenoverflow-x-hidden " id="Hobbys"><Parallax p={{
-      title: "Hobbys",
       xSailing_out_end: "30%",
       xSailing_out_beginn: "40%",
       ySailing_out_end: "45%",
@@ -98,6 +85,20 @@ const App = () => {
       xSun_out_end: "-20%",
       sunset_start: 0.2,
       sunset_end: 0.1,
+    }}/></section>
+    <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]"><Skills/>
+    </section>
+    <section className="lg:h-screenoverflow-x-hidden " id="Hobbys"><Parallax p={{
+      title: "Hobbys",
+      xSailing_out_end: "20%",
+      xSailing_out_beginn: "30%",
+      ySailing_out_end: "55%",
+      ySailing_out_beginn: "75%",
+      xSun_out_start: "-20%",
+      xSun_out_end: "-30%",
+      sunset_start: 0.2,
+      sunset_end: 0.1,
+
     }}/></section>
     <section
         className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]">
