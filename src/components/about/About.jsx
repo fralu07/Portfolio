@@ -12,6 +12,10 @@ const sliding = {
         x: 500,
         opacity: 0
     },
+    initialTitle: {
+        y: 200,
+        opacity: 0
+    },
     animatePicture: {
         x: 0,
         opacity: 1,
@@ -29,6 +33,15 @@ const sliding = {
             staggerChildren: 0.2,
 
         }
+    },
+    animateTitle: {
+        y: 0,
+        opacity: 1,
+        transition: {
+            duration: 1,
+            staggerChildren: 0.2,
+
+        }
     }
 }
 
@@ -36,8 +49,18 @@ const About = () => {
 
     return (
         <div className="max-w-[1366px] mx-auto flex items-center w-full min-h-screen justify-center">
-            <div className="flex flex-col lg:flex-row px-4 lg:px-6 max-lg:max-w-xl justify-center items-center gap-8 ">
-
+            <div className="flex flex-col">
+                <motion.div className="desktop flex justify-start w-full min-h-[20vh] py-12 px-4 lg:px-6"
+                            variants={sliding}
+                            initial="initialTitle"
+                            whileInView="animateTitle">
+                    <h2 className="text-5xl font-bold">Über Francesco</h2>
+                </motion.div>
+                <div className="mobile flex justify-start w-full min-h-[20vh] py-12 px-4 lg:px-6">
+                    <h2 className="text-2xl font-bold">Über Francesco</h2>
+                </div>
+                <div
+                    className="flex flex-col lg:flex-row px-4 lg:px-6 max-lg:max-w-xl justify-center items-center gap-8 ">
                     <motion.div
                         className="desktop w-full lg:w-1/2"
                         variants={sliding}
@@ -54,8 +77,8 @@ const About = () => {
                         </div>
                     </div>
 
-                <div className="w-full lg:w-1/2 content-center">
-                    <div className="flex justify-center  lg:justify-start">
+                    <div className="w-full lg:w-1/2 content-center">
+                        <div className="flex justify-center lg:justify-start">
                             <motion.p
                                 className="desktop"
                                 variants={sliding}
@@ -66,8 +89,9 @@ const About = () => {
                             </motion.p>
                             <p className="mobile">{ABOUT_TEXT}</p>
 
-                    </div>
+                        </div>
 
+                    </div>
                 </div>
             </div>
 

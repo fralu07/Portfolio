@@ -84,8 +84,12 @@ const Hero = () => {
                 </div>
                 {/* Bildsektion */}
                 <div
-                    className="lg:w-7/12 w-full h-full bg-contain bg-no-repeat bg-bottom flex items-end"
-                    style={{ backgroundImage: `url(/me.png)` }}
+                    className="lg:w-7/12 w-full h-[90%] bg-contain bg-no-repeat bg-bottom flex items-end"
+                    style={{
+                        backgroundImage: `url(/me.png)`,
+                        backgroundPosition: "bottom",
+
+                }}
                 />
             </div>
         </div>
