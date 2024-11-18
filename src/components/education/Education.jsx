@@ -46,7 +46,7 @@ const sliding = {
 }
 
 function Edu_Card(props) {
-    return <div className="flex flex-col lg:flex-row flex-1 max-lg:max-w-xl w-full">
+    return <div className="flex flex-col lg:flex-row flex-1 max-lg:max-w-xl w-full px-4 lg:px-0">
         <div className="flex justify-center w-full lg:w-7/12 pr-4 lg:pr-8">
             <div className="flex flex-col lg:flex-row w-full justify-center lg:justify-start">
                 <motion.p className="desktop content-center text-start text-base lg:pl-6"
@@ -66,7 +66,7 @@ function Edu_Card(props) {
             <img className=" lg:rounded-2xl rounded-md object-cover w-full h-96 content-center"
                  src={props.image} alt=""></img>
         </motion.div>
-        <div className="mobile flex lg:w-5/12 lg:pr-0 pb-4 lg:pb-0 justify-center">
+        <div className="mobile flex justify-center">
             <img className=" lg:rounded-2xl rounded-md object-cover lg:w-80 lg:h-72 xl:w-96 xl:h-82 content-center"
                  src={props.image} alt=""></img>
         </div>

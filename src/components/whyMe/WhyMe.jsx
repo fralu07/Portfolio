@@ -34,7 +34,7 @@ const WhyMe = () => {
     }
 
     function Edu_Card(props) {
-        return <div className="flex flex-col lg:flex-row flex-1 max-lg:max-w-xl w-full">
+        return <div className="flex flex-col lg:flex-row flex-1 max-lg:max-w-xl w-full px-4 lg:px-0">
             <div className="flex justify-center w-full lg:w-7/12 pr-4 lg:pr-8">
                 <div className="flex flex-col lg:flex-row w-full justify-center lg:justify-start">
                     <motion.p className="desktop content-center text-start text-base lg:pl-6"
