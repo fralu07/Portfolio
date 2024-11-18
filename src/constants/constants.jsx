@@ -69,13 +69,13 @@ export const EXPERIENCE_HRN_TEXT = (
     <div className=" ">
         <h2 className="lg:text-3xl text-2xl font-bold md:pb-4">Geschäftsführer HochrheinNET</h2>
         <p className="md:pb-0 pb-4">Als alleiniger geschäftsführender Gesellschafter habe ich die hochrheinNET GmbH im
-            Jahre 2006 gegründet.
-            Die Idee war, Internet für jedermann zugänglich zu machen. Auch wenn meine Hausbank nicht an Internet
-            geglaubt hat 🤣, habe ich mich nicht von der Idee abbringen lassen. Ausgezeichnet wurde ich 2014 mit dem Gründerpreis der Sparkasse Hochrhein und Volksbank
-            Rhein-Wehra.<br/>
-            Zum Zeitpunkt der Veräußerung, hatte die hochrheinNET über 2500 Kunden im ihrem Glasfasernetz.<br/>
-            Meine Tätigkeiten umfassten neben dem führen des Unternehmens die Planung und Umsetzung der Backbone Netze,
-            sowie die Planung und Ausbau neuer Gemeinden.
+            Jahr 2006 gegründet, mit der Vision, Internet für jedermann zugänglich zu machen. Trotz anfänglicher Skepsis
+            – sogar seitens meiner Hausbank 🤣 – ließ ich mich nicht von meinem Vorhaben abbringen und wurde 2014 mit dem
+            Gründerpreis der Sparkasse Hochrhein und Volksbank Rhein-Wehra ausgezeichnet.<br/> Zum Zeitpunkt der
+            Veräußerung zählte hochrheinNET über 2500 Kunden in ihrem Glasfasernetz. Meine Tätigkeiten umfassten neben
+            der Unternehmensführung die Planung und Umsetzung von Backbone-Netzen, den Ausbau neuer Gemeinden sowie die
+            Betreuung von Windows- und Linux-Servern.<br/> Mit fundierten Netzwerkkenntnissen und mehreren Zertifikaten
+            habe ich Internet-Backbones inklusive Protokollen wie BGP, MPLS und OSPF aufgebaut und gewartet.
         </p>
     </div>
 )
@@ -173,17 +173,11 @@ export const HOBBIES_CODING_TEXT = (
 export const WHY_ME_TEXT = (
     <div className=" ">
         <p className="">
-
-            Ich bin überzeugt, dass ich durch meine Fähigkeiten und meinen Antrieb zum Erfolg von B-Nova beitragen
-            kann. <br/>
-            Die Animation, bei der ein Segelboot mit dem B-Nova-Containerschiff zusammenstößt und ein Containerschiff
-            mit Segeln entsteht, spiegelt meine Rolle gut wider:
-            Flexibilität und persönlicher Antrieb treffen auf die Stärke und Struktur des Unternehmens. <br/><br/>
-            Dieser Zusammenstoß steht für mehr als nur eine Verschmelzung von Eigenschaften – es ist wie eine Super<span
-            className="font-bold">(B)NOVA</span>, bei der neue Energie entsteht und Raum für neue Möglichkeiten geschaffen
-            wird.<br/>
-            Genauso sehe ich meine Rolle im Unternehmen: Ich mag nicht alles wissen, aber ich bin strebsam,
-            diszipliniert und bereit, gemeinsam mit B-Nova die Zukunft mitzugestalten und als Teil der Crew das Containerschiff sicher auf Erfolgskurs zu steuern. <br/><br/>
+            Die helbling sollte mich einstellen, weil ich durch meine unternehmerische Erfahrung strukturiert, organisiert arbeite, flexibel und lernbereit bin.
+            Verantwortung ist für mich selbstverständlich, sowohl in meiner Rolle als Unternehmer als auch als Segler gehört sie stets zu meinem Handeln dazu. <br />
+            IoT ist meine Leidenschaft, die ich täglich lebe, sei es durch die Automatisierung meines Hauses oder innovative Projekte wie die Stromversorgung von Wohnmobilen.<br />
+            Ich mag nicht alles wissen, aber ich bin strebsam, diszipliniert und bereit, gemeinsam mit helbling die Zukunft mitzugestalten.<br />
+            Mit meiner Kombination aus Coding-Skills, handwerklichem Geschick und Kreativität bringe ich unermüdlichen Einsatz und frische Ideen ein, um Projekte erfolgreich voranzutreiben.<br /><br />
         </p>
     </div>
 )

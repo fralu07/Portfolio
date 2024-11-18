@@ -13,7 +13,7 @@ const sliding = {
         opacity: 0
     },
     initialTitle: {
-        y: 200,
+        y: -200,
         opacity: 0
     },
     animatePicture: {
@@ -57,7 +57,7 @@ const About = () => {
                     <h2 className="text-5xl font-bold">Über Francesco</h2>
                 </motion.div>
                 <div className="mobile flex justify-start w-full min-h-[20vh] py-12 px-4 lg:px-6">
-                    <h2 className="text-2xl font-bold">Über Francesco</h2>
+                    <h2 className="text-3xl font-bold">Über Francesco</h2>
                 </div>
                 <div
                     className="flex flex-col lg:flex-row px-4 lg:px-6 max-lg:max-w-xl justify-center items-center gap-8 ">
