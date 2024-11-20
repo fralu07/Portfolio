@@ -173,10 +173,10 @@ export const HOBBIES_CODING_TEXT = (
 export const WHY_ME_TEXT = (
     <div className=" ">
         <p className="">
-            Die helbling sollte mich einstellen, weil ich durch meine unternehmerische Erfahrung strukturiert, organisiert arbeite, flexibel und lernbereit bin.
+            Die BSI sollte mich einstellen, weil ich durch meine unternehmerische Erfahrung strukturiert, organisiert arbeite, flexibel und lernbereit bin.
             Verantwortung ist für mich selbstverständlich, sowohl in meiner Rolle als Unternehmer als auch als Segler gehört sie stets zu meinem Handeln dazu. <br />
             IoT ist meine Leidenschaft, die ich täglich lebe, sei es durch die Automatisierung meines Hauses oder innovative Projekte wie die Stromversorgung von Wohnmobilen.<br />
-            Ich mag nicht alles wissen, aber ich bin strebsam, diszipliniert und bereit, gemeinsam mit helbling die Zukunft mitzugestalten.<br />
+            Ich mag nicht alles wissen, aber ich bin strebsam, diszipliniert und bereit, gemeinsam mit der BSI die Zukunft mitzugestalten.<br />
             Mit meiner Kombination aus Coding-Skills, handwerklichem Geschick und Kreativität bringe ich unermüdlichen Einsatz und frische Ideen ein, um Projekte erfolgreich voranzutreiben.<br /><br />
         </p>
     </div>
