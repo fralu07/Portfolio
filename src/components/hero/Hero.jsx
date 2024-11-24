@@ -64,7 +64,7 @@ const Hero = () => {
                                     className="px-5 py-4 border border-white rounded-lg bg-transparent text-white cursor-pointer font-light"
                                     variants={textVariants}
                                     onClick={() => {
-                                        window.location.href = "mailto:info@francescolucia.de?subject=Deine Bewerbung bei CUDOS&body=Hallo Francesco, ...";
+                                        window.location.href = "mailto:info@francescolucia.de?subject=Deine Bewerbung bei AXA&body=Hallo Francesco, ...";
                                     }}
                                 >
                                     Contact Me
