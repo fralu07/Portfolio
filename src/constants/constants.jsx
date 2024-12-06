@@ -83,11 +83,7 @@ export const EXPERIENCE_NOW_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold md:pb-4">Geschäftsführer in3tech</h2>
         <p className="md:pb-0 pb-4">Als geschäftsführender Gesellschafter der in3Tech GmbH in Laufenburg führe ich
-            nebenberuflich eine eigene vermögensverwaltende GmbH.<br/><br/>
-            Warum suche ich nach einer neuen beruflichen Herausforderung? <br/>
-            Für mich ist es entscheidend, kontinuierlich zu wachsen und neue Ziele zu erreichen.
-            Ich bin der Überzeugung, dass es Ziele braucht,
-            um sich persönlich und beruflich weiterzuentwickeln und genau das treibt mich an.
+            nebenberuflich eine eigene vermögensverwaltende GmbH.<br/>
         </p>
     </div>
 )
@@ -173,11 +169,11 @@ export const HOBBIES_CODING_TEXT = (
 export const WHY_ME_TEXT = (
     <div className=" ">
         <p className="">
-            Die helbling sollte mich einstellen, weil ich durch meine unternehmerische Erfahrung strukturiert, organisiert arbeite, flexibel und lernbereit bin.
-            Verantwortung ist für mich selbstverständlich, sowohl in meiner Rolle als Unternehmer als auch als Segler gehört sie stets zu meinem Handeln dazu. <br />
-            IoT ist meine Leidenschaft, die ich täglich lebe, sei es durch die Automatisierung meines Hauses oder innovative Projekte wie die Stromversorgung von Wohnmobilen.<br />
-            Ich mag nicht alles wissen, aber ich bin strebsam, diszipliniert und bereit, gemeinsam mit helbling die Zukunft mitzugestalten.<br />
-            Mit meiner Kombination aus Coding-Skills, handwerklichem Geschick und Kreativität bringe ich unermüdlichen Einsatz und frische Ideen ein, um Projekte erfolgreich voranzutreiben.<br /><br />
+            Die youEngineering sollte mich einstellen, weil ich durch meine unternehmerische Erfahrung strukturiert, organisiert arbeite, flexibel und lernbereit bin.
+            Verantwortung ist für mich selbstverständlich. Auch wenn ich bereits als Unternehmer tätig war, bin ich offen für Neues, lasse mich gerne auf Anregungen ein und lerne stets dazu. Für mich ist Weiterentwicklung ein natürlicher Teil des Arbeitsalltags. <br />
+            Coden ist meine Leidenschaft die ich täglich lebe, sei es durch die Automatisierung meines Hauses oder innovative Projekte wie die Steuerung eines Stellplatzes für Wohnmobile.<br />
+            Ich mag nicht alles wissen, aber ich bin strebsam, diszipliniert und bereit, gemeinsam mit der youEngineering die Zukunft mitzugestalten.<br />
+            Mit meiner Kombination aus Coding-Skills, analytischem Denken und Kreativität bringe ich unermüdlichen Einsatz und frische Ideen ein, um Projekte erfolgreich voranzutreiben.<br /><br />
         </p>
     </div>
 )
