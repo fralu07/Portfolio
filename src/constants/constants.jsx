@@ -169,10 +169,10 @@ export const HOBBIES_CODING_TEXT = (
 export const WHY_ME_TEXT = (
     <div className=" ">
         <p className="">
-            Die Ratbacher sollte mich einstellen, weil ich durch meine unternehmerische Erfahrung strukturiert, organisiert arbeite, flexibel und lernbereit bin.
+            Die United Security Providers sollte mich einstellen, weil ich durch meine unternehmerische Erfahrung strukturiert, organisiert arbeite, flexibel und lernbereit bin.
             Verantwortung ist für mich selbstverständlich. Auch wenn ich bereits als Unternehmer tätig war, bin ich offen für Neues, lasse mich gerne auf Anregungen ein und lerne stets dazu. Für mich ist Weiterentwicklung ein natürlicher Teil des Arbeitsalltags. <br />
             Coden ist meine Leidenschaft die ich täglich lebe, sei es durch die Automatisierung meines Hauses oder innovative Projekte wie die Steuerung eines Stellplatzes für Wohnmobile.<br />
-            Ich mag nicht alles wissen, aber ich bin strebsam, diszipliniert und bereit, gemeinsam mit der Ratbacher die Zukunft mitzugestalten.<br />
+            Ich mag nicht alles wissen, aber ich bin strebsam, diszipliniert und bereit, gemeinsam mit der United Security Providers die Zukunft mitzugestalten.<br />
             Mit meiner Kombination aus Coding-Skills, analytischem Denken und Kreativität bringe ich unermüdlichen Einsatz und frische Ideen ein, um Projekte erfolgreich voranzutreiben.<br /><br />
         </p>
     </div>
