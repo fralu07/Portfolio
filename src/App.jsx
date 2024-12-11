@@ -12,9 +12,11 @@ import WhyMe from "./components/whyMe/WhyMe.jsx";
 import ParallaxOnlyTitle from "./components/parallax/ParallaxOnlyTitle.jsx";
 import WhyMeSolution from "./components/whyMe/WhyMeSolution.jsx";
 import Intro from "./components/intro/Intro.jsx";
+import { Analytics } from '@vercel/analytics/next';
 
 const App = () => {
   return <div className="">
+    <Analytics />
     <section id="Startseite">
       <Navbar/>
       <Hero/>
