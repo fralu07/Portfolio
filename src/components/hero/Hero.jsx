@@ -44,9 +44,7 @@ const Hero = () => {
                             className="md:text-3xl text-xl text-white tracking-[5px]"
                             variants={textVariants}
                         >
-                            <span className="text-sm md:text-xl">Bewerbung für ein </span>
-                            <br/>
-                            Praktikum im
+                            <span className="text-sm md:text-xl">Bewerbung für ein Praktikum im</span>
                             <br/>
                             Data Science Delivery Team
                         </motion.h2>
