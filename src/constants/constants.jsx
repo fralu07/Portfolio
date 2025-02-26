@@ -117,13 +117,9 @@ export const PROJECTS_WOMO_TEXT = (
             Verbrauch. Die Idee ist, mich so wenig wie nur möglich mit
             dem Stellplatz auseinander setzen zu müssen. 😎<br/>
             <strong>Tech Stack: </strong>Spring Boot, React, Postgres, MQTT. <br/>
-            <strong>Devices für die Umsetzung: </strong>Raspberry Pi, Shelly IoT Geräte.
+            <strong>Devices für die Umsetzung: </strong>Raspberry Pi, Shelly IoT Geräte. <br/><br/>
+            Gerne lade ich dich ein, damit du mein Repository einsehen kannst.
         </p>
-        <a href="https://gitlab.com/Fralu/woMoControl" target="_blank" rel="noopener noreferrer">
-            <button
-                className="shadow-lg bg-sky-500 hover:bg-sky-300 text-white font-bold py-2 px-4 rounded mt-4">Repo WoMoControl
-            </button>
-        </a>
     </div>
 )
 
