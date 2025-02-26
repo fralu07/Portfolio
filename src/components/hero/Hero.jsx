@@ -44,9 +44,9 @@ const Hero = () => {
                             className="md:text-3xl text-xl text-white tracking-[5px]"
                             variants={textVariants}
                         >
-                            <span className="text-sm md:text-xl">Bewerbung für ein Praktikum im</span>
+                            <span className="text-sm md:text-xl">Bewerbung als </span>
                             <br/>
-                            Data Science Delivery Team
+                            Fullstack Engineer
                         </motion.h2>
                         <div className="flex flex-col gap-10 items-center">
                             <motion.div className="flex flex-row gap-5 pt-8" variants={textVariants}>
@@ -64,7 +64,7 @@ const Hero = () => {
                                     className="px-5 py-4 border border-white rounded-lg bg-transparent text-white cursor-pointer font-light"
                                     variants={textVariants}
                                     onClick={() => {
-                                        window.location.href = "mailto:info@francescolucia.de?subject=Deine Bewerbung bei Adobe&body=Hallo Francesco, ...";
+                                        window.location.href = "mailto:info@francescolucia.de?subject=Deine Bewerbung bei Swiss&body=Hallo Francesco, ...";
                                     }}
                                 >
                                     Contact Me
