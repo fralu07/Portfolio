@@ -105,11 +105,11 @@ const Skills = () => {
                 </div>
                 <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[66%] max-lg:items-center px-4">
                     <SkillCard
-                        title="Java"
-                        subTitle="Java"
-                        experienceYears="3 Jahre"
-                        level="Erweiterte Kenntnisse"
-                        progress={60}
+                        title="IT-Strategie & Digitalisierung"
+                        subTitle="IT-Strategie & Digitalisierung"
+                        experienceYears="13+ Jahre"
+                        level="Experte"
+                        progress={100}
                         textBoxHeight={textBoxHeight}
                         circleColors={circleColors}
                         variants={sliding}
@@ -121,11 +121,11 @@ const Skills = () => {
                 <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[33%] max-lg:items-center px-4">
                     <SkillCard
                         className=""
-                        title="Javascript"
-                        subTitle="Javascript"
-                        experienceYears="3 Jahre"
-                        level="Erweiterte Kenntnisse"
-                        progress={50}
+                        title="Netzwerktechnik & Telekommunikation"
+                        subTitle="Netzwerktechnik & Telekommunikation"
+                        experienceYears="13+ Jahre"
+                        level="Experte"
+                        progress={100}
                         textBoxHeight={textBoxHeight}
                         circleColors={circleColors}
                         variants={sliding}
@@ -137,10 +137,10 @@ const Skills = () => {
             </div>
             <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[66%] max-lg:items-center px-4">
                 <SkillCard
-                    title="Mobile"
-                    subTitle="Kotlin / Swift"
-                    experienceYears="1 Jahr"
-                    level="Grundlegende Kenntnisse"
+                    title="IT-Infrastruktur & Rechenzentren"
+                    subTitle="IT-Infrastruktur & Rechenzentren"
+                    experienceYears="13+ Jahr3"
+                    level="Experte"
                     progress={35}
                     textBoxHeight={textBoxHeight}
                     circleColors={circleColors}
@@ -153,11 +153,11 @@ const Skills = () => {
             </div>
             <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[33%] max-lg:items-center px-4">
                 <SkillCard
-                    title="Framework"
-                    subTitle="Spring Boot / React"
-                    experienceYears="3 Jahre"
-                    level="Erweiterte Kenntnisse"
-                    progress={60}
+                    title="Cybersecurity & Datenschutz"
+                    subTitle="Cybersecurity & Datenschutz"
+                    experienceYears="13+ Jahre"
+                    level="Forgeschritten"
+                    progress={75}
                     textBoxHeight={textBoxHeight}
                     circleColors={circleColors}
                     variants={sliding}
@@ -169,10 +169,10 @@ const Skills = () => {
             </div>
             <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[66%] max-lg:items-center px-4">
                 <SkillCard
-                    title="DevOps"
-                    subTitle="Docker / Kubernetes / CI-CD"
-                    experienceYears="1 Jahr"
-                    level="Grundlegende Kenntnisse"
+                    title="Führung & Projektmanagement"
+                    subTitle="Führung & Projektmanagement"
+                    experienceYears="13+ Jahre"
+                    level="Experte"
                     progress={30}
                     textBoxHeight={textBoxHeight}
                     circleColors={circleColors}
@@ -186,11 +186,11 @@ const Skills = () => {
             </div>
             <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[33%] max-lg:items-center px-4">
                 <SkillCard
-                    title="Python"
-                    subTitle="Python"
-                    experienceYears="2 Jahre"
-                    level="Grundlegende Kenntnisse"
-                    progress={35}
+                    title="Informatik"
+                    subTitle="Informatik"
+                    experienceYears="4 Jahre"
+                    level="Erweiterte Kenntnisse"
+                    progress={60}
                     textBoxHeight={textBoxHeight}
                     circleColors={circleColors}
                     variants={sliding}
