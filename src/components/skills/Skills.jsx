@@ -4,7 +4,8 @@ import React from "react";
 
 // Funktion zur Erstellung eines wiederverwendbaren Skill-Elements
 const SkillCard = ({
-                       title,
+                       title1,
+                       title2,
                        subTitle,
                        experienceYears,
                        level,
@@ -23,7 +24,6 @@ const SkillCard = ({
                 <motion.div className={`flex flex-row text-xl ${paddingTop} `}
                             variants={variants}
                             initial={initial} whileInView={animate}
-                            viewport={{once: true}}
                 >
                     <div className={`md:w-80 h-${textBoxHeight} content-center md:content-start  md:pt-20  md:text-xl ${reverse ? '' : 'text-end'}`}>
                         <div className="font-bold">{subTitle}</div>
@@ -31,17 +31,16 @@ const SkillCard = ({
                         <div>Level: <span className="font-bold"><br/>{level}</span></div>
                     </div>
                     <div className="">
-                        <RadialProgress size={50} radius={35} progress={progress} text={title} color={circleColors}/>
+                        <RadialProgress size={50} radius={35} progress={progress} text1={title1} text2={title2} color={circleColors} variant={variants} animate={animate}/>
                     </div>
                 </motion.div>
             ) : (
                 <motion.div className={`flex flex-row text-xl ${paddingTop} `}
                             variants={variants}
                             initial={initial} whileInView={animate}
-                            viewport={{once: true}}
                 >
                     <div className="">
-                        <RadialProgress size={50} radius={35} progress={progress} text={title} color={circleColors}/>
+                        <RadialProgress size={50} radius={35} progress={progress} text1={title1} text2={title2} color={circleColors}/>
                     </div>
                     <div className={`md:w-80 h-${textBoxHeight} content-center md:content-start md:pt-20  md:text-xl ${reverse ? '' : 'text-end'}`}>
                         <div className="font-bold">{subTitle}</div>
@@ -61,7 +60,7 @@ const Skills = () => {
 
     const sliding = {
         initialCard: {
-            y: 50,
+            y: 20,
             opacity: 0
         },
         initialCard1: {
@@ -77,7 +76,7 @@ const Skills = () => {
             }
         },
         initialTitle: {
-            y: -200,
+            y: -100,
             opacity: 0
         },
         animateTitle: {
@@ -105,7 +104,8 @@ const Skills = () => {
                 </div>
                 <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[66%] max-lg:items-center px-4">
                     <SkillCard
-                        title="IT-Strategie & Digitalisierung"
+                        title1="IT-Strategie &"
+                        title2="Digitalisierung"
                         subTitle="IT-Strategie & Digitalisierung"
                         experienceYears="13+ Jahre"
                         level="Experte"
@@ -120,8 +120,8 @@ const Skills = () => {
                 </div>
                 <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[33%] max-lg:items-center px-4">
                     <SkillCard
-                        className=""
-                        title="Netzwerktechnik & Telekommunikation"
+                        title1="Netzwerktechnik &"
+                        title2="Telekommunikation"
                         subTitle="Netzwerktechnik & Telekommunikation"
                         experienceYears="13+ Jahre"
                         level="Experte"
@@ -137,11 +137,12 @@ const Skills = () => {
             </div>
             <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[66%] max-lg:items-center px-4">
                 <SkillCard
-                    title="IT-Infrastruktur & Rechenzentren"
+                    title1="IT-Infrastruktur &"
+                    title2="Rechenzentren"
                     subTitle="IT-Infrastruktur & Rechenzentren"
                     experienceYears="13+ Jahr3"
                     level="Experte"
-                    progress={35}
+                    progress={100}
                     textBoxHeight={textBoxHeight}
                     circleColors={circleColors}
                     variants={sliding}
@@ -153,7 +154,8 @@ const Skills = () => {
             </div>
             <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[33%] max-lg:items-center px-4">
                 <SkillCard
-                    title="Cybersecurity & Datenschutz"
+                    title1="Cybersecurity &"
+                    title2="Datenschutz"
                     subTitle="Cybersecurity & Datenschutz"
                     experienceYears="13+ Jahre"
                     level="Forgeschritten"
@@ -169,11 +171,12 @@ const Skills = () => {
             </div>
             <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[66%] max-lg:items-center px-4">
                 <SkillCard
-                    title="Führung & Projektmanagement"
+                    title1="Führung &"
+                    title2="Projektmanagement"
                     subTitle="Führung & Projektmanagement"
                     experienceYears="13+ Jahre"
                     level="Experte"
-                    progress={30}
+                    progress={100}
                     textBoxHeight={textBoxHeight}
                     circleColors={circleColors}
                     variants={sliding}
@@ -186,11 +189,12 @@ const Skills = () => {
             </div>
             <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[33%] max-lg:items-center px-4">
                 <SkillCard
-                    title="Informatik"
-                    subTitle="Informatik"
+                    title1="Cloud &"
+                    title2="Automatisierung"
+                    subTitle="Cloud & Automatisierung"
                     experienceYears="4 Jahre"
                     level="Erweiterte Kenntnisse"
-                    progress={60}
+                    progress={59}
                     textBoxHeight={textBoxHeight}
                     circleColors={circleColors}
                     variants={sliding}
