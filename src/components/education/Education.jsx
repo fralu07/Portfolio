@@ -13,7 +13,7 @@ const sliding = {
         opacity: 0
     },
     initialTitle: {
-        y: -200,
+        y: -100,
         opacity: 0
     },
     animatePicture: {
