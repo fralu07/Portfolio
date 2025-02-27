@@ -107,7 +107,7 @@ const Skills = () => {
                         title1="IT-Strategie &"
                         title2="Digitalisierung"
                         subTitle="IT-Strategie & Digitalisierung"
-                        experienceYears="13+ Jahre"
+                        experienceYears="19+ Jahre"
                         level="Experte"
                         progress={100}
                         textBoxHeight={textBoxHeight}
@@ -123,7 +123,7 @@ const Skills = () => {
                         title1="Netzwerktechnik &"
                         title2="Telekommunikation"
                         subTitle="Netzwerktechnik & Telekommunikation"
-                        experienceYears="13+ Jahre"
+                        experienceYears="19+ Jahre"
                         level="Experte"
                         progress={100}
                         textBoxHeight={textBoxHeight}
@@ -140,7 +140,7 @@ const Skills = () => {
                     title1="IT-Infrastruktur &"
                     title2="Rechenzentren"
                     subTitle="IT-Infrastruktur & Rechenzentren"
-                    experienceYears="13+ Jahr3"
+                    experienceYears="19+ Jahr3"
                     level="Experte"
                     progress={100}
                     textBoxHeight={textBoxHeight}
@@ -157,7 +157,7 @@ const Skills = () => {
                     title1="Cybersecurity &"
                     title2="Datenschutz"
                     subTitle="Cybersecurity & Datenschutz"
-                    experienceYears="13+ Jahre"
+                    experienceYears="19+ Jahre"
                     level="Forgeschritten"
                     progress={75}
                     textBoxHeight={textBoxHeight}
@@ -174,7 +174,7 @@ const Skills = () => {
                     title1="Führung &"
                     title2="Projektmanagement"
                     subTitle="Führung & Projektmanagement"
-                    experienceYears="13+ Jahre"
+                    experienceYears="19+ Jahre"
                     level="Experte"
                     progress={100}
                     textBoxHeight={textBoxHeight}
@@ -192,7 +192,7 @@ const Skills = () => {
                     title1="Cloud &"
                     title2="Automatisierung"
                     subTitle="Cloud & Automatisierung"
-                    experienceYears="4 Jahre"
+                    experienceYears="2+ Jahre"
                     level="Erweiterte Kenntnisse"
                     progress={59}
                     textBoxHeight={textBoxHeight}
