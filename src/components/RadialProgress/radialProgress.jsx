@@ -56,7 +56,7 @@ const RadialProgress = ({ size, radius, progress, text1, text2, color }) => {
                         }} // Animiert von 0 auf progress
                         transition={{ duration: 1, ease: "easeInOut" }}
                         style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }}
-                        viewport={{ once: true, amount: 0.5 }} // Trigger nur einmal, wenn 50% sichtbar
+                        viewport={{ amount: 0.2 }} // Trigger nur einmal, wenn 50% sichtbar
                     />
                 )}
 
@@ -69,10 +69,6 @@ const RadialProgress = ({ size, radius, progress, text1, text2, color }) => {
                     textAnchor="middle"
                     alignmentBaseline="middle"
                     fill="lightgray"
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
-                    viewport={{ amount: 0.5 }}
                 >
                     <tspan x="50" dy="-0.6em">{text1}</tspan>
                     <tspan x="50" dy="1.2em">{text2}</tspan>

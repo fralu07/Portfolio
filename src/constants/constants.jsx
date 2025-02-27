@@ -4,18 +4,14 @@ export const ABOUT_TEXT = (
     <div className="text-blue">
         <p className="">
             Mein Name ist Francesco Lucia.<br/>
-            Ich wohne in Deutschland.
-            Geboren bin ich am 07.06.1978 in Deutschland.
-            Meine Nationalität ist Italien.<br/>
+            Ich wohne in Deutschland und wurde am 07.06.1978 geboren. Meine Nationalität ist italienisch.<br/><br/>
 
-            Im September habe ich mein Informatikstudium erfolgreich abgeschlossen.
-            Ich nehme alles, was ich anpacke ernst und bringe es immer zu Ende, auch wenn es in der Softwareentwicklung
-            manchmal hartnäckig sein kann. <br/>
+            Durch mein erfolgreich abgeschlossenes Informatikstudium bin ich bestens informiert und stets am Puls der Zeit, wenn es um aktuelle Technologien, digitale Transformation und moderne IT-Architekturen geht. In Kombination mit meiner langjährigen Erfahrung in der IT- und Telekommunikationsbranche habe ich zahlreiche Digitalisierungs- und Infrastrukturprojekte erfolgreich geplant, gesteuert und umgesetzt. Ich bin es gewohnt, Teams zu führen, Prozesse zu optimieren und komplexe Projekte effizient zu koordinieren. Herausforderungen begegne ich mit einer strukturierten und lösungsorientierten Herangehensweise.
         </p>
         <p className="desktop">
-            Ich bin sehr ehrgeizig, ein echter Teamplayer und bringe einen großen Erfahrungsschatz aus meinen früheren
-            Unternehmungen mit.
+            Ich bin ehrgeizig, denke unternehmerisch und bringe einen großen Erfahrungsschatz aus meinen früheren Führungspositionen mit. Strategische Planung, Innovationskraft und Hands-on-Mentalität sind für mich selbstverständlich.
         </p>
+
 
     </div>
 )
