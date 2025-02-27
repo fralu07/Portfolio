@@ -19,7 +19,7 @@ const WhyMe = () => {
 
     const sliding = {
         initialText: {
-            y: 500,
+            y: 300,
             opacity: 0
         },
         animateText: {

@@ -89,36 +89,33 @@ export const EXPERIENCE_NOW_TEXT = (
 
 export const PROJECTS_MEDINSPECT_TEXT = (
     <div className="">
-        <h2 className="lg:text-3xl text-2xl font-bold pb-4">MEDINSPECT</h2>
-        <p className="">Eine App für chronisch kranke Personen.<br/><br/>
-            Das Projekt wurde in einem zwei semestrigen Projekt realisiert. Der Tech Stach war Flutter und Dart. Eine
-            SQLite Datenbank kam zum Einsatz. Das Design der App wurde mit unterstützung von Figma erstellt.
-        </p>
-        <a href="https://gotomo.ch/en/portfolio/medinspect-ehealth-app/" target="_blank" rel="noopener noreferrer">
-            <button
-                className="shadow-lg bg-sky-500 hover:bg-sky-300 text-white font-bold py-2 px-4 rounded mt-4">gotomo
-                -
-                Auftraggeber
-            </button>
-        </a>
+        <h2 className="lg:text-3xl text-2xl font-bold pb-4">Breitband</h2>
+        <p>
+            Als Geschäftsführer der hochrheinNET GmbH (2006–2019) habe ich mit der Vision, Internet für jedermann zugänglich zu machen, ein leistungsfähiges Glasfasernetz aufgebaut.
+            <br/>
+            Im Rahmen dieses Projekts wurden 120 km Glasfaser verlegt, Funkmasten errichtet und Leerrohre in 8 Gemeinden verbaut. Die gesamte Planung und Koordination des Netzausbaus, von der strategischen Entwicklung bis zur technischen Umsetzung, lag in meiner Verantwortung. Dabei habe ich sämtliche Projektphasen gesteuert – von der Bedarfsermittlung über die Genehmigungsprozesse bis hin zur Umsetzung und finalen Inbetriebnahme.
+            <br/><br/>
+            Neben der technischen Leitung habe ich Teams geführt, externe Partner koordiniert und Investitionsentscheidungen getroffen. Die enge Zusammenarbeit mit Gemeinden, Behörden und Unternehmen war dabei essenziell, um Infrastrukturprojekte effizient und nachhaltig zu realisieren.
+            </p>
     </div>
 )
 
 export const PROJECTS_WOMO_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">Wohnmobil Stellplatz</h2>
-        <p className="">Im Besitz eines 2000 qm grossen Grundstücks in Küssaberg (DE) habe ich einen Wohnmobil
-            Stellplatz erstellt. <br/>
-            Für die Verwaltung der Stellplätze entwickle ich eine Plattform, mit der die Kunden Strom auf dem eigenem
-            Stellplatz ein- und ausschalten sowie das Tor öffnen und schliessen können.
-            Des weiteren ist der Bezug von Wasser über die Schnittstelle möglich. So hat der Kunde stets eine Übersicht
-            über den
-            Verbrauch. Die Idee ist, mich so wenig wie nur möglich mit
-            dem Stellplatz auseinander setzen zu müssen. 😎<br/>
-            <strong>Tech Stack: </strong>Spring Boot, React, Postgres, MQTT. <br/>
-            <strong>Devices für die Umsetzung: </strong>Raspberry Pi, Shelly IoT Geräte. <br/><br/>
-            Gerne lade ich dich ein, damit du mein Repository einsehen kannst.
-        </p>
+        <p>
+            Auf einem 2000 qm großen Grundstück in Küssaberg (DE) habe ich einen automatisierten Wohnmobil-Stellplatz entwickelt und plane den Bau einer 48 Meter langen Halle, die im Sommer realisiert wird.
+            <br/>
+            Die von mir entwickelte intelligente Plattform ermöglicht Kunden die digitale Steuerung von Strom, Wasser und Zugangskontrollen. Die Verwaltung ist vollständig automatisiert und bietet volle Transparenz über Verbrauch und Nutzung.
+            <br/>
+            Mit der geplanten Halle wird die Infrastruktur weiter skaliert und optimiert.
+            <br/><br/>
+            <strong>Tech Stack:</strong> Spring Boot, React, Postgres, MQTT. <br/>
+            <strong>IoT-Integration: </strong>Raspberry Pi, Shelly IoT-Geräte. <br/>
+            <strong>Projektplanung & Umsetzung:</strong> Von der Konzeptentwicklung bis zur baulichen und technischen Realisierung.
+            </p>
+
+
     </div>
 )
 
@@ -164,11 +161,10 @@ export const HOBBIES_CODING_TEXT = (
 export const WHY_ME_TEXT = (
     <div className=" ">
         <p className="">
-            Die Swisscom sollte mich einstellen, weil ich durch meine unternehmerische Erfahrung strukturiert, organisiert arbeite, flexibel und lernbereit bin.
-            Verantwortung ist für mich selbstverständlich. Auch wenn ich bereits als Unternehmer tätig war, bin ich offen für Neues, lasse mich gerne auf Anregungen ein und lerne stets dazu. Für mich ist Weiterentwicklung ein natürlicher Teil des Arbeitsalltags. <br />
-            Coden ist meine Leidenschaft die ich täglich lebe, sei es durch die Automatisierung meines Hauses oder innovative Projekte wie die Steuerung eines Stellplatzes für Wohnmobile.<br />
-            Ich mag nicht alles wissen, aber ich bin strebsam, diszipliniert und bereit, gemeinsam mit der Swisscom die Zukunft mitzugestalten.<br />
-            Mit meiner Kombination aus Coding-Skills, analytischem Denken und Kreativität bringe ich unermüdlichen Einsatz und frische Ideen ein, um Projekte erfolgreich voranzutreiben.<br /><br />
+            Weil ich seit über einem Jahrzehnt an der Schnittstelle zwischen IT, Netzwerktechnik und Digitalisierung arbeite – immer am Puls der Zeit. Durch meine unternehmerische Erfahrung bin ich es gewohnt, strukturiert, organisiert und verantwortungsbewusst zu handeln. Ich denke strategisch, bin flexibel und stets bereit, neue Technologien und Methoden zu adaptieren.<br/>
+            Technologie ist für mich kein Selbstzweck, sondern ein Werkzeug, um effiziente, sichere und innovative Lösungen zu schaffen. Ob es um die Digitalisierung von Prozessen, den Aufbau hochverfügbarer IT-Infrastrukturen oder die Leitung komplexer Projekte geht – ich setze mich mit voller Energie ein.<br/>
+            Auch wenn ich nicht alles weiß, bin ich strebsam, diszipliniert und immer lernbereit. Ich analysiere, optimiere und entwickle – sei es durch moderne Netzwerklösungen, Automatisierung oder innovative Digitalisierungsstrategien. Mit meiner Kombination aus technischer Expertise, analytischem Denken und Kreativität bringe ich Projekte mit Energie und Weitsicht voran.<br/><br/>
+            Ich bin bereit, mit Ihnen die Zukunft aktiv mitzugestalten.
         </p>
     </div>
 )

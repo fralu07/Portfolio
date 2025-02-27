@@ -21,7 +21,7 @@ const sliding = {
         opacity: 0
     },
     initialTitle: {
-        y: -200,
+        y: -100,
         opacity: 0
     },
     animatePicture: {
@@ -122,7 +122,7 @@ const Projects = () => {
                     <motion.div className="flex flex-col h-full gap-4">
 
                         <ProjectSection
-                            imageSrc="./medinspect.jpg"
+                            imageSrc="./glasfaserausbau.avif"
                             imageAlt="Medinspect"
                             text={PROJECTS_MEDINSPECT_TEXT}
                             textMotionVariants={sliding}
