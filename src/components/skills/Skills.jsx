@@ -60,7 +60,7 @@ const Skills = () => {
 
     const sliding = {
         initialCard: {
-            y: 20,
+            y: 50,
             opacity: 0
         },
         initialCard1: {
