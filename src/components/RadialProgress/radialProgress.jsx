@@ -6,6 +6,8 @@ const RadialProgress = ({ size, radius, progress, text1, text2, color }) => {
     const width = `w-${size}`;
     const height = `h-${size}`;
     const circumference = Number((2 * Math.PI * radius).toFixed(1));
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    const strokeDashOffset = (circumference - (circumference * progress) / 100)
 
     useEffect(() => {
         controls.start({ progress: progress });
@@ -25,24 +27,39 @@ const RadialProgress = ({ size, radius, progress, text1, text2, color }) => {
                 />
 
                 {/* Fortschrittskreis (animiert mit whileInView) */}
-                <motion.circle
-                    className={`${color} stroke-current`}
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    cx="50"
-                    cy="50"
-                    r={radius}
-                    fill="transparent"
-                    strokeDasharray={circumference}
-                    initial={{ strokeDashoffset: circumference }} // Startwert
-                    animate={controls}
-                    whileInView={{
-                        strokeDashoffset: [circumference, circumference - (circumference * progress) / 100],
-                    }} // Animiert von 0 auf progress
-                    transition={{ duration: 1, ease: "easeInOut" }}
-                    style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }}
-                    viewport={{amount: 0.5 }} // Trigger nur einmal, wenn 50% sichtbar
-                />
+                {isSafari ? (
+                    <circle
+                        className={`${color} stroke-current`}
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        cx="50"
+                        cy="50"
+                        r={radius}
+                        fill="transparent"
+                        strokeDasharray={circumference}
+                        strokeDashoffset={`${strokeDashOffset}px`}
+                        style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }}
+                    />
+                ) : (
+                    <motion.circle
+                        className={`${color} stroke-current`}
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        cx="50"
+                        cy="50"
+                        r={radius}
+                        fill="transparent"
+                        strokeDasharray={circumference}
+                        initial={{ strokeDashoffset: circumference }} // Startwert
+                        whileInView={{
+                            strokeDashoffset: strokeDashOffset,
+                        }} // Animiert von 0 auf progress
+                        transition={{ duration: 1, ease: "easeInOut" }}
+                        style={{ transform: 'rotate(-90deg)', transformOrigin: 'center' }}
+                        viewport={{ once: true, amount: 0.5 }} // Trigger nur einmal, wenn 50% sichtbar
+                    />
+                )}
+
 
                 {/* Text */}
                 <motion.text
