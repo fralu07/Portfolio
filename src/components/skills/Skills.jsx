@@ -158,7 +158,7 @@ const Skills = () => {
                     title2="Datenschutz"
                     subTitle="Cybersecurity & Datenschutz"
                     experienceYears="19+ Jahre"
-                    level="Forgeschritten"
+                    level="Umfangreiche Kenntnisse"
                     progress={75}
                     textBoxHeight={textBoxHeight}
                     circleColors={circleColors}
