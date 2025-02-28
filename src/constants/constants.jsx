@@ -3,8 +3,7 @@ import React from "react";
 export const ABOUT_TEXT = (
     <div className="text-blue">
         <p className="">
-            Mein Name ist Francesco Lucia.<br/>
-            Ich wohne in Deutschland und wurde am 07.06.1978 geboren.<br/><br/>
+            Mein Name ist Francesco Lucia, geboren am 07.06.1978.<br/><br/>
 
             Durch mein erfolgreich abgeschlossenes Informatikstudium bin ich bestens informiert und stets am Puls der Zeit, wenn es um aktuelle Technologien, digitale Transformation und moderne IT-Architekturen geht. In Kombination mit meiner langjährigen Erfahrung in der IT- und Telekommunikationsbranche habe ich zahlreiche Digitalisierungs- und Infrastrukturprojekte erfolgreich geplant, gesteuert und umgesetzt. Ich bin es gewohnt, Teams zu führen, Prozesse zu optimieren und komplexe Projekte effizient zu koordinieren. Herausforderungen begegne ich mit einer strukturierten und lösungsorientierten Herangehensweise.
         </p>
