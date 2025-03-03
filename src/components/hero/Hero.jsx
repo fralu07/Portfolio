@@ -46,7 +46,7 @@ const Hero = () => {
                         >
                             <span className="text-sm md:text-xl">Bewerbung als </span>
                             <br/>
-                            Leiter ICT und Digitalisierung
+                            Business Developer
                         </motion.h2>
                         <div className="flex flex-col gap-10 items-center">
                             <motion.div className="flex flex-row gap-5 pt-8" variants={textVariants}>
