@@ -82,8 +82,7 @@ export const EXPERIENCE_HRN_TEXT = (
 export const EXPERIENCE_NOW_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold md:pb-4">Geschäftsführer in3tech</h2>
-        <p className="md:pb-0 pb-4">Als geschäftsführender Gesellschafter der in3Tech GmbH in Laufenburg führe ich
-            nebenberuflich eine eigene vermögensverwaltende GmbH.<br/>
+        <p className="md:pb-0 pb-4">Ich bin formal als Geschäftsführer der in3Tech GmbH in Laufenburg tätig, einer vermögensverwaltenden Gesellschaft, die primär aus steuerlichen Überlegungen gegründet wurde. Meine operative Beteiligung ist auf ein Minimum beschränkt und beläuft sich auf etwa fünf Stunden pro Monat. Die Geschäftsführungsfunktion übernehme ich in diesem Rahmen, da sie für die Gesellschaftsstruktur erforderlich ist.<br/>
         </p>
     </div>
 )
