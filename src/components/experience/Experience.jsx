@@ -108,11 +108,6 @@ const Experience = () => {
                     </div>
                     <motion.div className="flex flex-col flex-1 gap-4 items-center">
                         <ExpCard
-                            text={EXPERIENCE_NOW_TEXT}
-                            year={"2020 - heute"}
-                            image="./me03.png"
-                        />
-                        <ExpCard
                             text={EXPERIENCE_HRN_TEXT}
                             year={"2006 - 2019"}
                             image="./me_hrn.jpeg"

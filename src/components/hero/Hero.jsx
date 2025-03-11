@@ -55,7 +55,7 @@ const Hero = () => {
                                     variants={textVariants}
                                     onClick={() => {
                                         const link = document.createElement("a");
-                                        window.open("/CV_FrancescoLucia.pdf", "_blank");
+                                        window.open("/CV_Francesco_Lucia_i.pdf", "_blank");
                                     }}
                                 >
                                     Download CV
