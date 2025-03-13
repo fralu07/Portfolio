@@ -46,7 +46,8 @@ const Hero = () => {
                         >
                             <span className="text-sm md:text-xl">Bewerbung als </span>
                             <br/>
-                            Team Leader Project & Program Mgmt
+                            Team Leader Project & <br/>
+                            Program Management
                         </motion.h2>
                         <div className="flex flex-col gap-10 items-center">
                             <motion.div className="flex flex-row gap-5 pt-8" variants={textVariants}>
