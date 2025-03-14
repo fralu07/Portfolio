@@ -46,8 +46,7 @@ const Hero = () => {
                         >
                             <span className="text-sm md:text-xl">Bewerbung als </span>
                             <br/>
-                            Team Leader Project & <br/>
-                            Program Management
+                            ICT Leiter/in Digitale Projekte
                         </motion.h2>
                         <div className="flex flex-col gap-10 items-center">
                             <motion.div className="flex flex-row gap-5 pt-8" variants={textVariants}>
@@ -65,7 +64,7 @@ const Hero = () => {
                                     className="px-5 py-4 border border-white rounded-lg bg-transparent text-white cursor-pointer font-light"
                                     variants={textVariants}
                                     onClick={() => {
-                                        window.location.href = "mailto:info@francescolucia.de?subject=Deine Bewerbung bei AVENIQ&body=Hallo Francesco, ...";
+                                        window.location.href = "mailto:info@francescolucia.de?subject=Deine Bewerbung&body=Hallo Francesco, ...";
                                     }}
                                 >
                                     Contact Me
