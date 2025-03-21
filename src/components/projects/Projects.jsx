@@ -122,15 +122,6 @@ const Projects = () => {
                     <motion.div className="flex flex-col h-full gap-4">
 
                         <ProjectSection
-                            imageSrc="./medinspect.jpg"
-                            imageAlt="Medinspect"
-                            text={PROJECTS_MEDINSPECT_TEXT}
-                            textMotionVariants={sliding}
-                            imageMotionVariants={sliding}
-                            initText="initialText"
-                            initPic="initialPicture"
-                        />
-                        <ProjectSection
                             imageSrc="./glasfaserausbau.avif"
                             imageAlt="Medinspect"
                             text={PROJECTS_FIBER_TEXT}
@@ -148,6 +139,15 @@ const Projects = () => {
                             initText="initialText2"
                             initPic="initialPicture2"
                             reverse={true} // Für das umgekehrte Layout
+                        />
+                        <ProjectSection
+                            imageSrc="./medinspect.jpg"
+                            imageAlt="Medinspect"
+                            text={PROJECTS_MEDINSPECT_TEXT}
+                            textMotionVariants={sliding}
+                            imageMotionVariants={sliding}
+                            initText="initialText"
+                            initPic="initialPicture"
                         />
                     </motion.div>
                 </div>
