@@ -82,7 +82,7 @@ export const EXPERIENCE_NOW_TEXT = (
     </div>
 )
 
-export const PROJECTS_MEDINSPECT_TEXT = (
+export const PROJECTS_FIBER_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">Breitband</h2>
         <p>
@@ -92,6 +92,23 @@ export const PROJECTS_MEDINSPECT_TEXT = (
             <br/><br/>
             Neben der technischen Leitung habe ich Teams geführt, externe Partner koordiniert und Investitionsentscheidungen getroffen. Die enge Zusammenarbeit mit Gemeinden, Behörden und Unternehmen war dabei essenziell, um Infrastrukturprojekte effizient und nachhaltig zu realisieren.
             </p>
+    </div>
+)
+
+export const PROJECTS_MEDINSPECT_TEXT = (
+    <div className="">
+        <h2 className="lg:text-3xl text-2xl font-bold pb-4">MEDINSPECT</h2>
+        <p className="">Eine App für chronisch kranke Personen.<br/><br/>
+            Das Projekt wurde in einem zwei semestrigen Projekt realisiert. Der Tech Stach war Flutter und Dart. Eine
+            SQLite Datenbank kam zum Einsatz. Das Design der App wurde mit unterstützung von Figma erstellt.
+        </p>
+        <a href="https://gotomo.ch/en/portfolio/medinspect-ehealth-app/" target="_blank" rel="noopener noreferrer">
+            <button
+                className="shadow-lg bg-sky-500 hover:bg-sky-300 text-white font-bold py-2 px-4 rounded mt-4">gotomo
+                -
+                Auftraggeber
+            </button>
+        </a>
     </div>
 )
 
