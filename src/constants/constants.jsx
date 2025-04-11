@@ -21,17 +21,13 @@ export const EDUCATION_BSC_TEXT = (
         <p className="desktop">An der Fachhochschule Nordwestschweiz in Brugg habe ich den BSc in Informatik im
             September 2024 erworben.<br/>
             <strong>Schwerpunkte</strong> im Studium waren vielfältig.
-            Beginnend mit der Webentwicklung, wurden umfassende Kenntnisse in React und tiefgehende Kenntnisse in Spring Boot vermittelt.
-            In der Mobile-App-Entwicklung wurden Applikationen sowohl für Android in Kotlin als auch für iOS in Swift programmiert.
-            Mehrere objektorientierte Programmiersprachen wie Java und JavaScript wurden gründlich gelehrt.
-            Auch funktionale Programmiersprachen wie Kotlin im
-            Backendbereich sowie Haskell und Scala wurden behandelt.
-            In den letzten zwei Semester kam ich mit DEVOPS und CLOUD in Berührung. Das entfachte die Lust auf mehr
-            DEVOPS.
+            Beginnend mit der Webentwicklung wurden umfassende Kenntnisse in React sowie tiefgehende Kenntnisse in Spring Boot vermittelt.
+            Im Bereich der Mobile-App-Entwicklung entstanden Applikationen sowohl für Android in Kotlin als auch für iOS in Swift.<br/>
+            Mehrere objektorientierte Programmiersprachen wie Java und JavaScript wurden gründlich behandelt, ergänzt durch funktionale Sprachen wie Kotlin im Backend sowie Haskell und Scala.
+            In den letzten beiden Semestern beschäftigte ich mich intensiv mit DEVOPS und Cloud-Technologien, was meine Begeisterung für die Verknüpfung von Entwicklung und Infrastruktur weiter steigerte.<br/>
+            Darüber hinaus übernahm ich Verantwortung als Projektleiter und Product Owner, wodurch ich umfassende Einblicke in agile Arbeitsweisen und digitale Transformationsprozesse vertiefte und meine Fähigkeiten in der Steuerung digitaler Projekte weiter erweitern konnte.
         </p>
-        <p className="mobile">an der Fachhochschule Nordwestschweiz in Brugg.
-            Aktuell befinde ich mich im letzten Semester. Das Studium werde ich diesen Monat erfolgreich
-            abschliessen.<br/>
+        <p className="mobile">an der Fachhochschule Nordwestschweiz in Brugg habe ich mein Studium als Informatiker abgeschlossen.<br/>
             <strong>Schwerpunkte</strong> im Studium waren vielfältig.
             Beginnend mit der Webentwicklung, wurden umfassende Kenntnisse in React und tiefgehende Kenntnisse in Spring
             Boot vermittelt.
