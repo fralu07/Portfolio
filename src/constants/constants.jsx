@@ -174,11 +174,12 @@ export const HOBBIES_CODING_TEXT = (
 export const WHY_ME_TEXT = (
     <div className=" ">
         <p className="">
-            Weil ich seit über einem Jahrzehnt an der Schnittstelle zwischen IT, Netzwerktechnik und Digitalisierung arbeite – stets am Puls der Zeit. Meine unternehmerische Erfahrung hat mich geprägt, strukturiert, organisiert und verantwortungsbewusst zu handeln. Ich denke strategisch, bin flexibel und immer offen für neue Technologien und Methoden.
-
-            Technologie sehe ich nicht als Selbstzweck, sondern als Werkzeug, um effiziente, sichere und innovative Lösungen zu schaffen. Ob bei der Digitalisierung von Prozessen, dem Aufbau hochverfügbarer IT-Infrastrukturen oder der Leitung komplexer Projekte – ich setze mich mit vollem Engagement ein.
-
-            Was mich besonders motiviert, ist die Möglichkeit, meine berufliche Expertise mit meiner großen persönlichen Leidenschaft zu verbinden: dem Europapark. Ich brenne für diesen Ort und seine einzigartigen Erlebnisse. Den Europapark nun auch als Arbeitgeber mit meiner Energie, Kreativität und technischem Know-how aktiv mitzugestalten, wäre für mich die perfekte Kombination.
+            Weil ich seit über einem Jahrzehnt an der Schnittstelle zwischen IT, Netzwerktechnik und Digitalisierung arbeite – stets am Puls der Zeit. Meine unternehmerische Erfahrung hat mich geprägt, strukturiert, organisiert und verantwortungsbewusst zu handeln. <br/>
+            Ich denke strategisch, bin flexibel und immer offen für neue Technologien und Methoden.
+            Technologie sehe ich nicht als Selbstzweck, sondern als Werkzeug, um effiziente, sichere und innovative Lösungen zu schaffen.
+            Ob bei der Digitalisierung von Prozessen, dem Aufbau hochverfügbarer IT-Infrastrukturen oder der Leitung komplexer Projekte – ich setze mich mit vollem Engagement ein.<br/><br/>
+            Was mich besonders motiviert, ist die Möglichkeit, meine berufliche Expertise mit meiner großen persönlichen Leidenschaft zu verbinden: dem Europapark. <br/>
+            Ich brenne für diesen Ort und seine einzigartigen Erlebnisse. Den Europapark nun auch als Arbeitgeber mit meiner Energie, Kreativität und technischem Know-how aktiv mitzugestalten, wäre für mich die perfekte Kombination.
 
             Ich bin bereit, gemeinsam mit Ihnen die Zukunft des Europaparks voranzutreiben.
         </p>
