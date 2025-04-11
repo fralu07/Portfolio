@@ -116,10 +116,11 @@ export const PROJECTS_WOMO_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">Wohnmobil Stellplatz</h2>
         <p>
-            Auf einem 2000 qm großen Grundstück in Küssaberg (DE) habe ich einen automatisierten Wohnmobil-Stellplatz entwickelt und plane den Bau einer 48 Meter langen Halle, die im Sommer realisiert wird.
+            Auf einem 2000 qm großen Grundstück in Küssaberg (DE) habe ich einen automatisierten Wohnmobil-Stellplatz entwickelt.
             <br/>
             Die von mir entwickelte intelligente Plattform ermöglicht Kunden die digitale Steuerung von Strom, Wasser und Zugangskontrollen. Die Verwaltung ist vollständig automatisiert und bietet volle Transparenz über Verbrauch und Nutzung.
             <br/>
+            Mit dem Bau einer 48 Meter langen Halle, die im Sommer realisiert wird, werden mehrere Lagerplätze mit Einzeltore zur Verfügung gestellt.
             Mit der geplanten Halle wird die Infrastruktur weiter skaliert und optimiert.
             <br/><br/>
             <strong>Tech Stack:</strong> Spring Boot, React, Postgres, MQTT. <br/>

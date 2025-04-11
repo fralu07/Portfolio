@@ -68,12 +68,12 @@ const About = () => {
                         whileInView="animatePicture"
                     >
                         <div className="flex item-center justify-center">
-                            <img className="lg:rounded-2xl rounded-xl" src="./segeln.jpeg" alt=""></img>
+                            <img className="lg:rounded-2xl rounded-xl" src="./segeln_self.jpeg" alt=""></img>
                         </div>
                     </motion.div>
                     <div className="mobile w-full">
                         <div className="flex item-center justify-center">
-                            <img className="lg:rounded-2xl rounded-md" src="./segeln.jpeg" alt=""></img>
+                            <img className="lg:rounded-2xl rounded-md" src="./segeln_self.jpeg" alt=""></img>
                         </div>
                     </div>
 
