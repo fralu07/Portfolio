@@ -3,19 +3,14 @@ import React from "react";
 export const ABOUT_TEXT = (
     <div className="text-blue">
         <p className="">
-            Mein Name ist Francesco Lucia.<br/>
-            Ich wohne in Deutschland.
-            Geboren bin ich am 07.06.1978 in Deutschland.
-            Meine Nationalität ist Italien.<br/>
+            Mein Name ist Francesco Lucia, geboren am 07.06.1978.<br/><br/>
 
-            Im September habe ich mein Informatikstudium erfolgreich abgeschlossen.
-            Ich nehme alles, was ich anpacke ernst und bringe es immer zu Ende, auch wenn es in der Softwareentwicklung
-            manchmal hartnäckig sein kann. <br/>
+            Durch mein erfolgreich abgeschlossenes Informatikstudium bin ich bestens informiert und stets am Puls der Zeit, wenn es um aktuelle Technologien, digitale Transformation und moderne IT-Architekturen geht. In Kombination mit meiner langjährigen Erfahrung in der IT- und Telekommunikationsbranche habe ich zahlreiche Digitalisierungs- und Infrastrukturprojekte erfolgreich geplant, gesteuert und umgesetzt. Ich bin es gewohnt, Teams zu führen, Prozesse zu optimieren und komplexe Projekte effizient zu koordinieren. Herausforderungen begegne ich mit einer strukturierten und lösungsorientierten Herangehensweise.
         </p>
         <p className="desktop">
-            Ich bin sehr ehrgeizig, ein echter Teamplayer und bringe einen großen Erfahrungsschatz aus meinen früheren
-            Unternehmungen mit.
+            Ich bin ehrgeizig, denke unternehmerisch und bringe einen großen Erfahrungsschatz aus meinen früheren Führungspositionen mit. Strategische Planung, Innovationskraft und Hands-on-Mentalität sind für mich selbstverständlich.
         </p>
+
 
     </div>
 )
@@ -26,17 +21,12 @@ export const EDUCATION_BSC_TEXT = (
         <p className="desktop">An der Fachhochschule Nordwestschweiz in Brugg habe ich den BSc in Informatik im
             September 2024 erworben.<br/>
             <strong>Schwerpunkte</strong> im Studium waren vielfältig.
-            Beginnend mit der Webentwicklung, wurden umfassende Kenntnisse in React und tiefgehende Kenntnisse in Spring Boot vermittelt.
-            In der Mobile-App-Entwicklung wurden Applikationen sowohl für Android in Kotlin als auch für iOS in Swift programmiert.
-            Mehrere objektorientierte Programmiersprachen wie Java und JavaScript wurden gründlich gelehrt.
-            Auch funktionale Programmiersprachen wie Kotlin im
-            Backendbereich sowie Haskell und Scala wurden behandelt.
-            In den letzten zwei Semester kam ich mit DEVOPS und CLOUD in Berührung. Das entfachte die Lust auf mehr
-            DEVOPS.
+            Beginnend mit der Webentwicklung wurden umfassende Kenntnisse in React sowie tiefgehende Kenntnisse in Spring Boot vermittelt.
+            Im Bereich der Mobile-App-Entwicklung entstanden Applikationen sowohl für Android in Kotlin als auch für iOS in Swift.<br/>
+            Mehrere objektorientierte Programmiersprachen wie Java und JavaScript wurden gründlich behandelt. DEVOPS und Cloud-Technologien begeisterten mich, was für die Verknüpfung von Entwicklung und Infrastruktur weiter steigerte.<br/>
+            Darüber hinaus übernahm ich Verantwortung als Projektleiter und Product Owner, wodurch ich umfassende Einblicke in agile Arbeitsweisen und digitale Transformationsprozesse vertiefte und meine Fähigkeiten in der Steuerung digitaler Projekte weiter erweitern konnte.
         </p>
-        <p className="mobile">an der Fachhochschule Nordwestschweiz in Brugg.
-            Aktuell befinde ich mich im letzten Semester. Das Studium werde ich diesen Monat erfolgreich
-            abschliessen.<br/>
+        <p className="mobile">an der Fachhochschule Nordwestschweiz in Brugg habe ich mein Studium als Informatiker abgeschlossen.<br/>
             <strong>Schwerpunkte</strong> im Studium waren vielfältig.
             Beginnend mit der Webentwicklung, wurden umfassende Kenntnisse in React und tiefgehende Kenntnisse in Spring
             Boot vermittelt.
@@ -87,6 +77,19 @@ export const EXPERIENCE_NOW_TEXT = (
     </div>
 )
 
+export const PROJECTS_FIBER_TEXT = (
+    <div className="">
+        <h2 className="lg:text-3xl text-2xl font-bold pb-4">Breitband</h2>
+        <p>
+            Als Geschäftsführer der hochrheinNET GmbH (2006–2019) habe ich mit der Vision, Internet für jedermann zugänglich zu machen, ein leistungsfähiges Glasfasernetz aufgebaut.
+            <br/>
+            Im Rahmen dieses Projekts wurden 120 km Glasfaser verlegt, Funkmasten errichtet und Leerrohre in 8 Gemeinden verbaut. Die gesamte Planung und Koordination des Netzausbaus, von der strategischen Entwicklung bis zur technischen Umsetzung, lag in meiner Verantwortung. Dabei habe ich sämtliche Projektphasen gesteuert – von der Bedarfsermittlung über die Genehmigungsprozesse bis hin zur Umsetzung und finalen Inbetriebnahme.
+            <br/><br/>
+            Neben der technischen Leitung habe ich Teams geführt, externe Partner koordiniert und Investitionsentscheidungen getroffen. Die enge Zusammenarbeit mit Gemeinden, Behörden und Unternehmen war dabei essenziell, um Infrastrukturprojekte effizient und nachhaltig zu realisieren.
+            </p>
+    </div>
+)
+
 export const PROJECTS_MEDINSPECT_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">MEDINSPECT</h2>
@@ -107,18 +110,20 @@ export const PROJECTS_MEDINSPECT_TEXT = (
 export const PROJECTS_WOMO_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">Wohnmobil Stellplatz</h2>
-        <p className="">Im Besitz eines 2000 qm grossen Grundstücks in Küssaberg (DE) habe ich einen Wohnmobil
-            Stellplatz erstellt. <br/>
-            Für die Verwaltung der Stellplätze entwickle ich eine Plattform, mit der die Kunden Strom auf dem eigenem
-            Stellplatz ein- und ausschalten sowie das Tor öffnen und schliessen können.
-            Des weiteren ist der Bezug von Wasser über die Schnittstelle möglich. So hat der Kunde stets eine Übersicht
-            über den
-            Verbrauch. Die Idee ist, mich so wenig wie nur möglich mit
-            dem Stellplatz auseinander setzen zu müssen. 😎<br/>
-            <strong>Tech Stack: </strong>Spring Boot, React, Postgres, MQTT. <br/>
-            <strong>Devices für die Umsetzung: </strong>Raspberry Pi, Shelly IoT Geräte. <br/><br/>
-            Gerne lade ich dich ein, damit du mein Repository einsehen kannst.
-        </p>
+        <p>
+            Auf einem 2000 qm großen Grundstück in Küssaberg (DE) habe ich einen automatisierten Wohnmobil-Stellplatz entwickelt.
+            <br/>
+            Die von mir entwickelte intelligente Plattform ermöglicht Kunden die digitale Steuerung von Strom, Wasser und Zugangskontrollen. Die Verwaltung ist vollständig automatisiert und bietet volle Transparenz über Verbrauch und Nutzung.
+            <br/>
+            Mit dem Bau einer 48 Meter langen Halle, die im Sommer realisiert wird, werden mehrere Lagerplätze mit Einzeltore zur Verfügung gestellt.
+            Mit der geplanten Halle wird die Infrastruktur weiter skaliert und optimiert.
+            <br/><br/>
+            <strong>Tech Stack:</strong> Spring Boot, React, Postgres, MQTT. <br/>
+            <strong>IoT-Integration: </strong>Raspberry Pi, Shelly IoT-Geräte. <br/>
+            <strong>Projektplanung & Umsetzung:</strong> Von der Konzeptentwicklung bis zur baulichen und technischen Realisierung.
+            </p>
+
+
     </div>
 )
 
