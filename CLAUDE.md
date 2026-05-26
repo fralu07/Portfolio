@@ -40,7 +40,7 @@ src/
 - **Responsive über Klassen-Switch**: Globale Klassen `.mobile` und `.desktop` in [src/app.scss](src/app.scss) togglen Sichtbarkeit unter/über 768 px. Wird in den Text-Konstanten verwendet, um z. B. kürzere Mobil-Varianten desselben Absatzes zu liefern. Tailwind-Breakpoints (`md:`, `lg:`) sind zusätzlich im Einsatz — beide Mechanismen koexistieren.
 - **Navigation per Anker auf deutsche IDs**: Die Sidebar-Links springen auf `#Über mich`, `#Berufserfahrung`, `#Projekte`, `#Skills`, `#Hobbys`, `#Warum mich`, `#Startseite`. Werden IDs umbenannt, müssen die Sidebar-Links in [src/components/sidebar/links/](src/components/sidebar/links/) mitgepflegt werden.
 - **Smooth Scroll**: Aktiviert über `scroll-behavior: smooth` + `scroll-snap-type: y mandatory` in [src/app.scss](src/app.scss).
-- **Public-Assets per Root-Pfad**: Bilder, PDF & Icons aus `public/` werden absolut referenziert (`src="/me.png"`, `window.open("/CV_FrancescoLucia.pdf")`) — kein Import.
+- **Public-Assets per Root-Pfad**: Bilder, PDF & Icons aus `public/` werden absolut referenziert (`src="/me.png"`, `window.open("/Francesco_Lucia_CV.pdf")`) — kein Import.
 - **Auskommentierte Parallax-Sektionen**: In [src/App.jsx](src/App.jsx) sind zahlreiche `<Parallax>`-Blöcke bewusst auskommentiert. Vor dem Aufräumen mit dem Eigentümer abklären — sie wirken wie ein A/B-Toggle der Layout-Variante.
 - **Theme-Farben**: Dunkler Hintergrund-Gradient `from-[#0c0c1d] to-[#111132]`, Akzentfarbe `text-sky-500`. Custom-Farbe `customGray: #b0a8a2` in [tailwind.config.js](tailwind.config.js).
 - **Font**: Nunito Sans wird in `app.scss` als Default gesetzt, im HTML wird zusätzlich DM Sans geladen ([index.html](index.html)) — Diskrepanz besteht, beim Anfassen prüfen, was wirklich verwendet werden soll.
