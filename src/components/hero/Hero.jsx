@@ -34,19 +34,6 @@ const Hero = () => {
                         initial="initial"
                         animate="animate"
                     >
-                        <motion.div
-                            className="bg-white rounded-lg p-3 md:p-4 self-center lg:self-start"
-                            variants={textVariants}
-                        >
-                            <img src="/aew-logo.svg" alt="AEW Energie AG" className="w-20 md:w-28 h-auto" />
-                        </motion.div>
-                        <motion.h2
-                            className="md:text-xl text-sm text-customGray font-light tracking-[2px]"
-                            variants={textVariants}
-                        >
-                            Bewerbung als<br/>
-                            Chief Digital &amp; Information Officer (CDIO)
-                        </motion.h2>
                         <motion.h1
                             className="md:text-5xl text-lg text-sky-500 font-bold lg:font-normal tracking-[10px]"
                             variants={textVariants}

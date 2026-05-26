@@ -39,7 +39,9 @@ const Links = ({ setOpen }) => {
         "Projekte",
         "Skills",
         "Hobbys",
-        "Warum mich"
+        "Warum mich",
+        "Impressum",
+        "Datenschutz"
     ]
     return (
         <motion.div className="links" variants={variants}>

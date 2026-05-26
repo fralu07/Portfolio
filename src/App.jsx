@@ -12,6 +12,8 @@ import WhyMe from "./components/whyMe/WhyMe.jsx";
 import ParallaxOnlyTitle from "./components/parallax/ParallaxOnlyTitle.jsx";
 import WhyMeSolution from "./components/whyMe/WhyMeSolution.jsx";
 import Intro from "./components/intro/Intro.jsx";
+import Impressum from "./components/legal/Impressum.jsx";
+import Datenschutz from "./components/legal/Datenschutz.jsx";
 
 const App = () => {
   return <div className="">
@@ -100,6 +102,12 @@ const App = () => {
       <Hobbies/></section>
 
     <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]" id="Warum mich"><WhyMe/>
+    </section>
+
+    <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]" id="Impressum"><Impressum/>
+    </section>
+
+    <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]" id="Datenschutz"><Datenschutz/>
     </section>
 
   </div>;

@@ -192,14 +192,12 @@ export const HOBBIES_CODING_TEXT = (
 export const WHY_ME_TEXT = (
     <div className=" ">
         <p className="">
-            Weil ich seit über einem Jahrzehnt an der Schnittstelle zwischen IT, Netzwerktechnik und Digitalisierung arbeite – stets am Puls der Zeit. Meine unternehmerische Erfahrung hat mich geprägt, strukturiert, organisiert und verantwortungsbewusst zu handeln. <br/>
+            Weil ich seit über zwei Jahrzehnten an der Schnittstelle zwischen IT, Netzwerktechnik und Digitalisierung arbeite und stets am Puls der Zeit bin. Meine unternehmerische Erfahrung hat mich geprägt, strukturiert, organisiert und verantwortungsbewusst zu handeln. <br/>
             Ich denke strategisch, bin flexibel und immer offen für neue Technologien und Methoden.
             Technologie sehe ich nicht als Selbstzweck, sondern als Werkzeug, um effiziente, sichere und innovative Lösungen zu schaffen.
-            Ob bei der Digitalisierung von Prozessen, dem Aufbau hochverfügbarer IT-Infrastrukturen oder der Leitung komplexer Projekte – ich setze mich mit vollem Engagement ein.<br/><br/>
-            Was mich besonders motiviert, ist die Möglichkeit, meine berufliche Expertise mit meiner großen persönlichen Leidenschaft zu verbinden: dem Europapark. <br/>
-            Ich brenne für diesen Ort und seine einzigartigen Erlebnisse. Den Europapark nun auch als Arbeitgeber mit meiner Energie, Kreativität und technischem Know-how aktiv mitzugestalten, wäre für mich die perfekte Kombination.
-
-            Ich bin bereit, gemeinsam mit Ihnen die Zukunft des Europaparks voranzutreiben.
+            Ob bei der Digitalisierung von Prozessen, dem Aufbau hochverfügbarer IT-Infrastrukturen oder der Leitung komplexer Projekte: ich setze mich mit vollem Engagement ein.<br/><br/>
+            Was mich besonders motiviert, ist die Konvergenz von <strong>IT und OT</strong>, also das Zusammenwachsen klassischer Unternehmens-IT mit den operativen Systemen der Energieversorgung. Genau hier entstehen die spannendsten Aufgaben der kommenden Jahre: hochverfügbare Netze, sichere Steuerungssysteme, Echtzeit-Daten aus dem Feld und eine moderne, automatisierte Infrastruktur, die beide Welten zuverlässig miteinander verbindet.<br/><br/>
+            Meine über zwei Jahrzehnte Erfahrung in Netzwerk- und Infrastrukturarbeit, kombiniert mit meiner aktuellen DevOps-Rolle in der Energiebranche, ermöglicht mir genau diesen Brückenschlag zwischen IT und OT. Ich bin bereit, diese Transformation gemeinsam mit Ihnen aktiv voranzutreiben.
         </p>
     </div>
 )
