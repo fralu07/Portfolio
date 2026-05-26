@@ -47,9 +47,9 @@ export const EDUCATION_RTV_TEXT = (
 
 export const EXPERIENCE_AXPO_TEXT = (
     <div className="">
-        <h2 className="lg:text-3xl text-2xl font-bold md:pb-4">Senior Network Engineer &amp; Head of DevOps – Axpo Systems</h2>
+        <h2 className="lg:text-3xl text-2xl font-bold md:pb-4">Senior Network Engineer &amp; Head of DevOps bei Axpo Systems</h2>
         <p className="md:pb-0 pb-4">Am 1. Juli 2025 begann ich meine Tätigkeit bei der Axpo Systems AG als <strong>Senior Network Engineer</strong> und verantwortete den Betrieb sowie die Weiterentwicklung der Netzwerkinfrastruktur im Konzernumfeld.<br/>
-            Seit dem 1. April 2026 leite ich als <strong>Head of DevOps</strong> das DevOps-Team an der Schnittstelle zwischen Entwicklung und Betrieb. Mein Fokus liegt auf Automatisierung, CI/CD, Cloud-Infrastruktur und der konsequenten Verzahnung von Netzwerktechnik mit modernen DevOps-Praktiken – ein Bereich, der meine langjährige Infrastruktur-Erfahrung mit meiner Leidenschaft für moderne Softwareentwicklung vereint.
+            Seit dem 1. April 2026 leite ich als <strong>Head of DevOps</strong> das DevOps-Team an der Schnittstelle zwischen Entwicklung und Betrieb. Mein Fokus liegt auf Automatisierung, CI/CD, Cloud-Infrastruktur und der konsequenten Verzahnung von Netzwerktechnik mit modernen DevOps-Praktiken. Diese Rolle verbindet meine langjährige Infrastruktur-Erfahrung mit meiner Leidenschaft für moderne Softwareentwicklung.
         </p>
     </div>
 )
@@ -133,6 +133,21 @@ export const PROJECTS_WOMO_TEXT = (
             </p>
 
 
+    </div>
+)
+
+export const PROJECTS_NETWORK_AUTOMATION_TEXT = (
+    <div className="">
+        <h2 className="lg:text-3xl text-2xl font-bold pb-4">Automatisierung Network Device Staging</h2>
+        <p>
+            Das klassische Staging von Switches, Routern und Firewalls bedeutet in vielen Unternehmen noch immer stundenlange manuelle CLI-Arbeit, kopierte Templates und schwer reproduzierbare Ergebnisse. Im Rahmen dieses Projekts habe ich diesen Prozess als durchgängig automatisierte Pipeline neu aufgesetzt.
+            <br/><br/>
+            Aus einer zentralen <strong>Single Source of Truth</strong> (Nautobot bzw. YAML-Inventar) werden gerätespezifische Konfigurationen über <strong>Jinja2-Templates</strong> generiert und vendor-unabhängig (Cisco, Arista, Juniper) auf die Geräte ausgerollt. Die gesamte Konfiguration liegt versioniert in Git („Configuration as Code"), Änderungen laufen über Merge Requests und werden in einer CI/CD-Pipeline automatisch validiert, inklusive Lint, Dry-Run und Konfigurations-Diff. Über <strong>Zero-Touch-Provisioning</strong> (ZTP/DHCP-Bootstrap) übernehmen neue Geräte ihre Basis-Konfiguration direkt beim Anschalten am Standort.
+            <br/><br/>
+            <strong>Tech Stack:</strong> Ansible, Jinja2, Python (Nornir, NAPALM, Netmiko).<br/>
+            <strong>Tooling:</strong> GitLab CI/CD, Nautobot als Source of Truth, Pre-Commit-Hooks für Config-Linting.<br/>
+            <strong>Ergebnis:</strong> Das gesamte Netzwerk-Inventar ist nun zentral in Nautobot getrackt und dient als Single Source of Truth. Änderungen am Inventar und an Konfigurationen lassen sich über die Git-Historie und Merge Requests jederzeit lückenlos nachvollziehen.
+        </p>
     </div>
 )
 
