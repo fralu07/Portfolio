@@ -140,13 +140,12 @@ export const PROJECTS_NETWORK_AUTOMATION_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">Automatisierung Network Device Staging</h2>
         <p>
-            Das klassische Staging von Switches, Routern und Firewalls bedeutet in vielen Unternehmen noch immer stundenlange manuelle CLI-Arbeit, kopierte Templates und schwer reproduzierbare Ergebnisse. Im Rahmen dieses Projekts habe ich diesen Prozess als durchgängig automatisierte Pipeline neu aufgesetzt.
+            Das klassische Staging von Switches, Routern und Firewalls bedeutet in vielen Unternehmen stundenlange manuelle CLI-Arbeit und schwer reproduzierbare Ergebnisse. Im Rahmen dieses Projekts habe ich diesen Prozess als automatisierte Pipeline neu aufgesetzt.
             <br/><br/>
-            Aus einer zentralen <strong>Single Source of Truth</strong> (Nautobot bzw. YAML-Inventar) werden gerätespezifische Konfigurationen über <strong>Jinja2-Templates</strong> generiert und vendor-unabhängig (Cisco, Arista, Juniper) auf die Geräte ausgerollt. Die gesamte Konfiguration liegt versioniert in Git („Configuration as Code"), Änderungen laufen über Merge Requests und werden in einer CI/CD-Pipeline automatisch validiert, inklusive Lint, Dry-Run und Konfigurations-Diff. Über <strong>Zero-Touch-Provisioning</strong> (ZTP/DHCP-Bootstrap) übernehmen neue Geräte ihre Basis-Konfiguration direkt beim Anschalten am Standort.
+            Aus einer zentralen <strong>Single Source of Truth</strong> (Nautobot) werden gerätespezifische Konfigurationen über <strong>Jinja2-Templates</strong> generiert. Die Konfiguration liegt versioniert in Git („Configuration as Code"), Änderungen laufen über Merge Requests und werden in einer CI/CD-Pipeline automatisch validiert (Lint, Dry-Run, Konfigurations-Diff).
             <br/><br/>
             <strong>Tech Stack:</strong> Ansible, Jinja2, Python (Nornir, NAPALM, Netmiko).<br/>
-            <strong>Tooling:</strong> GitLab CI/CD, Nautobot als Source of Truth, Pre-Commit-Hooks für Config-Linting.<br/>
-            <strong>Ergebnis:</strong> Das gesamte Netzwerk-Inventar ist nun zentral in Nautobot getrackt und dient als Single Source of Truth. Änderungen am Inventar und an Konfigurationen lassen sich über die Git-Historie und Merge Requests jederzeit lückenlos nachvollziehen.
+            <strong>Tooling:</strong> GitLab CI/CD, Nautobot als Source of Truth, Pre-Commit-Hooks für Config-Linting.
         </p>
     </div>
 )

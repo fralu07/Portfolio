@@ -77,7 +77,7 @@ function ProjectSection({
             initial="initialPicture"
             whileInView="animatePicture">
             <div className="flex item-center justify-center">
-                <img className="lg:rounded-2xl rounded-xl"
+                <img className="lg:rounded-2xl rounded-xl w-full h-80 object-cover"
                      src={imageSrc} alt={imageAlt}></img>
             </div>
         </motion.div>
