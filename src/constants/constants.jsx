@@ -45,6 +45,15 @@ export const EDUCATION_RTV_TEXT = (
     </div>
 )
 
+export const EXPERIENCE_AXPO_TEXT = (
+    <div className="">
+        <h2 className="lg:text-3xl text-2xl font-bold md:pb-4">Senior Network Engineer &amp; Head of DevOps – Axpo Systems</h2>
+        <p className="md:pb-0 pb-4">Am 1. Juli 2025 begann ich meine Tätigkeit bei der Axpo Systems AG als <strong>Senior Network Engineer</strong> und verantwortete den Betrieb sowie die Weiterentwicklung der Netzwerkinfrastruktur im Konzernumfeld.<br/>
+            Seit dem 1. April 2026 leite ich als <strong>Head of DevOps</strong> das DevOps-Team an der Schnittstelle zwischen Entwicklung und Betrieb. Mein Fokus liegt auf Automatisierung, CI/CD, Cloud-Infrastruktur und der konsequenten Verzahnung von Netzwerktechnik mit modernen DevOps-Praktiken – ein Bereich, der meine langjährige Infrastruktur-Erfahrung mit meiner Leidenschaft für moderne Softwareentwicklung vereint.
+        </p>
+    </div>
+)
+
 export const EXPERIENCE_RTV_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold md:pb-4">Radio & TV-Techniker</h2>

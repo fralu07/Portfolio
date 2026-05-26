@@ -1,6 +1,6 @@
 import React, {useRef} from 'react';
 import {motion, useScroll, useSpring} from "framer-motion";
-import {EXPERIENCE_HRN_TEXT, EXPERIENCE_NOW_TEXT, EXPERIENCE_RTV_TEXT} from "../../constants/constants.jsx";
+import {EXPERIENCE_AXPO_TEXT, EXPERIENCE_HRN_TEXT, EXPERIENCE_NOW_TEXT, EXPERIENCE_RTV_TEXT} from "../../constants/constants.jsx";
 
 const sliding = {
     initialPicture: {
@@ -107,6 +107,11 @@ const Experience = () => {
                         ></motion.div>
                     </div>
                     <motion.div className="flex flex-col flex-1 gap-4 items-center">
+                        <ExpCard
+                            text={EXPERIENCE_AXPO_TEXT}
+                            year={"07/2025 - heute"}
+                            image="./me_hrn.jpeg"
+                        />
                         <ExpCard
                             text={EXPERIENCE_HRN_TEXT}
                             year={"2006 - 2019"}
