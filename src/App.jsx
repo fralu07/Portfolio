@@ -1,4 +1,5 @@
 import "./app.scss"
+import {useState} from "react";
 import Navbar from "./components/navbar/Navbar.jsx";
 import Hero from "./components/hero/Hero.jsx";
 import Parallax from "./components/parallax/Parallax.jsx";
@@ -14,8 +15,11 @@ import WhyMeSolution from "./components/whyMe/WhyMeSolution.jsx";
 import Intro from "./components/intro/Intro.jsx";
 import Impressum from "./components/legal/Impressum.jsx";
 import Datenschutz from "./components/legal/Datenschutz.jsx";
+import LegalModal from "./components/legal/LegalModal.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 const App = () => {
+  const [activeLegal, setActiveLegal] = useState(null);
   return <div className="">
     <section id="Startseite">
       <Navbar/>
@@ -104,11 +108,12 @@ const App = () => {
     <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]" id="Warum mich"><WhyMe/>
     </section>
 
-    <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]" id="Impressum"><Impressum/>
-    </section>
+    <Footer onLegalOpen={setActiveLegal}/>
 
-    <section className="overflow-hidden bg-gradient-to-b from-[#0c0c1d] to-[#111132]" id="Datenschutz"><Datenschutz/>
-    </section>
+    <LegalModal isOpen={activeLegal !== null} onClose={() => setActiveLegal(null)}>
+      {activeLegal === "impressum" && <Impressum/>}
+      {activeLegal === "datenschutz" && <Datenschutz/>}
+    </LegalModal>
 
   </div>;
 };
