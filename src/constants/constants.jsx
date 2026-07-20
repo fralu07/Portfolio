@@ -236,8 +236,7 @@ export const WHY_ME_TEXT = (
             Ich denke strategisch, bin flexibel und immer offen für neue Technologien und Methoden.
             Technologie sehe ich nicht als Selbstzweck, sondern als Werkzeug, um effiziente, sichere und innovative Lösungen zu schaffen.
             Ob bei der Digitalisierung von Prozessen, dem Aufbau hochverfügbarer IT-Infrastrukturen oder der Leitung komplexer Projekte: ich setze mich mit vollem Engagement ein.<br/><br/>
-            Was mich besonders motiviert, ist die Konvergenz von <strong>IT und OT</strong>, also das Zusammenwachsen klassischer Unternehmens-IT mit den operativen Systemen der Energieversorgung. Genau hier entstehen die spannendsten Aufgaben der kommenden Jahre: hochverfügbare Netze, sichere Steuerungssysteme, Echtzeit-Daten aus dem Feld und eine moderne, automatisierte Infrastruktur, die beide Welten zuverlässig miteinander verbindet.<br/><br/>
-            Meine über zwei Jahrzehnte Erfahrung in Netzwerk- und Infrastrukturarbeit, kombiniert mit meiner aktuellen DevOps-Rolle in der Energiebranche, ermöglicht mir genau diesen Brückenschlag zwischen IT und OT. Ich bin bereit, diese Transformation gemeinsam mit Ihnen aktiv voranzutreiben.
+            Was mich besonders motiviert, ist der Einsatz von <strong>Künstlicher Intelligenz</strong> im Unternehmen, und zwar nicht als Prototyp, sondern im produktiven Betrieb. Mit dem CAS AI Engineering habe ich mir dafür das Fundament geschaffen: Machine Learning und Deep Learning, Large Language Models, Prompt Engineering und Retrieval Augmented Generation bis hin zum Betrieb einer selbst entwickelten KI-Lösung im Unternehmen. Genau hier entstehen die spannendsten Aufgaben der kommenden Jahre.<br/><br/>
         </p>
     </div>
 )
