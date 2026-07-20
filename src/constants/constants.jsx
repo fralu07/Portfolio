@@ -15,6 +15,25 @@ export const ABOUT_TEXT = (
     </div>
 )
 
+export const EDUCATION_CAS_TEXT = (
+    <div className="">
+        <h2 className="lg:text-3xl text-2xl font-bold pb-4">CAS AI Engineering</h2>
+        <p className="desktop">An der Fernfachhochschule Schweiz (FFHS) in Zürich habe ich das CAS AI Engineering im
+            Juli 2026 erfolgreich abgeschlossen.<br/>
+            <strong>Schwerpunkte</strong> der Weiterbildung waren Machine Learning und Deep Learning, Large Language
+            Models sowie deren Integration in bestehende Systeme. Von Prompt Engineering über Retrieval Augmented
+            Generation (RAG) bis hin zum Betrieb von der eigenen entwickelten KI Lösung im Unternehmen.<br/>
+            Damit verbinde ich meine langjährige Infrastruktur und DevOps Erfahrung mit dem Engineering moderner
+            KI-Anwendungen und kann KI Projekte von der Idee bis in den produktiven Einsatz begleiten.
+        </p>
+        <p className="mobile">An der Fernfachhochschule Schweiz (FFHS) in Zürich habe ich das CAS AI Engineering
+            erfolgreich abgeschlossen.<br/>
+            <strong>Schwerpunkte</strong> waren Machine Learning, Large Language Models und der produktive Einsatz von
+            KI Lösungen.
+        </p>
+    </div>
+)
+
 export const EDUCATION_BSC_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">BSc in Informatik</h2>
@@ -147,6 +166,27 @@ export const PROJECTS_NETWORK_AUTOMATION_TEXT = (
             <strong>Tech Stack:</strong> Ansible, Jinja2, Python (Nornir, NAPALM, Netmiko).<br/>
             <strong>Tooling:</strong> GitLab CI/CD, Nautobot als Source of Truth, Pre-Commit-Hooks für Config-Linting.
         </p>
+    </div>
+)
+
+export const PROJECTS_SYNCI_TEXT = (
+    <div className="">
+        <h2 className="lg:text-3xl text-2xl font-bold pb-4">Synci – Sportevents im Kalender</h2>
+        <p>
+            Wer mehreren Teams, Ligen oder Sportevents folgt, verliert schnell den Überblick über die Spieltermine. Genau hier setzt Synci an: Nutzer abonnieren ihre Lieblings-Sportligen, Teams und Events und sehen alle Spiele automatisch in ihrem persönlichen Kalender. Immer synchron mit Google Kalender, Outlook &amp; Co.
+            <br/><br/>
+            Terminänderungen und neue Spiele werden automatisch aktualisiert, ohne dass Einträge manuell gepflegt werden müssen. Das Angebot reicht von der Bundesliga über NFL und NBA bis hin zu WM-Spielen und wächst laufend.
+            <br/><br/>
+            An diesem Projekt habe ich im Team mitgewirkt und die Plattform von der Idee bis in den produktiven Betrieb mit begleitet.
+            <br/><br/>
+            <strong>Tech Stack:</strong> React, Auth0-Authentifizierung.
+        </p>
+        <a href="https://synci.ch/" target="_blank" rel="noopener noreferrer">
+            <button
+                className="shadow-lg bg-sky-500 hover:bg-sky-300 text-white font-bold py-2 px-4 rounded mt-4">synci.ch
+                besuchen
+            </button>
+        </a>
     </div>
 )
 

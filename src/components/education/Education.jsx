@@ -1,5 +1,5 @@
 import React from 'react';
-import {EDUCATION_BSC_TEXT, EDUCATION_RTV_TEXT} from "../../constants/constants.jsx";
+import {EDUCATION_BSC_TEXT, EDUCATION_CAS_TEXT, EDUCATION_RTV_TEXT} from "../../constants/constants.jsx";
 import {motion} from "framer-motion";
 
 
@@ -89,6 +89,10 @@ const Education = () => {
                 </div>
             <div className="flex flex-row h-full py-4 lg:py-0">
                 <motion.div className="flex flex-col h-full gap-4 lg:py-0">
+                    <Edu_Card
+                        text={EDUCATION_CAS_TEXT}
+                        image="./FFHS.jpg"
+                    />
                     <Edu_Card
                         text={EDUCATION_BSC_TEXT}
                         image="./FHNW.jpg"
