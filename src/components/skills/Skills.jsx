@@ -204,6 +204,23 @@ const Skills = () => {
                     reverse={true}
                 />
             </div>
+            <div className="flex xl:flex-row flex-col gap-9 w-full lg:ml-[66%] max-lg:items-center px-4">
+                <SkillCard
+                    title1="AI Engineering &"
+                    title2="LLMs"
+                    subTitle="AI Engineering & LLMs"
+                    experienceYears="2+ Jahre"
+                    level="Erweiterte Kenntnisse"
+                    progress={65}
+                    textBoxHeight={textBoxHeight}
+                    circleColors={circleColors}
+                    variants={sliding}
+                    initial="initialCard"
+                    animate="animateCard"
+                    paddingTop=""
+                    reverse={false}
+                />
+            </div>
         </div>
         </div>
     );
