@@ -1,6 +1,6 @@
 import React, {useRef} from 'react';
 import {motion, useScroll, useSpring} from "framer-motion";
-import {EXPERIENCE_HRN_TEXT, EXPERIENCE_NOW_TEXT, EXPERIENCE_RTV_TEXT} from "../../constants/constants.jsx";
+import {EXPERIENCE_AXPO_TEXT, EXPERIENCE_HRN_TEXT, EXPERIENCE_NOW_TEXT, EXPERIENCE_RTV_TEXT} from "../../constants/constants.jsx";
 
 const sliding = {
     initialPicture: {
@@ -45,7 +45,7 @@ const sliding = {
 }
 
 function ExpCard(props) {
-    return <div className="flex flex-col lg:flex-row flex-1 max-lg:max-w-xl w-full">
+    return <div className="flex flex-col lg:flex-row lg:gap-x-8 flex-1 max-lg:max-w-xl w-full">
 
         <div className="flex justify-center w-full lg:w-7/12 ">
             <div className="flex flex-col lg:flex-row justify-center lg:justify-start">
@@ -70,7 +70,7 @@ function ExpCard(props) {
                     initial="initialPicture"
                     whileInView="animatePicture"
                     viewport={{once: true, amount: 0.5}}>
-            <img className=" lg:rounded-2xl rounded-md object-cover w-full h-96 content-center" src={props.image}
+            <img className={`lg:rounded-2xl rounded-md w-full h-96 content-center ${props.isLogo ? 'object-contain p-8 bg-white' : 'object-cover'}`} src={props.image}
                  alt=""></img>
         </motion.div>
     </div>;
@@ -107,6 +107,12 @@ const Experience = () => {
                         ></motion.div>
                     </div>
                     <motion.div className="flex flex-col flex-1 gap-4 items-center">
+                        <ExpCard
+                            text={EXPERIENCE_AXPO_TEXT}
+                            year={"07/2025 - heute"}
+                            image="./axpo-logo.png"
+                            isLogo={true}
+                        />
                         <ExpCard
                             text={EXPERIENCE_HRN_TEXT}
                             year={"2006 - 2019"}

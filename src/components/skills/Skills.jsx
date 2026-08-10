@@ -140,7 +140,7 @@ const Skills = () => {
                     title1="IT-Infrastruktur &"
                     title2="Rechenzentren"
                     subTitle="IT-Infrastruktur & Rechenzentren"
-                    experienceYears="19+ Jahr3"
+                    experienceYears="19+ Jahre"
                     level="Experte"
                     progress={100}
                     textBoxHeight={textBoxHeight}

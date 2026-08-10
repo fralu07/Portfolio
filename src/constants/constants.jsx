@@ -15,6 +15,25 @@ export const ABOUT_TEXT = (
     </div>
 )
 
+export const EDUCATION_CAS_TEXT = (
+    <div className="">
+        <h2 className="lg:text-3xl text-2xl font-bold pb-4">CAS AI Engineering</h2>
+        <p className="desktop">An der Fernfachhochschule Schweiz (FFHS) in Zürich habe ich das CAS AI Engineering im
+            Juli 2026 erfolgreich abgeschlossen.<br/>
+            <strong>Schwerpunkte</strong> der Weiterbildung waren Machine Learning und Deep Learning, Large Language
+            Models sowie deren Integration in bestehende Systeme. Von Prompt Engineering über Retrieval Augmented
+            Generation (RAG) bis hin zum Betrieb von der eigenen entwickelten KI Lösung im Unternehmen.<br/>
+            Damit verbinde ich meine langjährige Infrastruktur und DevOps Erfahrung mit dem Engineering moderner
+            KI-Anwendungen und kann KI Projekte von der Idee bis in den produktiven Einsatz begleiten.
+        </p>
+        <p className="mobile">An der Fernfachhochschule Schweiz (FFHS) in Zürich habe ich das CAS AI Engineering
+            erfolgreich abgeschlossen.<br/>
+            <strong>Schwerpunkte</strong> waren Machine Learning, Large Language Models und der produktive Einsatz von
+            KI Lösungen.
+        </p>
+    </div>
+)
+
 export const EDUCATION_BSC_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">BSc in Informatik</h2>
@@ -41,6 +60,15 @@ export const EDUCATION_RTV_TEXT = (
             DE.<br/>
             Dies geschah in der Zeit von 1998 bis Juli 2001.<br/>
             Neben dem erlernen des Berufs wurde auch der Kundenkontakt gelehrt.
+        </p>
+    </div>
+)
+
+export const EXPERIENCE_AXPO_TEXT = (
+    <div className="">
+        <h2 className="lg:text-3xl text-2xl font-bold md:pb-4">Senior Network Engineer &amp; Head of DevOps bei Axpo Systems</h2>
+        <p className="md:pb-0 pb-4">Am 1. Juli 2025 begann ich meine Tätigkeit bei der Axpo Systems AG als <strong>Senior Network Engineer</strong> und verantwortete den Betrieb sowie die Weiterentwicklung der Netzwerkinfrastruktur im Konzernumfeld.<br/>
+            Seit dem 1. April 2026 leite ich als <strong>Head of DevOps</strong> das DevOps-Team an der Schnittstelle zwischen Entwicklung und Betrieb. Mein Fokus liegt auf Automatisierung, CI/CD, Cloud-Infrastruktur und der konsequenten Verzahnung von Netzwerktechnik mit modernen DevOps-Praktiken. Diese Rolle verbindet meine langjährige Infrastruktur-Erfahrung mit meiner Leidenschaft für moderne Softwareentwicklung.
         </p>
     </div>
 )
@@ -111,10 +139,11 @@ export const PROJECTS_WOMO_TEXT = (
     <div className="">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">Wohnmobil Stellplatz</h2>
         <p>
-            Auf einem 2000 qm großen Grundstück in Küssaberg (DE) habe ich einen automatisierten Wohnmobil-Stellplatz entwickelt und plane den Bau einer 48 Meter langen Halle, die im Sommer realisiert wird.
+            Auf einem 2000 qm großen Grundstück in Küssaberg (DE) habe ich einen automatisierten Wohnmobil-Stellplatz entwickelt.
             <br/>
             Die von mir entwickelte intelligente Plattform ermöglicht Kunden die digitale Steuerung von Strom, Wasser und Zugangskontrollen. Die Verwaltung ist vollständig automatisiert und bietet volle Transparenz über Verbrauch und Nutzung.
             <br/>
+            Mit dem Bau einer 48 Meter langen Halle, die im Sommer realisiert wird, werden mehrere Lagerplätze mit Einzeltore zur Verfügung gestellt.
             Mit der geplanten Halle wird die Infrastruktur weiter skaliert und optimiert.
             <br/><br/>
             <strong>Tech Stack:</strong> Spring Boot, React, Postgres, MQTT. <br/>
@@ -168,10 +197,11 @@ export const HOBBIES_CODING_TEXT = (
 export const WHY_ME_TEXT = (
     <div className=" ">
         <p className="">
-            Weil ich seit über einem Jahrzehnt an der Schnittstelle zwischen IT, Netzwerktechnik und Digitalisierung arbeite – immer am Puls der Zeit. Durch meine unternehmerische Erfahrung bin ich es gewohnt, strukturiert, organisiert und verantwortungsbewusst zu handeln. Ich denke strategisch, bin flexibel und stets bereit, neue Technologien und Methoden zu adaptieren.<br/>
-            Technologie ist für mich kein Selbstzweck, sondern ein Werkzeug, um effiziente, sichere und innovative Lösungen zu schaffen. Ob es um die Digitalisierung von Prozessen, den Aufbau hochverfügbarer IT-Infrastrukturen oder die Leitung komplexer Projekte geht – ich setze mich mit voller Energie ein.<br/>
-            Auch wenn ich nicht alles weiß, bin ich strebsam, diszipliniert und immer lernbereit. Ich analysiere, optimiere und entwickle – sei es durch moderne Netzwerklösungen, Automatisierung oder innovative Digitalisierungsstrategien. Mit meiner Kombination aus technischer Expertise, analytischem Denken und Kreativität bringe ich Projekte mit Energie und Weitsicht voran.<br/><br/>
-            Ich bin bereit, mit Ihnen die Zukunft aktiv mitzugestalten.
+            Weil ich seit über zwei Jahrzehnten an der Schnittstelle zwischen IT, Netzwerktechnik und Digitalisierung arbeite und stets am Puls der Zeit bin. Meine unternehmerische Erfahrung hat mich geprägt, strukturiert, organisiert und verantwortungsbewusst zu handeln. <br/>
+            Ich denke strategisch, bin flexibel und immer offen für neue Technologien und Methoden.
+            Technologie sehe ich nicht als Selbstzweck, sondern als Werkzeug, um effiziente, sichere und innovative Lösungen zu schaffen.
+            Ob bei der Digitalisierung von Prozessen, dem Aufbau hochverfügbarer IT-Infrastrukturen oder der Leitung komplexer Projekte: ich setze mich mit vollem Engagement ein.<br/><br/>
+            Was mich besonders motiviert, ist der Einsatz von <strong>Künstlicher Intelligenz</strong> im Unternehmen, und zwar nicht als Prototyp, sondern im produktiven Betrieb. Mit dem CAS AI Engineering habe ich mir dafür das Fundament geschaffen: Machine Learning und Deep Learning, Large Language Models, Prompt Engineering und Retrieval Augmented Generation bis hin zum Betrieb einer selbst entwickelten KI-Lösung im Unternehmen. Genau hier entstehen die spannendsten Aufgaben der kommenden Jahre.<br/><br/>
         </p>
     </div>
 )

@@ -52,7 +52,7 @@ const Hero = () => {
                                     variants={textVariants}
                                     onClick={() => {
                                         const link = document.createElement("a");
-                                        window.open("/CV_FrancescoLucia.pdf", "_blank");
+                                        window.open("/Francesco_Lucia_CV.pdf", "_blank");
                                     }}
                                 >
                                     Download CV
