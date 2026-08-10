@@ -155,6 +155,41 @@ export const PROJECTS_WOMO_TEXT = (
     </div>
 )
 
+export const PROJECTS_NETWORK_AUTOMATION_TEXT = (
+    <div className="">
+        <h2 className="lg:text-3xl text-2xl font-bold pb-4">Automatisierung Network Device Staging</h2>
+        <p>
+            Das klassische Staging von Switches, Routern und Firewalls bedeutet in vielen Unternehmen stundenlange manuelle CLI-Arbeit und schwer reproduzierbare Ergebnisse. Im Rahmen dieses Projekts habe ich diesen Prozess als automatisierte Pipeline neu aufgesetzt.
+            <br/><br/>
+            Aus einer zentralen <strong>Single Source of Truth</strong> (Nautobot) werden gerätespezifische Konfigurationen über <strong>Jinja2-Templates</strong> generiert. Die Konfiguration liegt versioniert in Git („Configuration as Code“), Änderungen laufen über Merge Requests und werden in einer CI/CD-Pipeline automatisch validiert (Lint, Dry-Run, Konfigurations-Diff).
+            <br/><br/>
+            <strong>Tech Stack:</strong> Ansible, Jinja2, Python (Nornir, NAPALM, Netmiko).<br/>
+            <strong>Tooling:</strong> GitLab CI/CD, Nautobot als Source of Truth, Pre-Commit-Hooks für Config-Linting.
+        </p>
+    </div>
+)
+
+export const PROJECTS_SYNCI_TEXT = (
+    <div className="">
+        <h2 className="lg:text-3xl text-2xl font-bold pb-4">Synci – Sportevents im Kalender</h2>
+        <p>
+            Wer mehreren Teams, Ligen oder Sportevents folgt, verliert schnell den Überblick über die Spieltermine. Genau hier setzt Synci an: Nutzer abonnieren ihre Lieblings-Sportligen, Teams und Events und sehen alle Spiele automatisch in ihrem persönlichen Kalender. Immer synchron mit Google Kalender, Outlook &amp; Co.
+            <br/><br/>
+            Terminänderungen und neue Spiele werden automatisch aktualisiert, ohne dass Einträge manuell gepflegt werden müssen. Das Angebot reicht von der Bundesliga über NFL und NBA bis hin zu WM-Spielen und wächst laufend.
+            <br/><br/>
+            An diesem Projekt habe ich im Team mitgewirkt und die Plattform von der Idee bis in den produktiven Betrieb mit begleitet.
+            <br/><br/>
+            <strong>Tech Stack:</strong> React, Auth0-Authentifizierung.
+        </p>
+        <a href="https://synci.ch/" target="_blank" rel="noopener noreferrer">
+            <button
+                className="shadow-lg bg-sky-500 hover:bg-sky-300 text-white font-bold py-2 px-4 rounded mt-4">synci.ch
+                besuchen
+            </button>
+        </a>
+    </div>
+)
+
 export const HOBBIES_CROSSFIT_TEXT = (
     <div className=" ">
         <h2 className="lg:text-3xl text-2xl font-bold pb-4">CrossFit</h2>

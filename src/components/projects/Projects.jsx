@@ -1,6 +1,6 @@
 import React from 'react';
 import {motion, useReducedMotion} from "framer-motion";
-import {PROJECTS_FIBER_TEXT, PROJECTS_MEDINSPECT_TEXT, PROJECTS_WOMO_TEXT} from "../../constants/constants.jsx";
+import {PROJECTS_FIBER_TEXT, PROJECTS_MEDINSPECT_TEXT, PROJECTS_NETWORK_AUTOMATION_TEXT, PROJECTS_SYNCI_TEXT, PROJECTS_WOMO_TEXT} from "../../constants/constants.jsx";
 
 
 const sliding = {
@@ -144,6 +144,25 @@ const Projects = () => {
                             imageSrc="./medinspect.jpg"
                             imageAlt="Medinspect"
                             text={PROJECTS_MEDINSPECT_TEXT}
+                            textMotionVariants={sliding}
+                            imageMotionVariants={sliding}
+                            initText="initialText"
+                            initPic="initialPicture"
+                        />
+                        <ProjectSection
+                            imageSrc="./rackandservers.jpg"
+                            imageAlt="Network Device Staging"
+                            text={PROJECTS_NETWORK_AUTOMATION_TEXT}
+                            textMotionVariants={sliding}
+                            imageMotionVariants={sliding}
+                            initText="initialText2"
+                            initPic="initialPicture2"
+                            reverse={true}
+                        />
+                        <ProjectSection
+                            imageSrc="./synci.jpg"
+                            imageAlt="Synci"
+                            text={PROJECTS_SYNCI_TEXT}
                             textMotionVariants={sliding}
                             imageMotionVariants={sliding}
                             initText="initialText"
