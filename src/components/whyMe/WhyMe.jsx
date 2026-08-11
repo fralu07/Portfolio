@@ -63,7 +63,7 @@ const WhyMe = () => {
 
 
     return (
-        <div className="max-w-[1366px] min-h-screen mx-auto flex items-center overflow-hidden">
+        <div className="max-w-[1366px] min-h-screen mx-auto flex items-center justify-center overflow-hidden">
             <div className="flex flex-col">
                 <motion.div className="desktop flex justify-start w-full min-h-[20vh] py-12 px-4 lg:px-6"
                             variants={sliding}
