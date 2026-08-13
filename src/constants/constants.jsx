@@ -163,7 +163,7 @@ export const PROJECTS_NETWORK_AUTOMATION_TEXT = (
             <br/><br/>
             Aus einer zentralen <strong>Single Source of Truth</strong> (Nautobot) werden gerätespezifische Konfigurationen über <strong>Jinja2-Templates</strong> generiert. Die Konfiguration liegt versioniert in Git („Configuration as Code“), Änderungen laufen über Merge Requests und werden in einer CI/CD-Pipeline automatisch validiert (Lint, Dry-Run, Konfigurations-Diff).
             <br/><br/>
-            <strong>Tech Stack:</strong> Ansible, Jinja2, Python (Nornir, NAPALM, Netmiko).<br/>
+            <strong>Tech Stack:</strong> Spring Boot (Backend), React (Frontend), Ansible, Jinja2, Python (Nornir, NAPALM, Netmiko).<br/>
             <strong>Tooling:</strong> GitLab CI/CD, Nautobot als Source of Truth, Pre-Commit-Hooks für Config-Linting.
         </p>
     </div>
